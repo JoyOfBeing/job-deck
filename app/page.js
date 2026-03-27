@@ -129,13 +129,7 @@ const slides = [
             <div className="network-mobile-resources">
               <span>Training</span><span>Talent</span><span>IP</span>
             </div>
-            <div className="network-mobile-nodes">
-              <div>Jumpsuit</div>
-              <div>Your Co</div>
-              <div>Studio X</div>
-              <div>Agency Y</div>
-              <div>Lab Z</div>
-            </div>
+            <div className="network-mobile-label">Mycelial Network of Businesses</div>
           </div>
         </div>
         <div className="network-diagram">
