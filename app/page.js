@@ -491,7 +491,7 @@ function CloseSlide({ onJoin }) {
       <p style={{ marginTop: '1rem' }}><strong className="gold">Welcome to the new Human Resources.</strong></p>
       <div className="cta-row">
         <button className="waitlist-trigger" onClick={onJoin}>Join the Investor Waitlist</button>
-        <a href="#donate" className="waitlist-trigger donate-btn" onClick={e => { e.preventDefault(); alert('Donation account coming soon — we\u0027ll notify you when it\u0027s live.'); }}>Invest Now with Church Donation (tax exempt)</a>
+        <a href="https://donorbox.org/j-o-b-founding-member-donations" target="_blank" rel="noopener noreferrer" className="waitlist-trigger donate-btn">Invest Now with Church Donation (tax exempt)</a>
       </div>
     </div>
   );
