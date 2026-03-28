@@ -7,7 +7,7 @@ const slides = [
   // 0 — COVER
   () => (
     <div className="slide cover">
-      <h1>JOB</h1>
+      <h1>J.O.B.</h1>
       <p className="subtitle">The New Human Resources</p>
       <p className="tagline">Work trained humans to be workers. We&apos;re building the company that trains them to be human.</p>
     </div>
@@ -72,9 +72,9 @@ const slides = [
   () => (
     <div className="slide">
       <h3>The solution</h3>
-      <h1>JOB &mdash; The Joy of Being</h1>
-      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.5rem' }}>JOB is the new Human Resources. Not a department &mdash; a living organism.</p>
-      <p>JOB wakes humans up to who they actually are, trains them in the capacities AI can&apos;t replicate, and launches them into the new human economy.</p>
+      <h1>J.O.B. &mdash; The Joy of Being</h1>
+      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.5rem' }}>J.O.B. is the new Human Resources. Not a department &mdash; a living organism.</p>
+      <p>J.O.B. wakes humans up to who they actually are, trains them in the capacities AI can&apos;t replicate, and launches them into the new human economy.</p>
       <p>Some will start companies. Some will transform organizations. Some &mdash; the therapists, the healers, the bodyworkers, the artists &mdash; will finally get paid for gifts the old economy never valued.</p>
       <p>We&apos;re not building a pipeline back into the old system. <strong>We&apos;re building the new economy itself.</strong></p>
     </div>
@@ -84,7 +84,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>The organism</h3>
-      <h2>JOB is structured as a Regenerative Community Organism (RCO)</h2>
+      <h2>J.O.B. is structured as a Regenerative Community Organism (RCO)</h2>
       <p>A mycelial network of sovereign companies and a nonprofit, all committed to exploring the same question.</p>
       <div className="two-col" style={{ marginTop: '1rem' }}>
         <div className="card">
@@ -103,12 +103,12 @@ const slides = [
           <h3>For-Profit HoldCo</h3>
           <p>The engine. Incubates subsidiaries. Distributes profits to investors.</p>
           <ul>
-            <li>Business 3.0 (consulting &amp; IP)</li>
-            <li>SpiritTech</li>
-            <li>MagicShowLand (immersive real estate)</li>
-            <li>Magic Shows</li>
-            <li>JOB Board (talent)</li>
-            <li>Future experiments, as they emerge</li>
+            <li><strong>IP &amp; Consulting:</strong> Business 3.0</li>
+            <li><strong>Technology:</strong> SpiritTech</li>
+            <li><strong>Real Estate:</strong> MagicShowLand</li>
+            <li><strong>Events &amp; Experiences:</strong> Magic Shows</li>
+            <li><strong>Human Talent Network:</strong> J.O.B. Board</li>
+            <li><strong>Services &amp; Future Experiments:</strong> as they emerge</li>
           </ul>
         </div>
       </div>
@@ -122,10 +122,11 @@ const slides = [
       <div className="network-layout">
         <div className="network-text">
           <h1>Any company can join the organism.</h1>
-          <p>They keep their sovereignty &mdash; their brand, their clients, their agency. But they plug into a living network and get access to everything JOB builds.</p>
+          <p><strong>When you invest in J.O.B., you invest in the HoldCo.</strong> But the RCO is bigger than the HoldCo &mdash; it&apos;s a living network that other organizations can join.</p>
+          <p>They keep their sovereignty &mdash; their brand, their clients, their agency. But they get access to J.O.B.-trained talent, IP, and infrastructure. And every company that joins makes the whole network more valuable.</p>
           <p><strong>The organism grows like mycelium &mdash; decentralized, interconnected, and impossible to kill.</strong></p>
           <div className="network-mobile">
-            <div className="network-mobile-hub">JOB</div>
+            <div className="network-mobile-hub">J.O.B.</div>
             <div className="network-mobile-resources">
               <span>Training</span><span>Talent</span><span>IP</span>
             </div>
@@ -134,7 +135,7 @@ const slides = [
         </div>
         <div className="network-diagram">
           <div className="network-core">
-            <div className="network-hub">JOB</div>
+            <div className="network-hub">J.O.B.</div>
             <div className="network-ring">
               <div className="network-resource nr-1">Training</div>
               <div className="network-resource nr-2">Talent</div>
@@ -167,8 +168,8 @@ const slides = [
   () => (
     <div className="slide">
       <h3>Many doors, one house</h3>
-      <h2>JOB creates experiments. Lots of ways in to the same thing.</h2>
-      <p>Every subsidiary, every experiment is a door back to JOB &mdash; waking people up, supporting their becoming, co-creating the new model.</p>
+      <h2>J.O.B. creates experiments. Lots of ways in to the same thing.</h2>
+      <p>Every subsidiary, every experiment is a door back to J.O.B. &mdash; waking people up, supporting their becoming, co-creating the new model.</p>
       <div className="three-col" style={{ marginTop: '1rem' }}>
         <div className="card">
           <h3>Business 3.0</h3>
@@ -179,7 +180,7 @@ const slides = [
           <p>The experiential door. Playful, creative containers that trick you into remembering who you are.</p>
         </div>
         <div className="card">
-          <h3>JOB Board</h3>
+          <h3>J.O.B. Board</h3>
           <p>The marketplace door. Matching sovereign humans to work that wants them.</p>
         </div>
         <div className="card">
@@ -228,7 +229,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>Total addressable market</h3>
-      <h2>JOB sits at the intersection</h2>
+      <h2>J.O.B. sits at the intersection</h2>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="stat">
           <div className="stat-number">$739B</div>
@@ -255,7 +256,7 @@ const slides = [
           <div className="stat-label">Outplacement</div>
         </div>
       </div>
-      <p style={{ marginTop: '2rem', textAlign: 'center', maxWidth: '100%' }}>Every one of these industries is solving a fragment of the same problem. <strong>JOB is the whole organism.</strong></p>
+      <p style={{ marginTop: '2rem', textAlign: 'center', maxWidth: '100%' }}>Every one of these industries is solving a fragment of the same problem. <strong>J.O.B. is the whole organism.</strong></p>
     </div>
   ),
 
@@ -269,7 +270,7 @@ const slides = [
           <tr>
             <th></th>
             <th>EOS</th>
-            <th>JOB</th>
+            <th>J.O.B.</th>
           </tr>
         </thead>
         <tbody>
@@ -301,7 +302,7 @@ const slides = [
         </tbody>
       </table>
       <p style={{ marginTop: '1.5rem' }}><strong>The person who scaled EOS to $145M is now building what comes after it.</strong></p>
-      <p>EOS optimized the machine. JOB transforms the humans &mdash; and the humans build what&apos;s next.</p>
+      <p>EOS optimized the machine. J.O.B. transforms the humans &mdash; and the humans build what&apos;s next.</p>
     </div>
   ),
 
@@ -321,7 +322,7 @@ const slides = [
           </ul>
         </div>
         <div className="card">
-          <h3>JOB Board</h3>
+          <h3>J.O.B. Board</h3>
           <ul>
             <li><strong>20% platform fee</strong> on every transaction</li>
             <li>Sovereign humans getting paid for what AI can&apos;t do</li>
@@ -341,7 +342,7 @@ const slides = [
         <div className="card">
           <h3>Membership &amp; Community</h3>
           <ul>
-            <li><strong>JOB membership:</strong> $99&ndash;200/month</li>
+            <li><strong>J.O.B. membership:</strong> $99&ndash;200/month</li>
             <li>Access to training, talent network, IP, community</li>
             <li>Sliding scale tithes for church functions</li>
             <li>Mycelial network fees for partner companies</li>
@@ -361,21 +362,21 @@ const slides = [
         <div className="card">
           <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>1</h3>
           <h3>Offboarding benefit</h3>
-          <p>Companies laying off thousands offer JOB as a transition benefit &mdash; not a resume workshop, a <strong>human transformation</strong>.</p>
-          <p style={{ marginTop: '0.75rem' }}>One company laying off 15K people. 20% opt in. <strong>That&apos;s 3,000 humans</strong> through JOB in a single deal.</p>
+          <p>Companies laying off thousands offer J.O.B. as a transition benefit &mdash; not a resume workshop, a <strong>human transformation</strong>.</p>
+          <p style={{ marginTop: '0.75rem' }}>One company laying off 15K people. 20% opt in. <strong>That&apos;s 3,000 humans</strong> through J.O.B. in a single deal.</p>
           <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>Current outplacement = $2.5B market. We replace it with something people actually want.</p>
         </div>
         <div className="card">
           <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>2</h3>
           <h3>Job seekers</h3>
           <p>Target people actively searching for jobs. <strong>Lowest CPA on the internet</strong> &mdash; they&apos;re already raising their hand.</p>
-          <p style={{ marginTop: '0.75rem' }}>But instead of another job board, we offer them something radical: <strong>become the person who doesn&apos;t need to search.</strong></p>
+          <p style={{ marginTop: '0.75rem' }}>J.O.B. becomes the <strong>AA for job seekers</strong> &mdash; a place to go when you&apos;re lost, a community that gets it, and a path to becoming someone who doesn&apos;t need to search.</p>
           <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>300M AI-affected jobs = an ocean of intent. We fish where the fish are.</p>
         </div>
         <div className="card">
           <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>3</h3>
           <h3>The network itself</h3>
-          <p>Every human who goes through JOB becomes a node. They start companies, join the Board, bring their teams through B3.0, host Magic Shows.</p>
+          <p>Every human who goes through J.O.B. becomes a node. They start companies, join the Board, bring their teams through B3.0, host Magic Shows.</p>
           <p style={{ marginTop: '0.75rem' }}><strong>The organism is the growth engine.</strong> No ad spend required once it&apos;s alive.</p>
           <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>EOS grew to $145M primarily through word of mouth. Same playbook, bigger mission.</p>
         </div>
@@ -392,17 +393,18 @@ const slides = [
         <div>
           <ul>
             <li><strong>Magic Shows</strong> &mdash; already produced. The format works. People transform in the room.</li>
-            <li><strong>JOB Church</strong> &mdash; live app, doctrine written, community forming</li>
-            <li><strong>JOB Board</strong> &mdash; live app, marketplace for human services</li>
+            <li><strong>J.O.B. Church</strong> &mdash; live app, doctrine written, community forming</li>
+            <li><strong>J.O.B. Board</strong> &mdash; live app, marketplace for human services</li>
             <li><strong>Business 3.0</strong> &mdash; framework built, IP developed, ready to deploy</li>
           </ul>
         </div>
         <div>
           <ul>
-            <li><strong>Jumpsuit</strong> &mdash; 7 years, $4M/yr, zero employees. Living proof the B3.0 model works before it had a name.</li>
-            <li><strong>Pam left EOS for this.</strong> The person who scaled a $145M franchise walked away to build what comes next.</li>
-            <li><strong>Network ready to invest</strong> &mdash; aligned capital waiting for the entity to form</li>
-            <li><strong>This deck is a live app.</strong> We build fast.</li>
+            <li><strong>J.O.B. Board</strong> &mdash; MVP live, marketplace for human services</li>
+            <li><strong>EOS implementer network</strong> &mdash; ready to be activated</li>
+            <li><strong>Jumpsuit</strong> &mdash; future of work agency, ready to be activated</li>
+            <li><strong>Investor network</strong> &mdash; ready to invest</li>
+            <li><strong>Companies</strong> &mdash; ready to join the organism</li>
           </ul>
         </div>
       </div>
@@ -457,7 +459,7 @@ const slides = [
             <li><strong>Certify first 25 implementers</strong> &mdash; prove the franchise flywheel</li>
             <li><strong>Unify the platform</strong> &mdash; Church + Board + member portal</li>
             <li><strong>Scale Magic Shows</strong> &mdash; recurring, touring model</li>
-            <li><strong>1,000 humans</strong> through the JOB journey</li>
+            <li><strong>1,000 humans</strong> through the J.O.B. journey</li>
           </ul>
         </div>
         <div className="card">
