@@ -8,7 +8,7 @@ const slides = [
   () => (
     <div className="slide cover">
       <h1>J.O.B.</h1>
-      <p className="subtitle">America&apos;s First Regenerative Community Organism</p>
+      <p className="subtitle">The Transition Company</p>
       <p className="tagline">The machines are taking the jobs. We&apos;re taking the humans.</p>
     </div>
   ),
