@@ -13,28 +13,26 @@ const slides = [
     </div>
   ),
 
-  // 1 — THE CANARY (MANIFESTO OPENER)
+  // 1 — THE MOMENT (MANIFESTO OPENER)
   () => (
     <div className="slide">
-      <h3>March 2026</h3>
-      <h1>The canary looks like it&apos;s dying.</h1>
-      <p>IBM lost 13% in a day. Andrew Yang is calling it the jobpocalypse. Researchers are naming clinical conditions after what happens when a professional identity dissolves.</p>
-      <p>The Citrini doom loop is tracking with uncomfortable accuracy. Q3 2026: agentic AI reaches competence across white-collar work. Q1 2027: Ghost GDP — output that shows up in national accounts but never circulates through the consumer economy. Q2 2027: the S&amp;P down 35% from its highs.</p>
-      <p>The bears see the canary and conclude it&apos;s dying.</p>
-      <p><strong>They&apos;re half right.</strong></p>
+      <h3>2026</h3>
+      <h1>The floor is falling out.</h1>
+      <p>Layoffs aren&apos;t a news cycle anymore. They&apos;re a climate. Every week another company announces another round, another function, another &ldquo;strategic realignment&rdquo; that means the same thing: the machines can do it now.</p>
+      <p>The economists are measuring it in unemployment points. The markets are pricing it as demand destruction. The headlines are calling it a crisis.</p>
+      <p><strong>All of them are looking at the wrong thing.</strong></p>
     </div>
   ),
 
-  // 2 — THE CAGE DOOR
+  // 2 — THE REFRAME
   () => (
     <div className="slide">
-      <h3>What the bears are missing</h3>
-      <h1>Canaries don&apos;t only die in toxic environments.</h1>
-      <p style={{ fontSize: '1.6rem', color: 'var(--gold)', fontWeight: 300, margin: '1.5rem 0' }}>Sometimes the cage door opens.</p>
-      <p>Tens of millions of people are about to be stripped of the performance of productivity — forced to ask, finally, what actually makes them come alive.</p>
-      <p>Some panic, retrain, and compete for roles that are being automated on a six-month lag. One labor economist called them <em>&ldquo;the most credentialed unemployable population in American history.&rdquo;</em></p>
-      <p>But a growing minority does something no economic model predicted, because no economic model had a variable for it.</p>
-      <p><strong>They stop.</strong> Not stop working. Stop <em>performing</em>. And they sit with a question the professional class had been too busy, too comfortable, or too afraid to ask.</p>
+      <h3>What they&apos;re missing</h3>
+      <h1>They weren&apos;t laid off. They were let out.</h1>
+      <p style={{ fontSize: '1.6rem', color: 'var(--gold)', fontWeight: 300, margin: '1.5rem 0' }}>This is the largest involuntary liberation in economic history.</p>
+      <p>Tens of millions of people are being stripped of the performance of productivity — and forced, for the first time in their adult lives, to ask what they would actually do if the old deal stopped being available.</p>
+      <p>Most panic. They sharpen the resume, chase the next title, and compete for roles that are being automated faster than they can interview for them.</p>
+      <p>But a growing number do something the economy has no variable for. <strong>They stop.</strong> Not stop working — stop <em>performing</em>. And they sit with a question they&apos;d been too busy, too comfortable, or too afraid to ask before the layoff made it unavoidable.</p>
     </div>
   ),
 
@@ -46,69 +44,37 @@ const slides = [
     </div>
   ),
 
-  // 4 — THE THREE TURNS
+  // 4 — WHAT THE LAYOFF REVEALS
   () => (
     <div className="slide">
-      <h3>The restructuring nobody&apos;s measuring</h3>
-      <h1>Three turns are happening at once.</h1>
+      <h3>What the layoff reveals</h3>
+      <h1>The deal was never the job. It was the suppression.</h1>
       <div className="three-col" style={{ marginTop: '1rem' }}>
         <div className="card">
-          <h3>Inward</h3>
-          <p>The &ldquo;in order to&rdquo; collapsed. When the transaction disappeared — trade your energy for money and identity — a reservoir of suppressed intrinsic motivation was revealed. Millions of people who had been captured and metabolized by an economic machine that needed compliant cognitive labor, not alive human beings.</p>
+          <h3>The trade we made</h3>
+          <p>Trade your energy for a paycheck. Trade your time for an identity. Trade your aliveness for a title that tells your family what you do. A whole generation signed up for it. The machine needed compliant cognitive labor — not alive human beings — and we delivered.</p>
         </div>
         <div className="card">
-          <h3>Toward each other</h3>
-          <p>When you can no longer perform the Capable Person Who Has It All Together, you&apos;re left with the actual person — scared, grieving, real. And that person is far more available for genuine connection than the professional mask ever was. Loneliness is declining for the first time in fifteen years.</p>
+          <h3>What the trade cost</h3>
+          <p>Every person quietly carried a list of the things they would do if they could afford to. The cooking, the building, the teaching, the making, the healing, the time with their kids. The list got longer every year. Then one day the company eliminated the role — and the list was all that was left.</p>
         </div>
         <div className="card">
-          <h3>The plumbing changed</h3>
-          <p>AI agents are optimization machines with no loyalty to payment rails. They evaluate every settlement mechanism on cost, speed, and programmability — and decentralized rails win on all three. Nobody fought the dollar. They just stopped needing it to be the only language value could speak.</p>
+          <h3>What it revealed</h3>
+          <p>These aren&apos;t people who lack skills or drive. Their skills were <em>allocated</em> — by incentive, by fear, by the gravitational pull of the paycheck — to work that didn&apos;t make them come alive. Take the paycheck away and a different set of skills surfaces almost immediately.</p>
         </div>
       </div>
     </div>
   ),
 
-  // 5 — THE DRUDGERY REVELATION
-  () => (
-    <div className="slide">
-      <h3>The drudgery revelation</h3>
-      <h1>The &ldquo;in order to&rdquo; collapsed. Something was revealed.</h1>
-      <div className="two-col" style={{ marginTop: '0.75rem' }}>
-        <div className="card">
-          <h3>The father in Seattle</h3>
-          <p>Former VP of Product. Seven months into a job search that produced nothing. His daughter asked him to help build a treehouse. They spent the whole day doing it. <em>&ldquo;I hadn&apos;t felt that absorbed, that present, that alive in fifteen years. I&apos;d spent my entire career managing Jira tickets so I could afford a life I was too exhausted to live.&rdquo;</em></p>
-          <p>He now runs a woodworking studio in Ballard. Four-month waiting list. He earns less than half his old salary. He has never been wealthier.</p>
-        </div>
-        <div className="card">
-          <h3>The corporate lawyer</h3>
-          <p>Volunteered at a conflict mediation center every Saturday for six years. Couldn&apos;t afford to do it while billing 2,200 hours annually. When his firm restructured, he grieved for four months. Then hung a shingle. His mediation practice now serves three school districts. His wife told a reporter she feels like she got her husband back.</p>
-        </div>
-      </div>
-      <p style={{ marginTop: '1.5rem', textAlign: 'center', maxWidth: '100%' }}>These weren&apos;t people who lacked skills or drive. Their skills had been <em>allocated</em> — by incentive, by social expectation, by the gravitational pull of the &ldquo;in order to&rdquo; — to work that did not make them come alive.</p>
-    </div>
-  ),
-
-  // 6 — THE PASSAGE
+  // 5 — THE PASSAGE
   () => (
     <div className="slide">
       <h3>The passage</h3>
       <h1>This isn&apos;t a weekend workshop. It&apos;s bereavement.</h1>
-      <p>The people losing their jobs are grieving an identity. The ones who surrender to the grief — who let it strip away the professional performance, who sit with the terrifying question of who they are without a title — emerge different. Different in a way that shows up in hard economic data.</p>
-      <div className="three-col" style={{ marginTop: '1.25rem' }}>
-        <div className="stat">
-          <div className="stat-number">12–18</div>
-          <div className="stat-label">Months the passage actually takes</div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">3.4x</div>
-          <div className="stat-label">Business formation rate vs baseline</div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">89%</div>
-          <div className="stat-label">Customer retention for the companies they start (vs 67% baseline)</div>
-        </div>
-      </div>
-      <p style={{ marginTop: '1.25rem', textAlign: 'center', maxWidth: '100%' }}>They don&apos;t start more businesses because they learned new skills. <strong>They stop suppressing the ones they already had.</strong></p>
+      <p>The people losing their jobs are grieving an identity. Not a paycheck — an <em>identity.</em> The one they answered to at dinner parties. The one their parents finally understood. The one the whole culture told them was the point.</p>
+      <p>The ones who surrender to the grief — who let it strip away the performance and sit with the terrifying question of who they are without a title — emerge as something the old economy didn&apos;t know how to hire and the new economy can&apos;t function without.</p>
+      <p>The passage takes <strong>12 to 18 months</strong>. It cannot be rushed. It cannot be replaced by a Udemy course. It cannot be handled by a chatbot. And on the other side of it is a human the market will pay for — because AI can&apos;t fake what they&apos;ve become.</p>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}>They don&apos;t start more businesses because they learned new skills. <strong>They stop suppressing the ones they already had.</strong></p>
     </div>
   ),
 
@@ -202,8 +168,9 @@ const slides = [
     <div className="slide">
       <h3>MagicShowLand</h3>
       <h1>Transition Centers.</h1>
-      <p>In Austin by mid-2027 there were twelve of them. In Detroit they drew on Black mutual aid traditions. In rural areas they looked like agricultural cooperatives. In Appalachia they were VFW halls. The form adapted. The function was constant.</p>
-      <p><strong>We&apos;re building the national network — and we&apos;re starting in abandoned churches, castles, and colleges.</strong></p>
+      <p>Abandoned churches. Castles. Colleges that couldn&apos;t keep the lights on. Buildings the old economy can&apos;t use anymore, reactivated as physical infrastructure for the transition.</p>
+      <p>The form adapts to the place — urban studios, rural retreats, neighborhood halls. The function is constant: a room you can walk into when the floor falls out, and people who will hold it with you until you can stand on the new one.</p>
+      <p><strong>We&apos;re building the national network. The first three open in the first 24 months.</strong></p>
       <div className="two-col" style={{ marginTop: '1rem' }}>
         <div className="card">
           <h3>What&apos;s inside</h3>
@@ -218,9 +185,9 @@ const slides = [
         </div>
         <div className="card">
           <h3>Why physical matters</h3>
-          <p><strong>Co-regulation is the precondition for economic reinvention.</strong> Not a nice-to-have. The precondition.</p>
-          <p>People who process their grief in community take entrepreneurial risk at far higher rates than people white-knuckling through shame while refreshing LinkedIn. The furniture maker in Ballard had a customer base before she had a website. The mediator had a referral network before he had a business card.</p>
-          <p>No AI can replicate this. Not because of a capability gap. Because co-regulation is not prediction. It is <em>presence.</em></p>
+          <p><strong>You can&apos;t grieve alone on Zoom.</strong> Or you can, but you won&apos;t come out the other side.</p>
+          <p>People who process the loss in a room full of other humans take real risk on the other side — they start the thing, make the call, launch the practice. People who white-knuckle through it alone, refreshing LinkedIn, mostly just spiral.</p>
+          <p>No AI can replicate this. Not because of a capability gap — because the thing that does the work isn&apos;t information. It&apos;s presence.</p>
         </div>
       </div>
     </div>
@@ -484,12 +451,11 @@ const slides = [
 function CloseSlide({ onJoin }) {
   return (
     <div className="slide close-slide">
-      <h1>The canary is still alive.</h1>
-      <p>For thousands of years we trained humans to be workers but never fully human.</p>
-      <p>Now AI is taking the old jobs. Good. Let it.</p>
-      <p>The bears saw the canary and concluded it was dying. They were half right.</p>
-      <p>The canary was in distress. The air was changing. The old environment couldn&apos;t sustain it. But canaries don&apos;t only die in toxic environments.</p>
-      <p style={{ color: 'var(--text)', fontSize: '1.5rem', fontWeight: 700, marginTop: '0.75rem' }}>Sometimes the cage door opens. And the canary doesn&apos;t just survive. It sings.</p>
+      <h1>The old jobs are going. Let them.</h1>
+      <p>For centuries we trained humans to be workers before we let them be fully human. The trade made sense when the work needed us. It doesn&apos;t anymore.</p>
+      <p>The machines can have the drudgery. We want the part they can&apos;t touch.</p>
+      <p>The layoffs aren&apos;t the crisis. They&apos;re the opening. Every person walking out of a corporate job this year is a person who finally gets to ask the question the paycheck kept them from asking.</p>
+      <p style={{ color: 'var(--text)', fontSize: '1.5rem', fontWeight: 700, marginTop: '0.75rem' }}>Our job is to catch them on the way out — and launch them into what comes next.</p>
       <p style={{ marginTop: '1rem' }}><strong className="gold">Welcome to the transition company.</strong></p>
       <div className="cta-row">
         <button className="waitlist-trigger" onClick={onJoin}>Join the Investor Waitlist</button>
