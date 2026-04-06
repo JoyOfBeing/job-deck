@@ -325,7 +325,53 @@ const slides = [
     </div>
   ),
 
-  // 13 — REVENUE CHART (interactive)
+  // 13 — NHR UNIT ECONOMICS (the wedge, by the numbers)
+  () => (
+    <div className="slide">
+      <h3>The wedge, by the numbers</h3>
+      <h1>NHR is the engine. Here&apos;s how it pays.</h1>
+      <p>Companies already have a budget for layoffs &mdash; severance, outplacement, EAP. We&apos;re the line item that actually does something with it. The 6-month container is what they buy. The 12&ndash;18 month passage is what they get.</p>
+      <table className="deck-table" style={{ marginTop: '0.75rem' }}>
+        <tbody>
+          <tr>
+            <td><strong>Price per seat</strong></td>
+            <td>$2,500 standard &middot; $3,500 premium &middot; custom at enterprise scale</td>
+          </tr>
+          <tr>
+            <td><strong>Buyer</strong></td>
+            <td>CHRO / Chief People Officer, CFO sign-off (HR or severance line)</td>
+          </tr>
+          <tr>
+            <td><strong>Sales cycle</strong></td>
+            <td>60&ndash;120 days enterprise; faster through warm network (Pam &rarr; CHRO direct)</td>
+          </tr>
+          <tr>
+            <td><strong>First-deal ACV target</strong></td>
+            <td>$250K (100 seats &times; $2,500)</td>
+          </tr>
+          <tr>
+            <td><strong>Enterprise ceiling</strong></td>
+            <td>$75M single deal (Oracle-scale, 30K seats &times; $2,500)</td>
+          </tr>
+          <tr>
+            <td><strong>Gross margin</strong></td>
+            <td>~65% at launch, expanding as platform &amp; cohort delivery scale</td>
+          </tr>
+          <tr>
+            <td><strong>Blended CAC</strong></td>
+            <td>~$75K per enterprise deal (warm intro &rarr; outbound &rarr; inbound mix)</td>
+          </tr>
+          <tr>
+            <td><strong>Payback</strong></td>
+            <td>Under 6 months on the first contract</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style={{ marginTop: '0.85rem', textAlign: 'center', maxWidth: '100%', fontSize: '0.95rem', color: 'var(--muted)' }}>Model assumptions, not commitments. Validated against severance benchmarks and EOS network pricing.</p>
+    </div>
+  ),
+
+  // 14 — REVENUE CHART (interactive)
   RevenueChartSlide,
 
   // 14 — TAM
@@ -428,33 +474,45 @@ const slides = [
     <div className="slide">
       <h3>The ask</h3>
       <h1><span className="gold">$3&ndash;5M</span> seed. One check into the organism.</h1>
-      <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent of the RCO. You&apos;re not betting on a product line. You&apos;re betting on a living system that follows aliveness and composts what doesn&apos;t work.</p>
-      <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>Lead checks from our network + Wefunder community round. <strong>Own what you co-create.</strong></p>
-      <div className="two-col">
+      <p style={{ fontSize: '1.05rem', marginBottom: '0.75rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent of the RCO. You&apos;re not betting on a product line. You&apos;re betting on a living system that follows aliveness and composts what doesn&apos;t work. Lead checks from our network + Wefunder community round.</p>
+      <div className="three-col" style={{ marginTop: '0.5rem' }}>
+        <div className="card">
+          <h3>Where the $4M goes</h3>
+          <ul style={{ fontSize: '0.92rem' }}>
+            <li><strong>40% &middot; $1.6M</strong> &mdash; Team of 7 + delivery staff</li>
+            <li><strong>20% &middot; $800K</strong> &mdash; First 3 Transition Centers</li>
+            <li><strong>15% &middot; $600K</strong> &mdash; Platform &amp; tech (NHR ops, Board, Church)</li>
+            <li><strong>15% &middot; $600K</strong> &mdash; GTM (NHR enterprise sales, brand)</li>
+            <li><strong>10% &middot; $400K</strong> &mdash; RCO formation + operating buffer</li>
+          </ul>
+        </div>
         <div className="card">
           <h3>What 24 months builds</h3>
-          <ul>
-            <li><strong>Close first 10 NHR enterprise deals</strong> — the wedge, proven at scale</li>
-            <li><strong>Open the first 3 Transition Centers</strong> — physical proof of the passage</li>
-            <li><strong>Put 3,000 humans through the 6-month program</strong></li>
-            <li><strong>Form the RCO</strong> — nonprofit + HoldCo + first SPVs</li>
-            <li><strong>Certify first 25 Guides &amp; B3.0 implementers</strong></li>
-            <li><strong>Unify the platform</strong> — one front door, many experiments</li>
+          <ul style={{ fontSize: '0.92rem' }}>
+            <li>Close first <strong>10 NHR enterprise deals</strong></li>
+            <li>Open the first <strong>3 Transition Centers</strong></li>
+            <li>Put <strong>3,000 humans</strong> through the 6-month program</li>
+            <li><strong>Form the RCO</strong> &mdash; nonprofit + HoldCo + first SPVs</li>
+            <li>Certify first <strong>25 Guides &amp; B3.0 implementers</strong></li>
+            <li>Unify the platform &mdash; one front door, many experiments</li>
           </ul>
         </div>
         <div className="card">
           <h3>Team of 7</h3>
-          <ul>
-            <li><strong>Chief People Officer</strong> — the role HR never actually filled</li>
-            <li><strong>Head of NHR Enterprise</strong> — owns the B2B wedge</li>
-            <li><strong>Head of Program Delivery</strong> — runs the 6-month passage</li>
-            <li><strong>Head of Transition Centers</strong> — physical infrastructure</li>
-            <li><strong>Head of Tech</strong> — unified platform + SpiritTech</li>
-            <li><strong>B3.0 Program Lead</strong> — cohorts and implementers</li>
-            <li><strong>Creative Director</strong> — Magic Shows, brand, experiential</li>
+          <ul style={{ fontSize: '0.92rem' }}>
+            <li><strong>Chief People Officer</strong></li>
+            <li><strong>Head of NHR Enterprise</strong></li>
+            <li><strong>Head of Program Delivery</strong></li>
+            <li><strong>Head of Transition Centers</strong></li>
+            <li><strong>Head of Tech</strong></li>
+            <li><strong>B3.0 Program Lead</strong></li>
+            <li><strong>Creative Director</strong></li>
           </ul>
         </div>
       </div>
+      <p style={{ marginTop: '0.85rem', fontSize: '0.95rem', color: 'var(--muted)', textAlign: 'center', maxWidth: '100%' }}>
+        <strong style={{ color: 'var(--gold)' }}>The honest risk:</strong> the RCO framing is unusual and the category doesn&apos;t exist yet. Our mitigation: every conversation leads with the wedge that already makes financial sense (NHR), and the organism reveals itself from there.
+      </p>
     </div>
   ),
 
