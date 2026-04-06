@@ -8,20 +8,20 @@ const slides = [
   () => (
     <div className="slide cover">
       <h1>J.O.B.</h1>
-      <p className="subtitle">The New Human Resources</p>
-      <p className="tagline">Work trained humans to be workers. We&apos;re building the company that trains them to be human.</p>
+      <p className="subtitle">The &ldquo;New Human&rdquo; Resources</p>
+      <p className="tagline">The $739B HR industry was built to manage workers. We&apos;re building the one that sets them free.</p>
     </div>
   ),
 
-  // 1 — THE WORLD CHANGED
+  // 1 — THE MOMENT
   () => (
     <div className="slide">
-      <h3>The shift</h3>
+      <h3>The moment</h3>
       <h1>Three things happened at once.</h1>
       <ul>
-        <li><strong>AI is replacing human labor at scale.</strong> 300M jobs affected globally (Goldman Sachs). Among young workers in AI-exposed roles, employment is already down 16%.</li>
+        <li><strong>AI started replacing human labor at scale.</strong> 300M jobs affected globally (Goldman Sachs). Mass layoffs from Oracle, Meta, Google, Microsoft, Amazon — and it&apos;s just getting started.</li>
         <li><strong>Work broke humans.</strong> We were trained to be workers, never fully human. Healthcare chained to compliance. Identity fused to job title. Burnout, fragmentation, loss of meaning.</li>
-        <li><strong>A generation did the inner work anyway.</strong> Millions invested in therapy, coaching, somatic work, plant medicine, meditation. They developed capacities the market never valued. Until now.</li>
+        <li><strong>A generation did the inner work anyway.</strong> Millions invested in therapy, somatic work, plant medicine, meditation. They developed capacities the market never valued. Until now.</li>
       </ul>
     </div>
   ),
@@ -32,9 +32,9 @@ const slides = [
       <h3>The problem</h3>
       <h1>Human Resources was never about resourcing humans.</h1>
       <p>Old HR manages humans <em>as</em> resources &mdash; to be optimized, utilized, and replaced.</p>
-      <p>It connected our healthcare to our compliance. Our worth to our output. Our identity to our role.</p>
-      <p>Now AI is doing the replacing. And the $739B HR industry has no answer for what comes next.</p>
-      <p>Everyone is trying to fix the old system. But you never change things by fighting the existing reality.</p>
+      <p>Now it&apos;s replacing them at scale. And when the severance check hits, what does HR offer? A LinkedIn Premium code and a templated goodbye &mdash; sending people right back into the same loop that just rejected them.</p>
+      <p><strong>The $2.5B outplacement industry is a $4 billion lie:</strong> that a sharper resume will land people back where they were before. But where they were before is exactly what stopped working.</p>
+      <p style={{ marginTop: '1rem' }}>Every CEO and CHRO knows this. None of them have an answer.</p>
     </div>
   ),
 
@@ -46,180 +46,169 @@ const slides = [
     </div>
   ),
 
-  // 4 — THE QUESTION
-  () => (
-    <div className="slide close-slide">
-      <h3>The question</h3>
-      <h1>What becomes possible when being human <em>is</em> the job?</h1>
-      <p>Not a question to answer. A question to build around.</p>
-      <p>Every company, every experiment, every human in this organism is exploring this question together.</p>
-    </div>
-  ),
-
-  // 5 — THE INSIGHT
+  // 4 — THE INSIGHT
   () => (
     <div className="slide">
       <h3>The insight</h3>
-      <h1>To build something different, we must first <em>become</em> something different.</h1>
-      <p>Otherwise, we&apos;ll recreate the same system in a different skin.</p>
-      <p>The skills that remain after AI are the ones we were never trained for: emotional intelligence, nervous system regulation, creative intuition, power literacy, repair, truth-telling.</p>
-      <p>These aren&apos;t soft skills. They&apos;re the <strong>only skills left.</strong></p>
-      <p>And millions of people have been quietly training in them for years &mdash; waiting for the market to catch up.</p>
+      <h1>The only skills left are the ones we were never trained for.</h1>
+      <p>Presence. Discernment. Somatic intelligence. Nervous system regulation. Grief literacy. Leadership in uncertainty.</p>
+      <p>These aren&apos;t soft skills. They&apos;re <strong>the only skills AI can&apos;t replicate.</strong> And they&apos;re the ones a human being actually needs to survive the next decade.</p>
+      <p>The people laid off right now don&apos;t need another job. They need a container to grieve what they lost, a guide for the territory they&apos;re in, and the skills the next economy actually pays for.</p>
+      <p><strong>That&apos;s a product. Nobody&apos;s built it. We have.</strong></p>
     </div>
   ),
 
-  // 6 — THE SOLUTION
+  // 5 — THE SOLUTION
   () => (
     <div className="slide">
       <h3>The solution</h3>
       <h1>J.O.B. &mdash; The Joy of Being</h1>
-      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.5rem' }}>J.O.B. is the new Human Resources. Not a department &mdash; a living organism.</p>
-      <p>J.O.B. wakes humans up to who they actually are, trains them in the capacities AI can&apos;t replicate, and launches them into the new human economy.</p>
+      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.5rem' }}>A living organism that wakes humans up, trains them in what AI can&apos;t replicate, and launches them into the new human economy.</p>
+      <p>We don&apos;t help your people find another job. We help them remember they were never just one.</p>
       <p>Some will start companies. Some will transform organizations. Some &mdash; the therapists, the healers, the bodyworkers, the artists &mdash; will finally get paid for gifts the old economy never valued.</p>
-      <p>We&apos;re not building a pipeline back into the old system. <strong>We&apos;re building the new economy itself.</strong></p>
+      <p><strong>We&apos;re not building a pipeline back into the old system. We&apos;re building the new economy itself.</strong></p>
     </div>
   ),
 
-  // 7 — THE ORGANISM
+  // 6 — THE WEDGE: NHR
+  () => (
+    <div className="slide">
+      <h3>The wedge</h3>
+      <h1>New Human Resources.</h1>
+      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.25rem' }}>A B2B offboarding benefit for companies letting people go with dignity.</p>
+      <p>Old HR offboards people. New HR sets them free.</p>
+      <p>We sell a six-month transformation program to companies doing layoffs. They pay per seat. Their laid-off employees get the entire J.O.B. ecosystem &mdash; self-discovery, mentorship, community, AI training, human training, and an optional Magic Show.</p>
+      <p><strong>It&apos;s the door every CHRO has been quietly looking for.</strong> And it&apos;s the wedge that funds everything else in the organism.</p>
+      <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--muted)' }}>new-human-resources.vercel.app &mdash; live</p>
+    </div>
+  ),
+
+  // 7 — HOW IT WORKS
+  () => (
+    <div className="slide">
+      <h3>How it works</h3>
+      <h2>Six months to become someone AI can&apos;t replace.</h2>
+      <div className="three-col" style={{ marginTop: '1rem' }}>
+        <div className="card">
+          <h3>01 &middot; Self-Discovery</h3>
+          <p>Months of guided deprogramming. Strip the identity the old job reinforced. Find the authentic one underneath.</p>
+        </div>
+        <div className="card">
+          <h3>02 &middot; Mentorship</h3>
+          <p>1:1 with a J.O.B. Guide who can hold the space for unprecedented times. Not a career coach.</p>
+        </div>
+        <div className="card">
+          <h3>03 &middot; Community</h3>
+          <p>Live cohorts and integration circles. The opposite of applying to 100+ jobs alone on LinkedIn.</p>
+        </div>
+        <div className="card">
+          <h3>04 &middot; AI Training</h3>
+          <p>Practical fluency with the tools that just replaced their old role. Think with the machines, not against them.</p>
+        </div>
+        <div className="card">
+          <h3>05 &middot; Human Training</h3>
+          <p>Presence, discernment, somatic intelligence, leadership in uncertainty. The skills AI will never replace.</p>
+        </div>
+        <div className="card">
+          <h3>06 &middot; The Magic Show</h3>
+          <p>Optional immersion. Stateside (multi-day) or Costa Rica (multi-week). The transformation, not the orientation.</p>
+        </div>
+      </div>
+    </div>
+  ),
+
+  // 8 — THE PRICING
+  () => (
+    <div className="slide">
+      <h3>The pricing</h3>
+      <h2>Priced like outplacement. Works nothing like it.</h2>
+      <div className="three-col" style={{ marginTop: '1rem' }}>
+        <div className="card">
+          <h3>Founder-led</h3>
+          <p style={{ color: 'var(--muted)', marginBottom: '0.5rem' }}>1&ndash;50 people</p>
+          <p style={{ fontSize: '2rem', color: 'var(--gold)', fontWeight: 300, margin: '0.5rem 0' }}>$3,500<span style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>/seat</span></p>
+          <p>For CEOs letting go of people they hired themselves.</p>
+        </div>
+        <div className="card">
+          <h3>Growth-stage</h3>
+          <p style={{ color: 'var(--muted)', marginBottom: '0.5rem' }}>51&ndash;1,000 people</p>
+          <p style={{ fontSize: '2rem', color: 'var(--gold)', fontWeight: 300, margin: '0.5rem 0' }}>$2,500<span style={{ fontSize: '0.9rem', color: 'var(--muted)' }}>/seat</span></p>
+          <p>For CHROs navigating a restructure. Protect the brand. Take care of the ones you&apos;re letting go.</p>
+        </div>
+        <div className="card">
+          <h3>Enterprise</h3>
+          <p style={{ color: 'var(--muted)', marginBottom: '0.5rem' }}>1,000+ people</p>
+          <p style={{ fontSize: '2rem', color: 'var(--gold)', fontWeight: 300, margin: '0.5rem 0' }}>Custom</p>
+          <p>For mass workforce transitions. Multi-cohort, co-branded, board-defensible.</p>
+        </div>
+      </div>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}>
+        <strong>Magic Show add-on: +$5K stateside / +$10K Costa Rica, per person.</strong>
+      </p>
+      <p style={{ marginTop: '0.75rem', textAlign: 'center', maxWidth: '100%', fontSize: '0.95rem', color: 'var(--muted)' }}>
+        One enterprise deal &mdash; 30,000 people at $2,500/seat = <strong style={{ color: 'var(--text)' }}>$75M</strong>. 10% Magic Show uptake at blended $7,500 = another <strong style={{ color: 'var(--text)' }}>$22.5M</strong>. One customer.
+      </p>
+    </div>
+  ),
+
+  // 9 — THE FLYWHEEL
+  () => (
+    <div className="slide">
+      <h3>The flywheel</h3>
+      <h1>NHR isn&apos;t just the revenue engine. It&apos;s the top of the funnel for everything else.</h1>
+      <p>Every laid-off human who goes through NHR enters the J.O.B. organism. What happens next <em>is</em> the business model:</p>
+      <div className="two-col" style={{ marginTop: '0.75rem' }}>
+        <div className="card">
+          <h3>They become supply</h3>
+          <p>Some become sovereign humans offering services on <strong>The J.O.B. Board</strong>. We take 20% of every transaction.</p>
+        </div>
+        <div className="card">
+          <h3>They go deeper</h3>
+          <p>Some attend <strong>Magic Shows</strong> (+$5&ndash;10K). Some travel to <strong>MagicShowLand</strong> retreats. Some become facilitators.</p>
+        </div>
+        <div className="card">
+          <h3>They start companies</h3>
+          <p>Some launch <strong>Business 3.0</strong> companies &mdash; organisms instead of machines. We consult, certify, and license the framework.</p>
+        </div>
+        <div className="card">
+          <h3>They bring the next cohort</h3>
+          <p>The companies they start eventually lay people off too. Guess which offboarding program they already trust.</p>
+        </div>
+      </div>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}><strong>NHR pays us to build the new economy. The new economy feeds NHR. The flywheel never stops.</strong></p>
+    </div>
+  ),
+
+  // 10 — THE ORGANISM / MANY DOORS
   () => (
     <div className="slide">
       <h3>The organism</h3>
-      <h2>J.O.B. is structured as a Regenerative Community Organism (RCO)</h2>
-      <p>A mycelial network of sovereign companies and a nonprofit, all committed to exploring the same question.</p>
-      <div className="two-col" style={{ marginTop: '1rem' }}>
-        <div className="card">
-          <h3>Nonprofit 508(c)(1)(a)</h3>
-          <p>The commons. Holds the purpose. Can never be corrupted.</p>
-          <ul>
-            <li>Doctrine &amp; sacrament</li>
-            <li>Public benefit &amp; mutual aid</li>
-            <li>Grants &amp; microgrants</li>
-            <li>Owns the IP (licensed to HoldCo)</li>
-            <li>Holds land</li>
-            <li>Research &amp; publication</li>
-          </ul>
-        </div>
-        <div className="card">
-          <h3>For-Profit HoldCo</h3>
-          <p>The engine. Incubates subsidiaries. Distributes profits to investors.</p>
-          <ul>
-            <li><strong>IP &amp; Consulting:</strong> Business 3.0</li>
-            <li><strong>Technology:</strong> SpiritTech</li>
-            <li><strong>Real Estate:</strong> MagicShowLand</li>
-            <li><strong>Events &amp; Experiences:</strong> Magic Shows</li>
-            <li><strong>Human Talent Network:</strong> J.O.B. Board</li>
-            <li><strong>Services &amp; Future Experiments:</strong> as they emerge</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  ),
-
-  // 8 — THE NETWORK
-  () => (
-    <div className="slide">
-      <h3>The mycelial network</h3>
-      <div className="network-layout">
-        <div className="network-text">
-          <h1>Any company can join the organism.</h1>
-          <p><strong>When you invest in J.O.B., you invest in the HoldCo.</strong> But the RCO is bigger than the HoldCo &mdash; it&apos;s a living network that other organizations can join.</p>
-          <p>They keep their sovereignty &mdash; their brand, their clients, their agency. But they get access to J.O.B.-trained talent, IP, and infrastructure. And every company that joins makes the whole network more valuable.</p>
-          <p><strong>The organism grows like mycelium &mdash; decentralized, interconnected, and impossible to kill.</strong></p>
-          <div className="network-mobile">
-            <div className="network-mobile-hub">J.O.B.</div>
-            <div className="network-mobile-resources">
-              <span>Training</span><span>Talent</span><span>IP</span>
-            </div>
-            <div className="network-mobile-label">Mycelial Network of Businesses</div>
-          </div>
-        </div>
-        <div className="network-diagram">
-          <div className="network-core">
-            <div className="network-hub">J.O.B.</div>
-            <div className="network-ring">
-              <div className="network-resource nr-1">Training</div>
-              <div className="network-resource nr-2">Talent</div>
-              <div className="network-resource nr-3">IP</div>
-            </div>
-          </div>
-          <div className="network-nodes">
-            <div className="network-node nn-1">Jumpsuit</div>
-            <div className="network-node nn-2">Your Co</div>
-            <div className="network-node nn-3">Studio X</div>
-            <div className="network-node nn-4">Agency Y</div>
-            <div className="network-node nn-5">Lab Z</div>
-          </div>
-          <svg className="network-lines" viewBox="0 0 440 380" xmlns="http://www.w3.org/2000/svg">
-            {/* Resource ring connections */}
-            <circle cx="220" cy="175" r="70" fill="none" stroke="var(--gold-dim)" strokeWidth="1" strokeDasharray="4 3" />
-            {/* Lines from nodes to center */}
-            <line x1="220" y1="175" x2="80" y2="30" stroke="var(--border)" strokeWidth="1" strokeDasharray="6 4" />
-            <line x1="220" y1="175" x2="380" y2="30" stroke="var(--border)" strokeWidth="1" strokeDasharray="6 4" />
-            <line x1="220" y1="175" x2="420" y2="200" stroke="var(--border)" strokeWidth="1" strokeDasharray="6 4" />
-            <line x1="220" y1="175" x2="350" y2="350" stroke="var(--border)" strokeWidth="1" strokeDasharray="6 4" />
-            <line x1="220" y1="175" x2="90" y2="350" stroke="var(--border)" strokeWidth="1" strokeDasharray="6 4" />
-          </svg>
-        </div>
-      </div>
-    </div>
-  ),
-
-  // 9 — MANY DOORS
-  () => (
-    <div className="slide">
-      <h3>Many doors, one house</h3>
-      <h2>J.O.B. creates experiments. Lots of ways in to the same thing.</h2>
-      <p>Every subsidiary, every experiment is a door back to J.O.B. &mdash; waking people up, supporting their becoming, co-creating the new model.</p>
+      <h2>Many doors. One house.</h2>
+      <p>NHR is the wedge. The organism is everything the wedge funds and feeds.</p>
       <div className="three-col" style={{ marginTop: '1rem' }}>
         <div className="card">
-          <h3>Business 3.0</h3>
-          <p>The professional door. Consulting, cohorts, franchise &mdash; for founders and orgs ready to operate differently.</p>
+          <h3>The Church</h3>
+          <p>The deprogramming door. Sunday Night Live, elders, doctrine. Where the inner work happens.</p>
+        </div>
+        <div className="card">
+          <h3>The J.O.B. Board</h3>
+          <p>The marketplace door. Sovereign humans get paid for what AI can&apos;t do. 20% platform fee.</p>
         </div>
         <div className="card">
           <h3>Magic Shows</h3>
-          <p>The experiential door. Playful, creative containers that trick you into remembering who you are.</p>
+          <p>The experiential door. Immersions that reset the nervous system and break the fear loop.</p>
         </div>
         <div className="card">
-          <h3>J.O.B. Board</h3>
-          <p>The marketplace door. Matching sovereign humans to work that wants them.</p>
+          <h3>Business 3.0</h3>
+          <p>The organizational door. The operating system for companies that want to be organisms, not machines.</p>
         </div>
         <div className="card">
           <h3>MagicShowLand</h3>
-          <p>The physical door. Immersive centers and real estate for IRL transformation.</p>
+          <p>The physical door. Abandoned churches, castles, colleges &mdash; turned into IRL training grounds.</p>
         </div>
         <div className="card">
-          <h3>SpiritTech</h3>
-          <p>The technology door. Tools designed to support human consciousness, not just productivity.</p>
-        </div>
-        <div className="card">
-          <h3>What&apos;s next?</h3>
-          <p>We create, compost, and create again. All in service of the question.</p>
-        </div>
-      </div>
-    </div>
-  ),
-
-  // 10 — THE MARKET
-  () => (
-    <div className="slide">
-      <h3>The market</h3>
-      <h1>Four audiences. One organism.</h1>
-      <div className="two-col">
-        <div className="card">
-          <h3>The Displaced</h3>
-          <p>300M jobs affected by AI. 92M displaced by 2030. They don&apos;t need a new resume. They need a new identity &mdash; and a new economy to step into.</p>
-        </div>
-        <div className="card">
-          <h3>The Companies</h3>
-          <p>$739B spent on HR. $42B on HR tech. They need humans who can do what AI can&apos;t &mdash; and they have no idea where to find them.</p>
-        </div>
-        <div className="card">
-          <h3>The Builders</h3>
-          <p>The next wave of implementers, consultants, and systems designers. They&apos;ll deploy B3.0 through decentralized technology, blueprints, and new business models &mdash; building the infrastructure of the new economy.</p>
-        </div>
-        <div className="card">
-          <h3>The Already-There</h3>
-          <p>Gen Z already proved you can get paid for being who the fuck you are. 232K coaches. 530K therapists. 321K bodyworkers. They&apos;ve been training for a job that didn&apos;t exist yet. Now it does.</p>
+          <h3>New Human Resources</h3>
+          <p>The enterprise door. The wedge that funds the whole organism.</p>
         </div>
       </div>
     </div>
@@ -229,7 +218,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>Total addressable market</h3>
-      <h2>J.O.B. sits at the intersection</h2>
+      <h2>We sit at the intersection of six industries.</h2>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="stat">
           <div className="stat-number">$739B</div>
@@ -253,165 +242,89 @@ const slides = [
         </div>
         <div className="stat">
           <div className="stat-number">$2.5B</div>
-          <div className="stat-label">Outplacement</div>
+          <div className="stat-label">Outplacement (our direct replacement)</div>
         </div>
       </div>
-      <p style={{ marginTop: '2rem', textAlign: 'center', maxWidth: '100%' }}>Every one of these industries is solving a fragment of the same problem. <strong>J.O.B. is the whole organism.</strong></p>
+      <p style={{ marginTop: '2rem', textAlign: 'center', maxWidth: '100%' }}>Every one of these industries is a fragment of the same problem. <strong>Capture 1% of outplacement in year one = $25M. Capture 1% of HR = $7.39B. We&apos;re the whole organism.</strong></p>
     </div>
   ),
 
-  // 12 — THE COMP (EOS)
+  // 12 — THE COMP
   () => (
     <div className="slide">
       <h3>The comp</h3>
-      <h2>EOS proved this model works. We&apos;re building what comes after it.</h2>
+      <h2>Outplacement is the incumbent. EOS is the playbook.</h2>
       <table className="deck-table">
         <thead>
           <tr>
             <th></th>
-            <th>EOS</th>
+            <th>LHH / Randstad</th>
+            <th>EOS Worldwide</th>
             <th>J.O.B.</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>What</td>
+            <td>Resume workshops, job search tools</td>
             <td>Operating system for businesses</td>
-            <td>Initiatory journey for humans &amp; incubator for the new economy</td>
+            <td>Transformation program for laid-off humans + the economy they step into</td>
           </tr>
           <tr>
             <td>Method</td>
+            <td>LinkedIn hacks, templated advice</td>
             <td>Traction (cognitive, process)</td>
             <td>Embodiment (somatic, relational, whole-intelligence)</td>
           </tr>
           <tr>
             <td>Revenue</td>
-            <td>$145M</td>
-            <td>Starting</td>
-          </tr>
-          <tr>
-            <td>Network</td>
-            <td>800+ implementers, 37 countries</td>
-            <td>Starting</td>
+            <td>$2.5B market, shrinking</td>
+            <td>$145M, growing</td>
+            <td>Wedge live, pipeline forming</td>
           </tr>
           <tr>
             <td>Output</td>
+            <td>A slightly better resume</td>
             <td>Better-run companies</td>
             <td>Sovereign humans &amp; the companies they create</td>
           </tr>
         </tbody>
       </table>
-      <p style={{ marginTop: '1.5rem' }}><strong>The person who scaled EOS to $145M is now building what comes after it.</strong></p>
-      <p>EOS optimized the machine. J.O.B. transforms the humans &mdash; and the humans build what&apos;s next.</p>
+      <p style={{ marginTop: '1.5rem' }}><strong>The person who scaled EOS to $145M is now building the thing that replaces outplacement.</strong></p>
     </div>
   ),
 
-  // 13 — REVENUE MODEL
-  () => (
-    <div className="slide">
-      <h3>The model</h3>
-      <h2>Multiple revenue streams. One organism.</h2>
-      <div className="two-col" style={{ marginTop: '0.75rem' }}>
-        <div className="card">
-          <h3>B3.0 Consulting &amp; Cohorts</h3>
-          <ul>
-            <li><strong>Org engagements:</strong> $25&ndash;150K per company</li>
-            <li><strong>Initiatory journey cohorts:</strong> $2&ndash;5K per person</li>
-            <li><strong>Implementer certification:</strong> annual licensing fee</li>
-            <li><strong>At 25 implementers:</strong> recurring franchise revenue</li>
-          </ul>
-        </div>
-        <div className="card">
-          <h3>J.O.B. Board</h3>
-          <ul>
-            <li><strong>20% platform fee</strong> on every transaction</li>
-            <li>Sovereign humans getting paid for what AI can&apos;t do</li>
-            <li>Supply-led &mdash; humans post what they offer, buyers find them</li>
-            <li>Network effects compound as the organism grows</li>
-          </ul>
-        </div>
-        <div className="card">
-          <h3>Magic Shows &amp; Events</h3>
-          <ul>
-            <li><strong>Ticket sales + sponsorships</strong></li>
-            <li>Recurring &amp; touring model</li>
-            <li>Corporate bookings for team transformation</li>
-            <li>Every show is a door back into the organism</li>
-          </ul>
-        </div>
-        <div className="card">
-          <h3>Membership &amp; Community</h3>
-          <ul>
-            <li><strong>J.O.B. membership:</strong> $99&ndash;200/month</li>
-            <li>Access to training, talent network, IP, community</li>
-            <li>Sliding scale tithes for church functions</li>
-            <li>Mycelial network fees for partner companies</li>
-          </ul>
-        </div>
-      </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}><strong>Every SPV feeds the others.</strong> A Magic Show attendee joins the church. A church member posts on the Board. A Board seller enters B3.0. A B3.0 grad certifies as an implementer. <strong>The flywheel is the business model.</strong></p>
-    </div>
-  ),
-
-  // 14 — GO TO MARKET
-  () => (
-    <div className="slide">
-      <h3>Go to market</h3>
-      <h2>Three channels. Exponential compounding.</h2>
-      <div className="three-col" style={{ marginTop: '1rem' }}>
-        <div className="card">
-          <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>1</h3>
-          <h3>Offboarding benefit</h3>
-          <p>Companies laying off thousands offer J.O.B. as a transition benefit &mdash; not a resume workshop, a <strong>human transformation</strong>.</p>
-          <p style={{ marginTop: '0.75rem' }}>One company laying off 15K people. 20% opt in. <strong>That&apos;s 3,000 humans</strong> through J.O.B. in a single deal.</p>
-          <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>Current outplacement = $2.5B market. We replace it with something people actually want.</p>
-        </div>
-        <div className="card">
-          <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>2</h3>
-          <h3>Job seekers</h3>
-          <p>Target people actively searching for jobs. <strong>Lowest CPA on the internet</strong> &mdash; they&apos;re already raising their hand.</p>
-          <p style={{ marginTop: '0.75rem' }}>J.O.B. becomes the <strong>AA for job seekers</strong> &mdash; a place to go when you&apos;re lost, a community that gets it, and a path to becoming someone who doesn&apos;t need to search.</p>
-          <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>300M AI-affected jobs = an ocean of intent. We fish where the fish are.</p>
-        </div>
-        <div className="card">
-          <h3 style={{ fontSize: '2rem', marginBottom: '0.25rem' }}>3</h3>
-          <h3>The network itself</h3>
-          <p>Every human who goes through J.O.B. becomes a node. They start companies, join the Board, bring their teams through B3.0, host Magic Shows.</p>
-          <p style={{ marginTop: '0.75rem' }}><strong>The organism is the growth engine.</strong> No ad spend required once it&apos;s alive.</p>
-          <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>EOS grew to $145M primarily through word of mouth. Same playbook, bigger mission.</p>
-        </div>
-      </div>
-    </div>
-  ),
-
-  // 15 — TRACTION
+  // 13 — TRACTION
   () => (
     <div className="slide">
       <h3>What exists today</h3>
-      <h2>We&apos;re not starting from zero.</h2>
+      <h2>We&apos;re not starting from zero. We&apos;re starting from live.</h2>
       <div className="two-col" style={{ marginTop: '1rem' }}>
-        <div>
+        <div className="card">
+          <h3>Live product</h3>
           <ul>
-            <li><strong>Magic Shows</strong> &mdash; already produced. The format works. People transform in the room.</li>
-            <li><strong>J.O.B. Church</strong> &mdash; live app, doctrine written, community forming</li>
-            <li><strong>J.O.B. Board</strong> &mdash; live app, marketplace for human services</li>
-            <li><strong>Business 3.0</strong> &mdash; framework built, IP developed, ready to deploy</li>
+            <li><strong>itsthejob.com</strong> &mdash; the front door. Every experiment lives here.</li>
+            <li><strong>new-human-resources.vercel.app</strong> &mdash; the B2B wedge. Pricing, application flow, taking inbound.</li>
+            <li><strong>Magic Show platform</strong> &mdash; multi-show portal, invite-only golden tickets, intake + waivers. First shows already produced (Nashville, Minneapolis, Big Sky).</li>
+            <li><strong>The Church</strong> &mdash; live app, Sunday Night Live running, doctrine written.</li>
+            <li><strong>The J.O.B. Board</strong> &mdash; marketplace MVP live, fixed pricing, 20% fee in place.</li>
+            <li><strong>Business 3.0</strong> &mdash; framework fully built, pricing set, ready to deploy.</li>
           </ul>
         </div>
-        <div>
+        <div className="card">
+          <h3>Network &amp; brand</h3>
           <ul>
-            <li><strong>J.O.B. Board</strong> &mdash; MVP live, marketplace for human services</li>
-            <li><strong>EOS implementer network</strong> &mdash; ready to be activated</li>
-            <li><strong>Jumpsuit</strong> &mdash; future of work agency, ready to be activated</li>
-            <li><strong>Investor network</strong> &mdash; ready to invest</li>
-            <li><strong>Companies</strong> &mdash; ready to join the organism</li>
+            <li><strong>Founders&apos; combined reach:</strong> 800+ EOS implementers, 200+ Jumpsuit contractors, investor network ready to write checks.</li>
+            <li><strong>Brand north stars:</strong> Meow Wolf, Blah Airlines, Dramcorp &mdash; weird on purpose, culture-shaping.</li>
+            <li><strong>Investor pipeline:</strong> Wefunder community round prepped. Lead conversations already open.</li>
+            <li><strong>First NHR conversations:</strong> inbound applications already flowing through the new site.</li>
           </ul>
         </div>
       </div>
     </div>
   ),
 
-  // 16 — FOUNDERS
+  // 14 — FOUNDERS
   () => (
     <div className="slide">
       <h3>Why us</h3>
@@ -443,43 +356,43 @@ const slides = [
     </div>
   ),
 
-  // 14 — THE ASK
+  // 15 — THE ASK
   () => (
     <div className="slide">
       <h3>The ask</h3>
       <h1><span className="gold">$3&ndash;5M</span> Seed Round</h1>
-      <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent entity that owns all subsidiaries: IP, technology, services, real estate, human talent network, and every future experiment.</p>
-      <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>One investment. Every door. Lead checks from our network + Wefunder community round.<br /><strong>Own what you co-create.</strong></p>
+      <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent that owns NHR, the J.O.B. Board, Magic Shows, MagicShowLand, Business 3.0, and every future experiment.</p>
+      <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>One investment. Every door. Lead checks from our network + Wefunder community round.</p>
       <div className="two-col">
         <div className="card">
           <h3>What the money builds (24 months)</h3>
           <ul>
+            <li><strong>Close first 10 NHR enterprise deals</strong> &mdash; the wedge, proven at scale</li>
+            <li><strong>Build the program delivery engine</strong> &mdash; Guides network, cohort ops, Magic Show logistics</li>
             <li><strong>Form the RCO</strong> &mdash; nonprofit + HoldCo + first SPVs</li>
-            <li><strong>Launch B3.0 at scale</strong> &mdash; paid cohorts + org consulting</li>
-            <li><strong>Certify first 25 implementers</strong> &mdash; prove the franchise flywheel</li>
-            <li><strong>Unify the platform</strong> &mdash; Church + Board + member portal</li>
-            <li><strong>Scale Magic Shows</strong> &mdash; recurring, touring model</li>
-            <li><strong>1,000 humans</strong> through the J.O.B. journey</li>
+            <li><strong>Activate the flywheel</strong> &mdash; unified platform across NHR, Church, Board, B3.0</li>
+            <li><strong>Certify first 25 Guides &amp; B3.0 implementers</strong></li>
+            <li><strong>Put 3,000+ humans</strong> through the J.O.B. journey</li>
           </ul>
         </div>
         <div className="card">
           <h3>Team of 7</h3>
           <ul>
             <li><strong>Chief People Officer</strong> &mdash; the role HR never actually filled</li>
-            <li><strong>Head of Product</strong> &mdash; whipping out experiments nonstop</li>
-            <li><strong>Decentralized Community Builder</strong> &mdash; grows the mycelial network</li>
-            <li><strong>Head of Tech</strong> &mdash; platform + SpiritTech</li>
-            <li><strong>Head of Ops &amp; Finance</strong> &mdash; forms the entities, runs the money</li>
-            <li><strong>B3.0 Program Lead</strong> &mdash; runs cohorts, trains implementers</li>
+            <li><strong>Head of NHR Enterprise</strong> &mdash; owns the B2B wedge</li>
+            <li><strong>Head of Program Delivery</strong> &mdash; runs the six-month experience</li>
+            <li><strong>Head of Tech</strong> &mdash; unified platform + SpiritTech</li>
+            <li><strong>Head of Ops &amp; Finance</strong> &mdash; entities, money, compliance</li>
+            <li><strong>B3.0 Program Lead</strong> &mdash; cohorts and implementers</li>
             <li><strong>Creative Director</strong> &mdash; Magic Shows, brand, experiential</li>
           </ul>
         </div>
       </div>
-      <p style={{ marginTop: '1rem' }}><strong>What exists today:</strong> The vision. The IP. The frameworks. Two founders who&apos;ve touched $100B+ in revenue impact. Live apps. Magic Shows already produced. And a network of people ready to write checks.</p>
+      <p style={{ marginTop: '1rem' }}><strong>What exists today:</strong> The wedge is live. The IP is built. Two founders who&apos;ve touched $100B+ in revenue impact. And a network of companies ready to buy the thing no one else is selling.</p>
     </div>
   ),
 
-  // 15 — CLOSE (onJoin passed as prop)
+  // 16 — CLOSE (handled separately)
   null,
 ];
 
@@ -491,7 +404,7 @@ function CloseSlide({ onJoin }) {
       <p>Now AI is taking the old jobs. Good. Let it.</p>
       <p>Because there&apos;s only one job left. And it&apos;s the only one that ever mattered.</p>
       <p style={{ color: 'var(--text)', fontSize: '1.5rem', fontWeight: 700, marginTop: '0.5rem' }}>Being human is the job now.</p>
-      <p style={{ marginTop: '1rem' }}><strong className="gold">Welcome to the new Human Resources.</strong></p>
+      <p style={{ marginTop: '1rem' }}><strong className="gold">Welcome to the &ldquo;New Human&rdquo; Resources.</strong></p>
       <div className="cta-row">
         <button className="waitlist-trigger" onClick={onJoin}>Join the Investor Waitlist</button>
         <a href="https://donorbox.org/j-o-b-founding-member-donations" target="_blank" rel="noopener noreferrer" className="waitlist-trigger donate-btn">Invest Now with Church Donation (tax exempt)</a>
