@@ -8,7 +8,7 @@ const slides = [
   () => (
     <div className="slide cover">
       <h1>J.O.B.</h1>
-      <p className="subtitle">The Transition Company</p>
+      <p className="subtitle">America&apos;s First Regenerative Community Organism</p>
       <p className="tagline">The machines are taking the jobs. We&apos;re taking the humans.</p>
     </div>
   ),
@@ -93,10 +93,11 @@ const slides = [
   () => (
     <div className="slide">
       <h3>Enter us</h3>
-      <h1>J.O.B. is the transition company.</h1>
-      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.25rem' }}>Not a job board. Not retraining. Not outplacement with better branding.</p>
-      <p>A living organism. It catches people when they fall out of the old system. It holds them through the passage. It launches them into the new economy.</p>
-      <p><strong>We&apos;re not rebuilding the old system. We&apos;re the infrastructure for the one replacing it.</strong></p>
+      <h1>J.O.B. is the first RCO in America.</h1>
+      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '1.25rem' }}>Regenerative Community Organism.</p>
+      <p>Not a company with a product line. A living system organized around one question:</p>
+      <p style={{ fontSize: '1.6rem', color: 'var(--gold)', fontWeight: 400, margin: '1.25rem 0', fontStyle: 'italic' }}>&ldquo;What happens when the only job left is to be human?&rdquo;</p>
+      <p><strong>Every experiment we run is an answer. The ones that work grow. The ones that don&apos;t compost.</strong></p>
     </div>
   ),
 
@@ -104,12 +105,13 @@ const slides = [
   () => (
     <div className="slide">
       <h3>How it works</h3>
-      <h2>Six doors. One transition.</h2>
-      <p>Every door is a way in. Every door feeds the others.</p>
-      <div className="three-col" style={{ marginTop: '1rem' }}>
+      <h1>One question. Many experiments.</h1>
+      <p>The organism sends resources where the aliveness is. It composts what needs to die. The Church holds the whole thing accountable to the question.</p>
+      <p style={{ fontSize: '1.1rem', color: 'var(--muted)', marginTop: '0.75rem', marginBottom: '0.5rem' }}>Here&apos;s what&apos;s running right now:</p>
+      <div className="three-col" style={{ marginTop: '0.5rem' }}>
         <div className="card">
           <h3>The Church</h3>
-          <p><em>The grief container.</em> Where the performance dies and the real person surfaces.</p>
+          <p><em>The grief container.</em> Where the performance dies and the real person surfaces. Also: the accountability layer for the whole organism.</p>
         </div>
         <div className="card">
           <h3>Transition Centers</h3>
@@ -129,7 +131,7 @@ const slides = [
         </div>
         <div className="card">
           <h3>New Human Resources</h3>
-          <p><em>The enterprise door.</em> Companies pay us to put their laid-off people through all of it. The revenue engine.</p>
+          <p><em>The revenue engine.</em> Companies pay us to put their laid-off people through all of it.</p>
         </div>
       </div>
     </div>
@@ -190,27 +192,28 @@ const slides = [
   // 12 — THE FLYWHEEL
   () => (
     <div className="slide">
-      <h3>The flywheel</h3>
-      <h1>The people we save become the people we sell.</h1>
+      <h3>The metabolism</h3>
+      <h1>Aliveness is the KPI.</h1>
+      <p>Most companies optimize for revenue and hope aliveness follows. We optimize for aliveness and revenue follows. So far, it has.</p>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
           <h3>1 &middot; Catch</h3>
-          <p>Companies pay us (NHR) to put their laid-off people through the passage. Church holds them. Magic Shows reset them. Centers ground them.</p>
+          <p>Companies pay us (NHR) to put their laid-off people through the passage. Every dollar into the organism.</p>
         </div>
         <div className="card">
           <h3>2 &middot; Launch</h3>
-          <p>Some start companies. Some sell on the J.O.B. Board (20% fee). Some build Business 3.0 organisms. Some come back as Guides.</p>
+          <p>The ones who come through start companies, sell on the Board (20% fee), build B3.0 organisms, come back as Guides.</p>
         </div>
         <div className="card">
-          <h3>3 &middot; Multiply</h3>
-          <p>Every alive human is a door back in. Their businesses grow. Their stories spread. EOS scaled to $145M on exactly this mechanic.</p>
+          <h3>3 &middot; Feed</h3>
+          <p>Resources flow to wherever the aliveness is highest. Experiments that answer the question get more fuel. The organism grows there.</p>
         </div>
         <div className="card">
-          <h3>4 &middot; Compound</h3>
-          <p>The companies they build eventually face their own transitions. They already trust us. The passage never stops.</p>
+          <h3>4 &middot; Compost</h3>
+          <p>What stops serving the question dies on purpose. No sunk-cost zombies. Living systems don&apos;t hoard &mdash; they recycle.</p>
         </div>
       </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}><strong>NHR funds the organism. The organism makes NHR impossible to copy.</strong></p>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%' }}><strong>Investors get ROI from an organism whose north star is the one thing AI can&apos;t fake.</strong></p>
     </div>
   ),
 
@@ -221,7 +224,7 @@ const slides = [
       <h1>Old HR offboards people. New HR sets them free.</h1>
       <p>Companies pay per seat. Their laid-off employees get the whole organism &mdash; Church, Guides, Board, B3.0, and (optionally) the Magic Show.</p>
       <p>It&apos;s the most legible thing we sell to a CFO. Outplacement is already a line item on every P&amp;L. We&apos;re just making it actually work.</p>
-      <p style={{ fontSize: '1.35rem', color: 'var(--gold)', fontWeight: 400, margin: '1.25rem 0' }}>It&apos;s the biggest line. But it&apos;s one door of six.</p>
+      <p style={{ fontSize: '1.35rem', color: 'var(--gold)', fontWeight: 400, margin: '1.25rem 0' }}>It&apos;s the biggest revenue line. It&apos;s also one experiment inside a living system.</p>
       <p><strong>Which is exactly why outplacement can&apos;t copy it.</strong></p>
       <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--muted)' }}>new-human-resources.vercel.app &mdash; live, taking applications</p>
     </div>
@@ -405,8 +408,8 @@ const slides = [
   () => (
     <div className="slide">
       <h3>The ask</h3>
-      <h1><span className="gold">$3&ndash;5M</span> seed. One check. Every door.</h1>
-      <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent that owns every door: Church, Transition Centers, Magic Shows, J.O.B. Board, Business 3.0, NHR.</p>
+      <h1><span className="gold">$3&ndash;5M</span> seed. One check into the organism.</h1>
+      <p style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>SAFE into the <strong>HoldCo</strong> &mdash; the for-profit parent of the RCO. You&apos;re not betting on a product line. You&apos;re betting on a living system that follows aliveness and composts what doesn&apos;t work.</p>
       <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>Lead checks from our network + Wefunder community round. <strong>Own what you co-create.</strong></p>
       <div className="two-col">
         <div className="card">
