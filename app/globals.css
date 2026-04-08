@@ -759,3 +759,258 @@ a { color: inherit; text-decoration: none; }
   .modal { margin: 1rem; padding: 1.75rem; border-radius: 14px; }
   .modal h2 { font-size: 1.3rem; }
 }
+
+/* ============================================================
+   JOB Report Interactive Slide
+   ============================================================ */
+
+.job-report-slide {
+  padding: 3rem 5rem 5rem;
+  justify-content: flex-start;
+  overflow-y: auto;
+}
+
+.job-report-slide h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.jr-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1.75rem;
+  margin-top: 1rem;
+  max-width: 1150px;
+  width: 100%;
+}
+
+.jr-left, .jr-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  min-width: 0;
+}
+
+.jr-input {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-family: inherit;
+  line-height: 1.5;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.15s;
+}
+
+.jr-input:focus {
+  border-color: var(--accent-solid);
+}
+
+.jr-input::placeholder {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+.jr-submit {
+  margin-top: 0.6rem;
+  padding: 0.75rem 1.3rem;
+  background: var(--iridescent);
+  color: var(--bg);
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.jr-submit:hover:not(:disabled) {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.jr-submit:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.jr-error {
+  font-size: 0.85rem;
+  color: #ef4444;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.jr-receipt {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-solid);
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+  margin-top: 0.4rem;
+}
+
+.jr-receipt-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.jr-chip {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--bg);
+  white-space: nowrap;
+}
+
+.jr-chip-outline {
+  background: transparent !important;
+  border: 1px solid var(--border);
+  color: var(--text) !important;
+}
+
+.jr-points {
+  margin-left: auto;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text);
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.jr-explanation {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  max-width: none;
+}
+
+.jr-open-loop {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #f5b544;
+  font-style: italic;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.jr-disclaimer {
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.jr-ledger-header {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--accent-solid);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.jr-ledger {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.jr-entry {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent-solid);
+  border-radius: 10px;
+  padding: 0.75rem 0.9rem;
+}
+
+.jr-entry-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.jr-entry-top strong {
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.jr-entry-meta {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-family: var(--font-geist-mono), monospace;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.jr-entry-desc {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  max-width: none;
+}
+
+/* Experiment status pills */
+.exp-pill {
+  display: inline-block;
+  padding: 0.18rem 0.55rem;
+  margin-left: 0.5rem;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  background: var(--teal);
+  color: var(--bg);
+  vertical-align: middle;
+  -webkit-text-fill-color: var(--bg);
+}
+
+.exp-pill-dev {
+  background: transparent;
+  color: var(--text-muted);
+  -webkit-text-fill-color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+/* JOB Report responsive */
+@media (max-width: 900px) {
+  .jr-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .job-report-slide {
+    padding: 2rem 1.25rem 5rem;
+  }
+  .job-report-slide h1 {
+    font-size: 1.75rem;
+  }
+  .jr-ledger {
+    max-height: 320px;
+  }
+  .jr-points {
+    margin-left: 0;
+  }
+}
