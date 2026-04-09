@@ -241,30 +241,18 @@ const slides = [
     <div className="slide">
       <h3>01 · The flip</h3>
       <h1>What if the system&apos;s collapse is the largest <span className="gold">involuntary liberation</span> in history?</h1>
-      <div className="three-col" style={{ marginTop: '1.25rem' }}>
+      <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>Work no longer values me.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ How do I want to value myself?</p>
+          <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', fontStyle: 'italic', marginBottom: '0.75rem' }}>I don&apos;t know who I am without the title.</p>
+          <p style={{ fontSize: '1.25rem', fontWeight: 700 }} className="gold">→ Who am I underneath it?</p>
         </div>
         <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>The church stopped holding me.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ What do I actually believe?</p>
+          <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', fontStyle: 'italic', marginBottom: '0.75rem' }}>The church lost me.</p>
+          <p style={{ fontSize: '1.25rem', fontWeight: 700 }} className="gold">→ What do I actually believe?</p>
         </div>
         <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>School didn&apos;t prepare me for this.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ What am I finally ready to learn?</p>
-        </div>
-        <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>I don&apos;t know who I am without the title.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ Who am I underneath it?</p>
-        </div>
-        <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>I&apos;m exhausted.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ What have I been carrying that was never mine?</p>
-        </div>
-        <div className="card">
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', fontStyle: 'italic', marginBottom: '0.5rem' }}>The system rejected me.</p>
-          <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ What if I was never meant to fit?</p>
+          <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', fontStyle: 'italic', marginBottom: '0.75rem' }}>The system rejected me.</p>
+          <p style={{ fontSize: '1.25rem', fontWeight: 700 }} className="gold">→ What if I was never meant to fit?</p>
         </div>
       </div>
       <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>Every new threshold leads to the same work.</p>
