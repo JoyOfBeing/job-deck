@@ -352,17 +352,6 @@ const slides = [
       <h1>Big idea + big implementation.</h1>
       <div className="two-col">
         <div className="card">
-          <h3 style={{ color: 'var(--text)', textTransform: 'none', letterSpacing: '-0.01em', fontSize: '1.3rem', WebkitTextFillColor: 'var(--text)' }}>Nicole Ayres</h3>
-          <p style={{ color: 'var(--purple)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700, marginBottom: '0.5rem' }}>The Architect</p>
-          <ul>
-            <li>Jumpsuit &mdash; bootstrapped to $4M/yr, <strong>zero employees</strong></li>
-            <li>Co-founded Jauntboards → acquired (2025)</li>
-            <li>Co-visionary: Business 3.0 + the RCO</li>
-            <li><strong>2,000+ Jumpsuiters</strong> network &mdash; running a B3.0 company for 7 years before it had a name</li>
-            <li>Building J.O.B. in real time with AI</li>
-          </ul>
-        </div>
-        <div className="card">
           <h3 style={{ color: 'var(--text)', textTransform: 'none', letterSpacing: '-0.01em', fontSize: '1.3rem', WebkitTextFillColor: 'var(--text)' }}>Pam Kosanke</h3>
           <p style={{ color: 'var(--purple)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700, marginBottom: '0.5rem' }}>The Scaler</p>
           <ul>
@@ -371,6 +360,17 @@ const slides = [
             <li>Raised $6M Series A (Mark Cuban, General Mills)</li>
             <li>Invented McDonald&apos;s breakfast dollar menu</li>
             <li>6× world champion, Team USA</li>
+          </ul>
+        </div>
+        <div className="card">
+          <h3 style={{ color: 'var(--text)', textTransform: 'none', letterSpacing: '-0.01em', fontSize: '1.3rem', WebkitTextFillColor: 'var(--text)' }}>Nicole Ayres</h3>
+          <p style={{ color: 'var(--purple)', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700, marginBottom: '0.5rem' }}>The Architect</p>
+          <ul>
+            <li>Jumpsuit &mdash; bootstrapped to $4M/yr, <strong>zero employees</strong></li>
+            <li>Co-founded Jauntboards → acquired (2025)</li>
+            <li>Co-visionary: Business 3.0 + the RCO</li>
+            <li><strong>2,000+ Jumpsuiters</strong> network &mdash; running a B3.0 company for 7 years before it had a name</li>
+            <li>Building J.O.B. in real time with AI</li>
           </ul>
         </div>
       </div>
@@ -397,10 +397,6 @@ const slides = [
         <div className="card">
           <h3>Living organism, not a machine</h3>
           <p>The organism adapts. It breathes. It grows what works and releases what doesn&apos;t.</p>
-        </div>
-        <div className="card">
-          <h3>Contribution spreads like mycelium</h3>
-          <p>Not top-down. Not centralized. The network grows outward wherever the energy is.</p>
         </div>
         <div className="card">
           <h3>Tracks value beyond capital</h3>
