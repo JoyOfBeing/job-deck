@@ -513,7 +513,7 @@ const slides = [
       <h3>12 · The trick</h3>
       <h1>People think they&apos;re buying a product. They&apos;re actually walking into a passage.</h1>
       <p style={{ marginBottom: '0.4rem' }}>Every experiment is legible on the outside &mdash; a service, a platform, a program. Something the rational mind can justify to a CFO or explain to a spouse. But inside, they all do the same thing: trick you into remembering who you are.</p>
-      <p style={{ marginBottom: '0.5rem', fontStyle: 'italic' }} className="gold">That&apos;s not a bug. It&apos;s the design.</p>
+      <p style={{ marginBottom: '0.5rem', fontStyle: 'italic' }} className="gold">J.O.B. is a giant Trojan Horse.</p>
       <table className="deck-table" style={{ marginTop: '0.4rem', fontSize: '0.85rem' }}>
         <thead>
           <tr>
