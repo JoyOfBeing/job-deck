@@ -307,39 +307,20 @@ const slides = [
     </div>
   ),
 
-  // 2 — CURRENT REALITY
+  // 3 — THE OPPORTUNITY (Fuller quote, moved up)
   () => (
     <div className="slide">
-      <h3>03 · Current reality</h3>
-      <h1>A collective existential crisis.</h1>
-      <p>When work ends, people don&apos;t just lose a paycheck. They lose the infrastructure of a whole life &mdash; and the contract that told them they mattered.</p>
-      <div className="two-col" style={{ marginTop: '0.75rem' }}>
-        <div className="card">
-          <h3>The practical crisis</h3>
-          <p>Income. Healthcare. Retirement. Stability. The scaffolding of an ordinary life, yanked out in a 30-minute HR meeting.</p>
-        </div>
-        <div className="card">
-          <h3>The meaning crisis</h3>
-          <p>Identity. Purpose. Community. Reason to get out of bed. The things the paycheck was quietly carrying on its back &mdash; invisible, until it&apos;s gone.</p>
-        </div>
-      </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.4rem', fontWeight: 600 }} className="gold">Severance solves one. We&apos;re built to solve both.</p>
+      <h3>03 · The opportunity</h3>
+      <p className="big-quote" style={{ marginTop: '3rem' }}>&ldquo;You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.&rdquo;</p>
+      <p className="attribution" style={{ textAlign: 'center' }}>&mdash; Buckminster Fuller</p>
     </div>
   ),
 
-  // 3 — FULLER QUOTE (moved before Problem)
-  () => (
-    <div className="slide close-slide">
-      <p className="big-quote">&ldquo;You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.&rdquo;</p>
-      <p className="attribution">&mdash; Buckminster Fuller</p>
-    </div>
-  ),
-
-  // 4 — THE PROBLEM (3 systems collapsing)
+  // 4 — THE METACRISIS
   () => (
     <div className="slide">
-      <h3>04 · The problem</h3>
-      <h1>Three systems. Collapsing at once.</h1>
+      <h3>04 · The metacrisis</h3>
+      <h1>The system fragmented us &mdash; and we&apos;re trying to solve it through more fragmentation.</h1>
       <div className="three-col" style={{ marginTop: '1rem' }}>
         <div className="card">
           <h3>Education</h3>
@@ -354,7 +335,7 @@ const slides = [
           <p>told us <strong>why</strong> we were here.</p>
         </div>
       </div>
-      <p style={{ marginTop: '1.5rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.4rem', fontWeight: 600 }} className="gold">The system fragmented us. We must address the whole instead of the parts.</p>
+      <p style={{ marginTop: '1.5rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.4rem', fontWeight: 600 }} className="gold">We must address the whole instead of just the parts.</p>
     </div>
   ),
 
