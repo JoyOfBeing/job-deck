@@ -179,8 +179,9 @@ function RevenueChartSlide() {
   return (
     <div className="slide">
       <h3>17 · Revenue at scale</h3>
-      <h1>We&apos;re not betting on one product. We&apos;re betting on a question.</h1>
-      <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginTop: '0.25rem' }}>Click any experiment for the math. Numbers are early-stage models, not promises.</p>
+      <h1>Where the money gets made.</h1>
+      <p style={{ fontSize: '1.05rem', marginTop: '0.25rem' }}><strong>Six revenue lines. One organism.</strong> NHR is the wedge &mdash; biggest, fastest, already selling. The rest compound behind it as the network grows. Click any experiment for the math.</p>
+      <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.25rem' }}>Numbers are early-stage models, not promises.</p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1rem' }}>
         {experiments.map((exp, i) => (
           <button
@@ -231,7 +232,7 @@ const slides = [
     <div className="slide cover">
       <h1>J.O.B.</h1>
       <p className="subtitle">The Joy of Being Company</p>
-      <p className="tagline">Being human is the only job left.</p>
+      <p className="tagline">Being human is the job.</p>
     </div>
   ),
 
@@ -327,6 +328,7 @@ const slides = [
     <div className="slide">
       <h3>04 · The solution</h3>
       <h1>J.O.B. is where humans land after work ends.</h1>
+      <p style={{ fontSize: '1.05rem', marginBottom: '0.5rem' }}>At the center sits <strong>The Church</strong> &mdash; the first church that only asks questions. No doctrine. No answers. Just a home for the work of accessing agency and sovereignty through self.</p>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
           <h3 className="gold">◎ Grieve</h3>
@@ -371,7 +373,6 @@ const slides = [
           <ul>
             <li>Former CRO, EOS Worldwide &mdash; $145M revenue, 800+ implementers</li>
             <li>Unified 700+ independent brands globally</li>
-            <li>Raised $6M Series A (Mark Cuban, General Mills)</li>
             <li>Invented McDonald&apos;s breakfast dollar menu</li>
             <li>6× world champion, Team USA</li>
           </ul>
@@ -401,7 +402,7 @@ const slides = [
       <div className="two-col" style={{ marginTop: '0.5rem' }}>
         <div className="card">
           <h3>It starts with a question</h3>
-          <p>&ldquo;What happens when being human is the only job left?&rdquo; Every product, every hire, every experiment answers it.</p>
+          <p>&ldquo;What happens when being human is the job?&rdquo; Every product, every hire, every experiment answers it.</p>
         </div>
         <div className="card">
           <h3>Aliveness is the KPI</h3>
@@ -448,7 +449,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>09 · Experiments</h3>
-      <h1><span className="gold">What happens when being human is the only job left?</span></h1>
+      <h1><span className="gold">What happens when being human is the job?</span></h1>
       <p>Everything we do is in service of the question. We build with curiosity towards it &mdash; the ideas that have energy get resources, the ones that lose energy get composted. The HoldCo decides which experiments to nurture into profitable SPVs and LLCs.</p>
       <p style={{ marginTop: '0.85rem', marginBottom: '0.25rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-muted)', fontWeight: 700 }}>Current experiments</p>
       <div className="three-col" style={{ marginTop: '0.25rem' }}>
@@ -484,8 +485,8 @@ const slides = [
   () => (
     <div className="slide">
       <h3>10 · RCO Membership Economy</h3>
-      <h1>Members are also incentivized to explore the question.</h1>
-      <p>In addition to participating in the crowdfunding round, anyone who joins the RCO can add value in other ways besides money. This creates a compounding effect of energy and flow.</p>
+      <h1>Hire yourself. Get going. We&apos;ll track the value over time.</h1>
+      <p>The RCO removes every barrier to starting. You don&apos;t need permission, a job description, or a title. You tell us what you&apos;re doing &mdash; money, time, build, network, idea, care &mdash; and the organism remembers. This is how members explore the question with us. It compounds energy and flow.</p>
       <div className="three-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
           <h3 className="gold">Money</h3>
@@ -624,8 +625,10 @@ const slides = [
     <div className="slide">
       <h3>14 · New Human Resources · The Wedge</h3>
       <h1>The budget already exists. We&apos;re just the first honest use of it.</h1>
+      <p>HR&apos;s job is to take care of humans. But the company has to lay them off to survive. That&apos;s the paradox every CHRO lives inside &mdash; and nobody has given them a way out of it.</p>
       <p>Every company laying people off has already allocated the money &mdash; severance, outplacement, EAP. It&apos;s a line item with no ROI, no story, and no one inside the company proud of how they spent it.</p>
-      <p><strong>We walk in and offer them something they can actually feel good about.</strong></p>
+      <p><strong>We walk in and offer them something they can actually feel good about: a door where the real work finally begins.</strong></p>
+      <p style={{ fontSize: '1.1rem', fontWeight: 600, fontStyle: 'italic' }} className="gold">Imagine what becomes possible when we pay people to do their new job.</p>
       <div className="three-col" style={{ marginTop: '0.5rem' }}>
         <div className="stat"><div className="stat-number">$2,500</div><div className="stat-label">per seat standard</div></div>
         <div className="stat"><div className="stat-number">$3,500</div><div className="stat-label">per seat premium</div></div>
@@ -647,24 +650,33 @@ const slides = [
   () => (
     <div className="slide">
       <h3>15 · The metabolism</h3>
-      <h1>The flywheel.</h1>
+      <h1>Many doors. One passage.</h1>
       <p style={{ fontSize: '1.15rem', color: 'var(--text)', fontWeight: 600, marginBottom: '0.25rem' }}>We optimize for aliveness. Revenue follows.</p>
-      <div className="two-col" style={{ marginTop: '0.75rem' }}>
+      <p style={{ marginBottom: '0.6rem' }}>NHR is the main revenue door &mdash; but every experiment is a door to the same passage. A laid-off exec comes in through NHR. A curious founder comes in through Business 3.0. A grieving creative comes in through Magic Shows. A freelancer comes in through the J.O.B. Board. <strong>All of them end up in the same organism &mdash; and the output is equally wild in every direction.</strong></p>
+      <div className="three-col" style={{ marginTop: '0.35rem' }}>
         <div className="card">
-          <h3>1 &middot; Money in</h3>
-          <p>A company is laying people off. They have a budget, a guilty CHRO, and no good options. They pay J.O.B. to hold their people through the passage. This is the wedge &mdash; and it funds everything else.</p>
+          <h3>The doors</h3>
+          <p>NHR · Church · Magic Shows · J.O.B. Board · Transition Centers · Business 3.0. Each one is legible to a different kind of person. Each one charges money at the door.</p>
         </div>
         <div className="card">
-          <h3>2 &middot; Humans through</h3>
-          <p>Each cohort moves through the organism. The Church holds the grief. Magic Shows wake something up. Transition Centers give them a room and a body of people. They arrive as employees. They leave as something else.</p>
+          <h3>The passage</h3>
+          <p>Grieve. Deprogram. Upskill. Rediscover what only a human can do. No matter the door, the work inside is the same &mdash; and the Church holds it.</p>
         </div>
         <div className="card">
-          <h3>3 &middot; Humans out, new energy in</h3>
-          <p>Some start companies on the J.O.B. Board. Some certify as Guides and run the next cohort. Some build products on Claude and contribute them into the organism. Some open the first J.O.B. headquarters in their city. The people who came through become the infrastructure.</p>
+          <h3>The output</h3>
+          <p>People become nodes. Some start companies. Some host cohorts. Some build products. Some open the next city. <em>People enter as participants and exit as infrastructure.</em></p>
         </div>
         <div className="card">
-          <h3>4 &middot; Aliveness sets the budget</h3>
-          <p>Resources flow to whatever is most alive. What stops serving the question gets composted &mdash; no sunk-cost zombies, no zombie products kept on life support because someone&apos;s attached. The organism self-corrects.</p>
+          <h3>Aliveness sets the budget</h3>
+          <p>Resources flow to whatever is most alive. What stops serving the question gets composted. No zombie products. The organism self-corrects.</p>
+        </div>
+        <div className="card">
+          <h3>Supply creates demand</h3>
+          <p>The new human jobs don&apos;t exist yet. You have to see them to want them. Every door &mdash; Magic Show, job fair, marketplace &mdash; is how we reveal what&apos;s possible.</p>
+        </div>
+        <div className="card">
+          <h3>Compounding</h3>
+          <p>Every transformed human is an asset in the cap table of the organism. The longer we run, the more the network is worth &mdash; and the less any one experiment matters.</p>
         </div>
       </div>
     </div>
@@ -686,10 +698,13 @@ const slides = [
         </div>
         <div className="card">
           <h3>Indeed</h3>
-          <p>Indeed built the world&apos;s largest labor marketplace by leading with demand &mdash; here&apos;s what employers need, go become that. <strong>We&apos;re running the opposite experiment: lead with supply.</strong> Sovereign humans, offering work only humans can do, until the supply becomes the new demand. We&apos;re not filling jobs. We&apos;re defining what a job is allowed to mean.</p>
+          <p>Indeed built the world&apos;s largest labor marketplace by leading with demand. <strong>We&apos;re doing the opposite: we&apos;re creating the supply.</strong> The new human jobs don&apos;t exist yet &mdash; you have to see them to want them. That&apos;s why every portal we build (Magic Shows, Transition Centers, the J.O.B. Board, job fairs) is really a <em>showroom for a self you haven&apos;t imagined yet</em>.</p>
         </div>
       </div>
-      <p style={{ marginTop: '0.85rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic' }} className="gold">Trickster economics. Play is the medicine. The joke is that it works.</p>
+      <p style={{ marginTop: '0.85rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.1rem', fontWeight: 600 }}>
+        People&apos;s minds are being blown by what AI can do. <span className="gold">The same thing is about to happen with humanity.</span>
+      </p>
+      <p style={{ marginTop: '0.3rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '0.95rem', color: 'var(--text-muted)' }}>Trickster economics. Play is the medicine. The joke is that it works.</p>
     </div>
   ),
 
@@ -739,9 +754,9 @@ const slides = [
         <div className="card">
           <h3>The distribution nobody else has</h3>
           <p style={{ fontSize: '0.95rem' }}>This is the part that doesn&apos;t show up in a cap table.</p>
-          <p style={{ fontSize: '0.95rem' }}>Pam spent a decade as CRO of EOS Worldwide &mdash; she didn&apos;t just run a $145M business, she built the relationships with the exact people who sign our checks. Every CHRO, every Chief People Officer at every company about to make a hard call about their people &mdash; she either knows them or knows someone who does.</p>
-          <p style={{ fontSize: '0.95rem' }}><strong>800+ EOS implementers.</strong> A growing Sunday Night Live audience. A Wefunder community round prepped and ready. And a pipeline of warm enterprise conversations that don&apos;t require us to explain what we do &mdash; because Pam already did.</p>
-          <p style={{ fontSize: '0.95rem', fontStyle: 'italic' }} className="gold">The wedge is sharp. The network is already there. The first deal is a conversation, not a cold call.</p>
+          <p style={{ fontSize: '0.95rem' }}>Pam spent a decade as CRO of EOS Worldwide &mdash; she didn&apos;t just run a $145M business, she built the network of operators and executives who trust her when she says something matters.</p>
+          <p style={{ fontSize: '0.95rem' }}><strong>800+ EOS implementers.</strong> A growing Sunday Night Live audience. A Wefunder community round prepped and ready. Warm paths into enterprise conversations through people who already know her.</p>
+          <p style={{ fontSize: '0.95rem', fontStyle: 'italic' }} className="gold">The wedge is sharp. The network is already there.</p>
         </div>
       </div>
     </div>
@@ -752,7 +767,7 @@ const slides = [
     <div className="slide">
       <h3>20 · The ask</h3>
       <h1><span className="gold">$3&ndash;5M</span> seed. One check into the organism.</h1>
-      <p>This isn&apos;t a bet on a product line. It&apos;s a bet on a question &mdash; and the infrastructure to let the answer keep revealing itself.</p>
+      <p><strong>J.O.B. is the ultimate portfolio investment strategy.</strong> What you&apos;re seeing in this deck was built by three people. Now imagine a whole economy of brilliant humans &mdash; freshly liberated from their jobs &mdash; throwing themselves at the same question. You own a piece of everything they build.</p>
       <p style={{ marginBottom: '0.75rem' }}>SAFE into the HoldCo. <strong>You&apos;re not getting equity in one experiment. You&apos;re getting equity in the system that holds all of them.</strong></p>
       <div className="two-col" style={{ marginTop: '0.25rem' }}>
         <div className="card">
