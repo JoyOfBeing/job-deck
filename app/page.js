@@ -267,43 +267,19 @@ const slides = [
           <p style={{ fontSize: '1.1rem', fontWeight: 700 }} className="gold">→ What if I was never meant to fit?</p>
         </div>
       </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>Every wound is a doorway. Every doorway leads to the same work.</p>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>Every new threshold leads to the same work.</p>
     </div>
   ),
 
-  // 2 — THE MOMENT (data hook)
+  // 2 — THE NEW HUMAN WORK
   () => (
     <div className="slide">
-      <h3>02 · The moment</h3>
-      <h1>The largest <span className="gold">involuntary liberation</span> in history.</h1>
-      <p style={{ marginTop: '0.5rem', fontSize: '1.05rem' }}>This is bigger than job loss. Every system that gave us meaning, identity, and belonging is collapsing at the same time.</p>
-      <div className="three-col" style={{ marginTop: '0.85rem' }}>
-        <div className="stat">
-          <div className="stat-number">300M</div>
-          <div className="stat-label">jobs globally exposed to AI automation <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>Goldman Sachs, 2023</span></div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">15,000+</div>
-          <div className="stat-label">US churches closed in the past decade <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>Lifeway Research</span></div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">15 / day</div>
-          <div className="stat-label">cigarettes&apos; equivalent harm of loneliness <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>US Surgeon General, 2023</span></div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">1st</div>
-          <div className="stat-label">US life-expectancy decline in modern history &mdash; &ldquo;deaths of despair&rdquo; <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>Case &amp; Deaton, Princeton</span></div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">42%</div>
-          <div className="stat-label">of US teens report persistent sadness or hopelessness <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>CDC, 2021</span></div>
-        </div>
-        <div className="stat">
-          <div className="stat-number">9%</div>
-          <div className="stat-label">of Americans find &ldquo;a great deal&rdquo; of meaning in their work <span style={{ display: 'block', fontSize: '0.7rem', opacity: 0.6 }}>Pew, 2021</span></div>
-        </div>
-      </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.35rem', fontWeight: 600, fontStyle: 'italic' }} className="gold">Even Elon Musk has no answer for where humans will find meaning next.</p>
+      <h3>02 · The new human work</h3>
+      <h1>What if <span className="gold">being human IS the job?</span></h1>
+      <p style={{ fontSize: '1.35rem', marginTop: '1.25rem', lineHeight: 1.5 }}>The inner work creates a new outer reality.</p>
+      <p style={{ fontSize: '1.35rem', marginTop: '1rem', lineHeight: 1.5 }}>In order to build something different, <strong>we must first become something different.</strong></p>
+      <p style={{ fontSize: '1.35rem', marginTop: '1rem', lineHeight: 1.5 }}>And in doing so, we accidentally&mdash;on purpose&mdash;create the new world we want to live in.</p>
+      <p style={{ marginTop: '1.75rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.15rem', fontStyle: 'italic' }} className="gold">The work is becoming. Everything else follows.</p>
     </div>
   ),
 
@@ -311,7 +287,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>03 · The opportunity</h3>
-      <p className="big-quote" style={{ marginTop: '3rem' }}>&ldquo;You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.&rdquo;</p>
+      <p className="big-quote" style={{ marginTop: '3rem', fontSize: '2.8rem', maxWidth: '1000px' }}>&ldquo;You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.&rdquo;</p>
       <p className="attribution" style={{ textAlign: 'center' }}>&mdash; Buckminster Fuller</p>
     </div>
   ),
