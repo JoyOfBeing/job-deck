@@ -371,9 +371,13 @@ const slides = [
   // 8 — THE RCO
   () => (
     <div className="slide">
-      <h3>07 · The differentiator</h3>
-      <h1>J.O.B. is the first RCO in the US.</h1>
-      <p style={{ fontSize: '1.35rem', color: 'var(--text)', fontWeight: 600, marginBottom: '0.75rem' }}>Regenerative Community Organism.</p>
+      <h3>07 · What J.O.B. is</h3>
+      <h1>A Business 3.0 company. The first RCO in the US.</h1>
+      <p style={{ marginBottom: '0.75rem' }}>
+        <strong>Business 3.0</strong> is the philosophy &mdash; a new paradigm for organizing companies around aliveness, contribution, and regeneration.
+        <strong> The RCO</strong> (Regenerative Community Organism) is the structure that philosophy produced.
+        <strong> J.O.B.</strong> is where we prove both &mdash; and the vehicle that carries them to the world.
+      </p>
       <div className="two-col">
         <div className="card">
           <h3>Aliveness is the KPI</h3>
@@ -392,6 +396,9 @@ const slides = [
           <p>&ldquo;What happens when being human is the job?&rdquo; Every product, every experiment, every hire answers this.</p>
         </div>
       </div>
+      <p style={{ marginTop: '0.85rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic' }} className="gold">
+        We don&apos;t just launch Business 3.0 &mdash; we embed it into every conscious company that wants the upgrade. We don&apos;t just form an RCO &mdash; we become the implementer of them across the world.
+      </p>
     </div>
   ),
 
