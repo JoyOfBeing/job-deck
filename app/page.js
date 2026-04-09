@@ -286,7 +286,8 @@ const slides = [
       <div className="slide">
         <h3>02 · The current reality</h3>
         <h1>What if <span className="gold">being human IS the job?</span></h1>
-        <div className="three-col" style={{ marginTop: '1rem' }}>
+        <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.55 }}>AI will take away all jobs that aren&apos;t inherently human. The church used to fund human creativity and consciousness. We&apos;re left with no clear place to go to explore what it means to be uniquely human in this modern era.</p>
+        <div className="three-col" style={{ marginTop: '1.25rem' }}>
           {pillars.map((p) => {
             const isOpen = expanded === p.key;
             return (
@@ -307,7 +308,6 @@ const slides = [
             );
           })}
         </div>
-        <p style={{ fontSize: '1.15rem', marginTop: '1.25rem', lineHeight: 1.55 }}>AI will take away all jobs that aren&apos;t inherently human. The church used to fund human creativity and consciousness. We&apos;re left with no clear place to go to explore what it means to be uniquely human in this modern era.</p>
         <p style={{ marginTop: '1.25rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.5rem', fontWeight: 700 }} className="gold">J.O.B. is where humans land after work ends. And where the real work begins.</p>
       </div>
     );
