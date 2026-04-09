@@ -425,8 +425,8 @@ const slides = [
   () => (
     <div className="slide">
       <h3>09 · Experiments</h3>
-      <h1>Everything we do is in service of <span className="gold">the question</span>.</h1>
-      <p>We build everything with curiosity towards <em>the question</em>. The ideas that have energy get resources, the ones that lose energy get composted. The HoldCo decides which experiments to nurture into profitable SPVs and LLCs.</p>
+      <h1><span className="gold">What happens when being human is the only job left?</span></h1>
+      <p>Everything we do is in service of the question. We build with curiosity towards it &mdash; the ideas that have energy get resources, the ones that lose energy get composted. The HoldCo decides which experiments to nurture into profitable SPVs and LLCs.</p>
       <p style={{ marginTop: '0.85rem', marginBottom: '0.25rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-muted)', fontWeight: 700 }}>Current experiments</p>
       <div className="three-col" style={{ marginTop: '0.25rem' }}>
         <div className="card" style={{ borderColor: 'var(--purple)' }}>
