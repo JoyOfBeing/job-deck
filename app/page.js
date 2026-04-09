@@ -11,13 +11,13 @@ const SEEDED_ENTRIES = [
   {
     id: 'seed-pam',
     who: 'Nicole',
-    description: 'Spent $100k on Telepathy Tapes ads. Got one client at Jumpsuit worth $500k — and met Pam Kosanke, who I would have spent $100k just to meet.',
+    description: 'Spent $100k on Telepathy Tapes ads for Jumpsuit. Made 5x ROI so far — but also met Pam Kosanke (I would have easily spent $100k just to meet her) and attracted the third RCO.',
     category: 'Network',
     bucket: 'C',
-    points_min: 1500,
-    points_max: 2500,
-    explanation: 'Validated $500k outcome plus a relationship whose full value is visibly still unfolding. The Pam meeting is the kind of catalytic connection no spreadsheet would have logged.',
-    open_loop_reason: 'Pam became co-founder of J.O.B. and the enterprise sales pathway into CHROs. Full compounded value is still unfolding.',
+    points_min: 2000,
+    points_max: 3500,
+    explanation: 'Validated 5x ROI on the ad spend, plus two catalytic open loops: the Pam relationship and a third RCO attracted into orbit. No spreadsheet would have logged either.',
+    open_loop_reason: 'Pam became co-founder of J.O.B. and the enterprise sales pathway into CHROs. The third RCO is still unfolding. Full compounded value is yet to land.',
   },
   {
     id: 'seed-levi',
