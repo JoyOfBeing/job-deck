@@ -235,14 +235,20 @@ const slides = [
     return (
       <div className="slide cover">
         <h1>J.O.B.</h1>
-        <p className="subtitle">The Joy of Being</p>
-        <p
-          onClick={() => setWordIndex((i) => (i + 1) % words.length)}
-          style={{ marginTop: '0.75rem', fontSize: '1.6rem', cursor: 'pointer', opacity: 0.6, transition: 'opacity 0.2s' }}
-          onMouseEnter={(e) => { e.currentTarget.style.opacity = '1'; }}
-          onMouseLeave={(e) => { e.currentTarget.style.opacity = '0.6'; }}
-        >
-          {words[wordIndex]}
+        <p className="subtitle">
+          The Joy of Being{' '}
+          <span
+            onClick={() => setWordIndex((i) => (i + 1) % words.length)}
+            style={{
+              cursor: 'pointer',
+              background: 'var(--iridescent)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+            }}
+          >
+            {words[wordIndex]}
+          </span>
         </p>
       </div>
     );
