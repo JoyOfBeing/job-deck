@@ -229,38 +229,20 @@ function RevenueChartSlide() {
 const slides = [
   // 0 — COVER
   () => {
-    const words = ['Company', 'Church', 'School', 'Human', 'Being.'];
+    const words = ['Company', 'Church', 'School', 'Human'];
     const [wordIndex, setWordIndex] = useState(0);
-    const [fade, setFade] = useState(true);
-    const isLast = wordIndex === words.length - 1;
-
-    useEffect(() => {
-      if (isLast) return;
-      const timer = setTimeout(() => {
-        setFade(false);
-        setTimeout(() => {
-          setWordIndex((i) => i + 1);
-          setFade(true);
-        }, 400);
-      }, 1800);
-      return () => clearTimeout(timer);
-    }, [wordIndex, isLast]);
 
     return (
       <div className="slide cover">
         <h1>J.O.B.</h1>
-        <p className="subtitle">
-          The Joy of{' '}
-          <span
-            style={{
-              display: 'inline-block',
-              transition: 'opacity 0.4s ease, transform 0.4s ease',
-              opacity: fade ? 1 : 0,
-              transform: fade ? 'translateY(0)' : 'translateY(-10px)',
-            }}
-          >
-            {words[wordIndex]}
-          </span>
+        <p className="subtitle">The Joy of Being</p>
+        <p
+          onClick={() => setWordIndex((i) => (i + 1) % words.length)}
+          style={{ marginTop: '0.75rem', fontSize: '1.6rem', cursor: 'pointer', opacity: 0.6, transition: 'opacity 0.2s' }}
+          onMouseEnter={(e) => { e.currentTarget.style.opacity = '1'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.opacity = '0.6'; }}
+        >
+          {words[wordIndex]}
         </p>
       </div>
     );
