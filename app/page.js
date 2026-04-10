@@ -251,7 +251,7 @@ const slides = [
         </div>
         <div className="card">
           <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">63%</p>
-          <p>say it&apos;s not worth it &mdash; including 54% of people who actually have the degree</p>
+          <p>say college isn&apos;t worth it &mdash; including 54% of people who actually have the degree</p>
         </div>
       </div>
       <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>Every new threshold leads to the same work.</p>
