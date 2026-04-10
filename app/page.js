@@ -228,12 +228,43 @@ function RevenueChartSlide() {
 
 const slides = [
   // 0 — COVER
-  () => (
-    <div className="slide cover">
-      <h1>J.O.B.</h1>
-      <p className="subtitle">The Joy of Being Company</p>
-    </div>
-  ),
+  () => {
+    const words = ['Company', 'Church', 'School', 'Human', 'Being.'];
+    const [wordIndex, setWordIndex] = useState(0);
+    const [fade, setFade] = useState(true);
+    const isLast = wordIndex === words.length - 1;
+
+    useEffect(() => {
+      if (isLast) return;
+      const timer = setTimeout(() => {
+        setFade(false);
+        setTimeout(() => {
+          setWordIndex((i) => i + 1);
+          setFade(true);
+        }, 400);
+      }, 1800);
+      return () => clearTimeout(timer);
+    }, [wordIndex, isLast]);
+
+    return (
+      <div className="slide cover">
+        <h1>J.O.B.</h1>
+        <p className="subtitle">
+          The Joy of{' '}
+          <span
+            style={{
+              display: 'inline-block',
+              transition: 'opacity 0.4s ease, transform 0.4s ease',
+              opacity: fade ? 1 : 0,
+              transform: fade ? 'translateY(0)' : 'translateY(-10px)',
+            }}
+          >
+            {words[wordIndex]}
+          </span>
+        </p>
+      </div>
+    );
+  },
 
   // 1 — THE FLIP (opening reframe)
   () => (
