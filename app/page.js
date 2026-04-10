@@ -314,13 +314,31 @@ const slides = [
     </div>
   ),
 
-  // 5 — THE BIG IDEA
+  // 5 — J.O.B.
   () => (
     <div className="slide">
-      <h3>05 · The big idea</h3>
-      <h1>We&apos;re not just building a company. <span className="gold">We&apos;re building the new model.</span></h1>
-      <p className="big-quote" style={{ marginTop: '2rem', fontSize: '2.4rem', maxWidth: '1000px', textAlign: 'center' }}>&ldquo;You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.&rdquo;</p>
-      <p className="attribution" style={{ textAlign: 'center', fontSize: '1.1rem' }}>&mdash; Buckminster Fuller</p>
+      <h3>05 · J.O.B.</h3>
+      <p style={{ fontSize: '1.15rem', marginTop: '0.75rem', lineHeight: 1.55 }}>In the short term, J.O.B. is the &ldquo;New Human&rdquo; Resources. <strong>The Transition Company.</strong> In the long term, we become the infrastructure for the new human economy.</p>
+      <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.55 }}>Our strategy is simple:</p>
+      <div className="two-col" style={{ marginTop: '0.75rem' }}>
+        <div className="card">
+          <h3 className="gold">One guiding question</h3>
+          <p>What happens when being human is the job?</p>
+        </div>
+        <div className="card">
+          <h3 className="gold">Many doors in</h3>
+          <p>Infinite ways to explore the question.</p>
+        </div>
+        <div className="card">
+          <h3 className="gold">One living infrastructure</h3>
+          <p>The question doesn&apos;t just get asked &mdash; it gets built.</p>
+        </div>
+        <div className="card">
+          <h3 className="gold">One answer that keeps changing</h3>
+          <p>Aliveness is the KPI, not completion.</p>
+        </div>
+      </div>
+      <p style={{ marginTop: '1.25rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.35rem', fontWeight: 700, lineHeight: 1.35 }} className="gold">The organism succeeds when people leave more human than when they arrived.</p>
     </div>
   ),
 
