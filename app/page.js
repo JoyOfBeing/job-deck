@@ -359,7 +359,7 @@ const slides = [
           <tr>
             <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', fontWeight: 700 }} className="gold">New Human Resources</td>
             <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }}>Outplacement &mdash; a P&amp;L line item</td>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }} className="gold">The grief, the deprogramming, and the reinvention their employer accidentally funded</td>
+            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }} className="gold">The fastest route from your last title to your actual self &mdash; funded by the company that let you go</td>
           </tr>
           <tr>
             <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', fontWeight: 700 }} className="gold">Magic Shows</td>
