@@ -87,7 +87,7 @@ function JobReportSlide() {
 
   return (
     <div className="slide job-report-slide">
-      <h3>13 · JOB Report · Interactive</h3>
+      <h3>14 · JOB Report · Interactive</h3>
       <h1>How the organism tracks value beyond capital.</h1>
       <p style={{ marginBottom: '0.6rem' }}>
         Every contribution system asks people to price their own worth. We ask them to report evidence &mdash; and the AI does the attribution.
@@ -178,7 +178,7 @@ function RevenueChartSlide() {
   const maxValue = 200;
   return (
     <div className="slide">
-      <h3>19 · Revenue at scale</h3>
+      <h3>20 · Revenue at scale</h3>
       <h1>Where the money gets made.</h1>
       <p style={{ fontSize: '1.05rem', marginTop: '0.25rem' }}><strong>Six revenue lines. One organism.</strong> NHR is the wedge &mdash; biggest, fastest, already selling. The rest compound behind it as the network grows. Click any experiment for the math.</p>
       <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.25rem' }}>Numbers are early-stage models, not promises.</p>
@@ -359,10 +359,34 @@ const slides = [
     </div>
   ),
 
-  // 6 — J.O.B.
+  // 6 — HOW IT FEELS
   () => (
     <div className="slide">
-      <h3>06 · J.O.B.</h3>
+      <h3>06 · How it feels</h3>
+      <h1>Imagine if <span className="gold">AA, Meow Wolf, and Indeed</span> had a baby.</h1>
+      <p style={{ fontSize: '1.05rem', marginTop: '0.75rem', lineHeight: 1.5 }}>J.O.B. is three things at once: a self-replicating, self-organizing community, an experience that bypasses the rational mind, and a marketplace that creates demand for work that doesn&apos;t exist yet.</p>
+      <div className="three-col" style={{ marginTop: '0.75rem' }}>
+        <div className="card">
+          <h3 className="gold">AA</h3>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Nobody owns it. Nobody runs it. It just shows up &mdash; every day, in every city, in church basements and rented rooms &mdash; because people need it badly enough to make it happen themselves. J.O.B. transition groups will form the same way.</p>
+        </div>
+        <div className="card">
+          <h3 className="gold">Meow Wolf</h3>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>You can&apos;t talk someone out of their professional identity. You can&apos;t workshop it away or coach it into submission. You have to surprise it. Our Magic Shows and Transition Centers are weird on purpose &mdash; immersive, playful, slightly disorienting. The professional self walks in. A more honest, childlike version walks out.</p>
+        </div>
+        <div className="card">
+          <h3 className="gold">Indeed</h3>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Indeed built the world&apos;s largest labor marketplace by leading with demand. We&apos;re doing the opposite: we&apos;re creating the supply. The new human jobs don&apos;t exist yet &mdash; and you&apos;re going to have to see them to want them. That&apos;s why every portal we build is really a showroom for a self you haven&apos;t imagined yet.</p>
+        </div>
+      </div>
+      <p style={{ marginTop: '0.75rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.2rem', fontWeight: 600 }} className="gold">People&apos;s minds are being blown by what AI can do. The same thing is about to happen with humanity.</p>
+    </div>
+  ),
+
+  // 7 — J.O.B.
+  () => (
+    <div className="slide">
+      <h3>07 · J.O.B.</h3>
       <p style={{ fontSize: '1.15rem', marginTop: '0.75rem', lineHeight: 1.55 }}>In the short term, J.O.B. is the &ldquo;New Human&rdquo; Resources. <strong>The Transition Company.</strong> In the long term, we become the infrastructure for the new human economy.</p>
       <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.55 }}>Our strategy is simple:</p>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
@@ -390,7 +414,7 @@ const slides = [
   // 6 — GIVE PEOPLE A NEW JOB
   () => (
     <div className="slide">
-      <h3>07 · The solution</h3>
+      <h3>08 · The solution</h3>
       <h1>Give people <span className="gold">a new job.</span></h1>
       <p style={{ fontSize: '1.3rem', marginTop: '1.25rem', lineHeight: 1.55 }}>Our new job is to do the inner transformation work of fully becoming ourselves.</p>
       <p style={{ fontSize: '1.3rem', marginTop: '1rem', lineHeight: 1.55 }}>This isn&apos;t charity or a nice-to-have &mdash; it&apos;s <strong>the precondition for building a new model entirely.</strong></p>
@@ -401,7 +425,7 @@ const slides = [
   // 7 — TEAM (moved from end)
   () => (
     <div className="slide">
-      <h3>08 · Team</h3>
+      <h3>09 · Team</h3>
       <h1>Big idea and big implementation experts.</h1>
       <div className="two-col">
         <div className="card">
@@ -430,7 +454,7 @@ const slides = [
   // 8 — THE RCO
   () => (
     <div className="slide">
-      <h3>09 · What J.O.B. is</h3>
+      <h3>10 · What J.O.B. is</h3>
       <h1>A Business 3.0 company.<br/>And the first RCO in the US.</h1>
       <p style={{ marginBottom: '0.75rem' }}>
         <strong>Business 3.0</strong> is the philosophy — a new paradigm for organizing companies around aliveness, contribution, and regeneration. <strong>The RCO</strong> (Regenerative Community Organism) is the structure that philosophy produced. <strong>J.O.B.</strong> is where we prove both — and become the vehicle that spreads them throughout the world.
@@ -462,7 +486,7 @@ const slides = [
   // 9 — STRUCTURE (iframe)
   () => (
     <div className="slide">
-      <h3>10 · The structure</h3>
+      <h3>11 · The structure</h3>
       <h1>Two entities, one organism.</h1>
       <p style={{ marginBottom: '0.5rem' }}>The RCO introduces a new model that still fits in the old world: a nonprofit Church that holds the question, and a C-Corp HoldCo that houses the experiments, SPVs, and LLCs answering it &mdash; and distributes profits.</p>
       <iframe
@@ -484,7 +508,7 @@ const slides = [
   // 10 — EXPERIMENTS
   () => (
     <div className="slide">
-      <h3>11 · Experiments</h3>
+      <h3>12 · Experiments</h3>
       <h1><span className="gold">What happens when being human is the job?</span></h1>
       <p>Everything we do is in service of the question. We build with curiosity towards it &mdash; the ideas that have energy get resources, the ones that lose energy get composted. The HoldCo decides which experiments to nurture into profitable SPVs and LLCs.</p>
       <p style={{ marginTop: '0.85rem', marginBottom: '0.25rem', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--text-muted)', fontWeight: 700 }}>Current experiments</p>
@@ -520,7 +544,7 @@ const slides = [
   // 11 — MEMBERSHIP ECONOMY (moved up)
   () => (
     <div className="slide">
-      <h3>12 · RCO Membership Economy</h3>
+      <h3>13 · RCO Membership Economy</h3>
       <h1>Hire yourself. Get going. We&apos;ll track the value over time.</h1>
       <p>The RCO removes every barrier to starting. You don&apos;t need permission, a job description, or a title. You tell us what you&apos;re doing &mdash; money, time, build, network, idea, care &mdash; and the organism remembers. This is how members explore the question with us. It compounds energy and flow.</p>
       <div className="three-col" style={{ marginTop: '0.75rem' }}>
@@ -561,7 +585,7 @@ const slides = [
   // 13 — TROJAN HORSE / THE TRICK
   () => (
     <div className="slide">
-      <h3>14 · The trick</h3>
+      <h3>15 · The trick</h3>
       <h1>J.O.B. is a giant Trojan Horse. Every doorway in leads to the same rite of passage.</h1>
       <p style={{ marginBottom: '0.4rem' }}>Every experiment is legible on the outside &mdash; a service, a platform, a program. Something the rational mind can justify to a CFO or explain to a spouse. But inside, they all do the same thing: trick you into remembering who you are.</p>
       <table className="deck-table" style={{ marginTop: '0.4rem', fontSize: '0.85rem' }}>
@@ -616,7 +640,7 @@ const slides = [
   // 15 — DISTRIBUTED AI STUDIO
   () => (
     <div className="slide">
-      <h3>15 · The unfair advantage</h3>
+      <h3>16 · The unfair advantage</h3>
       <h1>J.O.B. is the mycelial network.</h1>
       <p style={{ fontSize: '1.25rem', color: 'var(--text)', fontWeight: 600, marginBottom: '0.75rem' }}>The organism becomes self-organizing and self-replicating.</p>
       <p style={{ marginBottom: '0.5rem' }}>Every person moves through the same living funnel:</p>
@@ -659,7 +683,7 @@ const slides = [
   // 16 — NHR WEDGE
   () => (
     <div className="slide">
-      <h3>16 · New Human Resources · The Wedge</h3>
+      <h3>17 · New Human Resources · The Wedge</h3>
       <h1>The budget already exists. We&apos;re just the first honest use of it.</h1>
       <p>HR&apos;s job is to take care of humans. But the company has to lay them off to survive. That&apos;s the paradox every CHRO lives inside &mdash; and nobody has given them a way out of it.</p>
       <p>Every company laying people off has already allocated the money &mdash; severance, outplacement, EAP. It&apos;s a line item with no ROI, no story, and no one inside the company proud of how they spent it.</p>
@@ -685,7 +709,7 @@ const slides = [
   // 17 — METABOLISM
   () => (
     <div className="slide">
-      <h3>17 · The metabolism</h3>
+      <h3>18 · The metabolism</h3>
       <h1>Many doors. One passage.</h1>
       <p style={{ fontSize: '1.15rem', color: 'var(--text)', fontWeight: 600, marginBottom: '0.25rem' }}>We optimize for aliveness. Revenue follows.</p>
       <p style={{ marginBottom: '0.6rem' }}>NHR is the main revenue door &mdash; but every experiment is a door to the same passage. A laid-off exec comes in through NHR. A curious founder comes in through Business 3.0. A grieving creative comes in through Magic Shows. A freelancer comes in through the J.O.B. Board. <strong>All of them end up in the same organism &mdash; and the output is equally wild in every direction.</strong></p>
@@ -721,7 +745,7 @@ const slides = [
   // 18 — HOW IT FEELS
   () => (
     <div className="slide">
-      <h3>18 · How it feels</h3>
+      <h3>19 · How it feels</h3>
       <h1>Imagine if AA, Meow Wolf, and Indeed had a baby.</h1>
       <div className="three-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
@@ -750,7 +774,7 @@ const slides = [
   // 20 — TAM
   () => (
     <div className="slide">
-      <h3>20 · Market</h3>
+      <h3>21 · Market</h3>
       <h1>The $1.5 trillion problem nobody solved because nobody wanted to name it.</h1>
       <p>Six industries exist to treat the same wound &mdash; the one left when a system tells you your value is what you produce. Each one treats a symptom. None of them treat the cause.</p>
       <div className="three-col" style={{ marginTop: '0.75rem' }}>
@@ -770,7 +794,7 @@ const slides = [
   // 21 — TRACTION
   () => (
     <div className="slide">
-      <h3>21 · Traction</h3>
+      <h3>22 · Traction</h3>
       <h1>The organism is already alive.</h1>
       <p>The energy is clear. <strong>We need resources to feed it.</strong></p>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
@@ -801,7 +825,7 @@ const slides = [
   // 21 — THE ASK
   () => (
     <div className="slide">
-      <h3>22 · The ask</h3>
+      <h3>23 · The ask</h3>
       <h1><span className="gold">$3&ndash;5M</span> seed. One check into the organism.</h1>
       <p><strong>J.O.B. is the ultimate portfolio investment strategy.</strong> What you&apos;re seeing in this deck was built by three people. Now imagine a whole economy of brilliant humans &mdash; freshly liberated from their jobs &mdash; throwing themselves at the same question. You own a piece of everything they build.</p>
       <p style={{ marginBottom: '0.75rem' }}>SAFE into the HoldCo. <strong>You&apos;re not getting equity in one experiment. You&apos;re getting equity in the system that holds all of them.</strong></p>
