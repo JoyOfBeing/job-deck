@@ -239,7 +239,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>01 · The flip</h3>
-      <h1>What if the system&apos;s collapse is the largest <span className="gold">involuntary liberation</span> in history?</h1>
+      <h1>What if the systems collapse is the largest <span className="gold">involuntary liberation</span> in history?</h1>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="card">
           <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', fontStyle: 'italic', marginBottom: '0.75rem' }}>I don&apos;t know who I am without the title.</p>
@@ -267,8 +267,8 @@ const slides = [
       <h1 style={{ marginTop: '1rem', fontSize: '2rem' }}>Who&apos;s going to create a modern infrastructure for <span className="gold">human transition at scale?</span></h1>
       <div className="three-col" style={{ marginTop: '1rem' }}>
         <div className="card">
-          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">92M</p>
-          <p>jobs displaced by AI within four years</p>
+          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">300M</p>
+          <p>full-time job equivalents affected by AI globally (Goldman Sachs)</p>
         </div>
         <div className="card">
           <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15,000</p>
