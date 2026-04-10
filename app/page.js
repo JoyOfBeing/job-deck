@@ -317,7 +317,7 @@ const slides = [
         <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.55, fontWeight: 600 }}>The gap isn&apos;t a product opportunity. It&apos;s a <span className="gold">civilizational one.</span></p>
         <h1
           onClick={() => setClickCount((c) => Math.min(c + 1, 2))}
-          style={{ marginTop: '1.25rem', cursor: clickCount < 2 ? 'pointer' : 'default' }}
+          style={{ marginTop: '1.25rem', cursor: clickCount < 2 ? 'pointer' : 'default', animation: clickCount < 2 ? 'pulseGlow 2s ease-in-out infinite' : 'none' }}
           className="gold"
         >
           But who&apos;s gonna pay for it?
@@ -346,7 +346,8 @@ const slides = [
     <div className="slide">
       <h3>05 · The Trojan Horse</h3>
       <h1>J.O.B. is a giant <span className="gold">Trojan Horse.</span></h1>
-      <p style={{ fontSize: '1.2rem', marginTop: '0.75rem', lineHeight: 1.5 }}>Every door looks different on the outside. Inside, they all lead to the same thing.</p>
+      <p style={{ fontSize: '1.2rem', marginTop: '0.75rem', lineHeight: 1.5 }}>We&apos;re going to pay people to do the real work. And we&apos;re going to play with the energetics of money and human value.</p>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.5 }}>Every door looks different on the outside. Inside, they all lead to the same thing.</p>
       <table style={{ width: '100%', marginTop: '1rem', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
         <thead>
           <tr>
