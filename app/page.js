@@ -248,8 +248,8 @@ const slides = [
             }}
           >
             {words[wordIndex]}
-            <span style={{ animation: 'blink 1s step-end infinite', marginLeft: '2px' }}>|</span>
           </span>
+          <span style={{ animation: 'blink 1s step-end infinite', marginLeft: '2px', color: 'var(--purple)', WebkitTextFillColor: 'var(--purple)' }}>|</span>
         </p>
       </div>
     );
@@ -258,7 +258,7 @@ const slides = [
   // 1 — THE FLIP (opening reframe)
   () => (
     <div className="slide">
-      <h3>01 · The flip</h3>
+      <h3>01 · The trick</h3>
       <h1>What if the systems collapse is the largest <span className="gold">involuntary liberation</span> in history?</h1>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="card">
@@ -274,7 +274,7 @@ const slides = [
           <p>say college isn&apos;t worth it &mdash; including 54% of people who actually have the degree</p>
         </div>
       </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>Every new threshold leads to the same work.</p>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>The infrastructure that&apos;s missing is the opportunity.</p>
     </div>
   ),
 
