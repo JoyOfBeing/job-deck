@@ -342,41 +342,78 @@ const slides = [
   ),
 
   // 5 — THE TROJAN HORSE
-  () => (
-    <div className="slide">
-      <h3>05 · The Trojan Horse</h3>
-      <h1>J.O.B. is a giant <span className="gold">Trojan Horse.</span></h1>
-      <p style={{ fontSize: '1.2rem', marginTop: '0.75rem', lineHeight: 1.5 }}>We&apos;re going to pay people to do the real work. And we&apos;re going to play with the energetics of money and human value.</p>
-      <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.5 }}>Every door looks different on the outside. Inside, they all lead to the same thing.</p>
-      <table style={{ width: '100%', marginTop: '1rem', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
-        <thead>
-          <tr>
-            <th style={{ textAlign: 'left', padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Experiment</th>
-            <th style={{ textAlign: 'left', padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>What they think they&apos;re buying</th>
-            <th style={{ textAlign: 'left', padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>What they&apos;re actually getting</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', fontWeight: 700 }} className="gold">New Human Resources</td>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }}>Outplacement &mdash; a P&amp;L line item</td>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }} className="gold">The fastest route from your last title to your actual self &mdash; funded by the company that let you go</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', fontWeight: 700 }} className="gold">Magic Shows</td>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }}>A retreat experience</td>
-            <td style={{ padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' }} className="gold">The fastest route back to yourself that doesn&apos;t require ten years of therapy</td>
-          </tr>
-          <tr>
-            <td style={{ padding: '0.6rem 0.75rem', fontWeight: 700 }} className="gold">Business 3.0</td>
-            <td style={{ padding: '0.6rem 0.75rem' }}>A leadership program</td>
-            <td style={{ padding: '0.6rem 0.75rem' }} className="gold">Permission to build something alive &mdash; and a map for how to do it without burning out or selling out</td>
-          </tr>
-        </tbody>
-      </table>
-      <p style={{ marginTop: '0.75rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.2rem' }}>The rite of passage is the remembering of who you are.</p>
-    </div>
-  ),
+  () => {
+    const [showPhaseTwo, setShowPhaseTwo] = useState(false);
+    const thStyle = { textAlign: 'left', padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.05em' };
+    const tdStyle = { padding: '0.6rem 0.75rem', borderBottom: '1px solid var(--border)' };
+    const tdBold = { ...tdStyle, fontWeight: 700 };
+    return (
+      <div className="slide">
+        <h3>05 · The Trojan Horse</h3>
+        <h1>J.O.B. is a giant <span className="gold">Trojan Horse.</span></h1>
+        <p style={{ fontSize: '1.2rem', marginTop: '0.75rem', lineHeight: 1.5 }}>We&apos;re going to pay people to do the real work. And we&apos;re going to play with the energetics of money and human value.</p>
+        <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.5 }}>Every door looks different on the outside. Inside, they all lead to the same thing.</p>
+        <table style={{ width: '100%', marginTop: '1rem', borderCollapse: 'collapse', fontSize: '0.95rem' }}>
+          <thead>
+            <tr>
+              <th style={thStyle}>Experiment</th>
+              <th style={thStyle}>What they think they&apos;re buying</th>
+              <th style={thStyle}>What they&apos;re actually getting</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={tdBold} className="gold">New Human Resources</td>
+              <td style={tdStyle}>Outplacement &mdash; a P&amp;L line item</td>
+              <td style={tdStyle} className="gold">The fastest route from your last title to your actual self &mdash; funded by the company that let you go</td>
+            </tr>
+            <tr>
+              <td style={tdBold} className="gold">Magic Shows</td>
+              <td style={tdStyle}>A retreat experience</td>
+              <td style={tdStyle} className="gold">The fastest route back to yourself that doesn&apos;t require ten years of therapy</td>
+            </tr>
+            <tr>
+              <td style={{ ...tdBold, borderBottom: showPhaseTwo ? '1px solid var(--border)' : 'none' }} className="gold">Business 3.0</td>
+              <td style={{ ...tdStyle, borderBottom: showPhaseTwo ? '1px solid var(--border)' : 'none' }}>A leadership program</td>
+              <td style={{ ...tdStyle, borderBottom: showPhaseTwo ? '1px solid var(--border)' : 'none' }} className="gold">Permission to build something alive &mdash; and a map for how to do it without burning out or selling out</td>
+            </tr>
+            {showPhaseTwo && (
+              <>
+                <tr>
+                  <td colSpan="3" style={{ padding: '0.5rem 0.75rem', borderBottom: '1px solid var(--border)', color: 'var(--text-muted)', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 600 }}>Phase Two</td>
+                </tr>
+                <tr>
+                  <td style={tdBold} className="gold">Transition Centers</td>
+                  <td style={tdStyle}>A co-working space</td>
+                  <td style={tdStyle} className="gold">Real estate arbitrage meets sacred ground &mdash; where the passage actually happens in person</td>
+                </tr>
+                <tr>
+                  <td style={tdBold} className="gold">JOB Board</td>
+                  <td style={tdStyle}>A job marketplace</td>
+                  <td style={tdStyle} className="gold">A human marketplace &mdash; where supply creates demand for work that doesn&apos;t exist yet</td>
+                </tr>
+                <tr>
+                  <td style={{ ...tdBold, borderBottom: 'none' }} className="gold">JOB Report</td>
+                  <td style={{ ...tdStyle, borderBottom: 'none' }}>A performance tracker</td>
+                  <td style={{ ...tdStyle, borderBottom: 'none' }} className="gold">An AI-tracked contribution engine that attributes value beyond money &mdash; redeemable anywhere in the organism</td>
+                </tr>
+              </>
+            )}
+          </tbody>
+        </table>
+        {!showPhaseTwo && (
+          <p
+            onClick={() => setShowPhaseTwo(true)}
+            style={{ marginTop: '0.75rem', fontSize: '0.95rem', cursor: 'pointer', animation: 'pulseGlow 2s ease-in-out infinite' }}
+            className="gold"
+          >
+            ▼ Phase Two
+          </p>
+        )}
+        <p style={{ marginTop: '0.75rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.2rem' }}>The rite of passage is the remembering of who you are.</p>
+      </div>
+    );
+  },
 
   // 6 — HOW IT FEELS
   () => (
