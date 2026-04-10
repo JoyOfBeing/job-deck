@@ -265,16 +265,16 @@ const slides = [
       <h3>02 · Systems collapse</h3>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="card">
-          <h3>Education</h3>
-          <p>told us <strong>who</strong> to become.</p>
+          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">92M</p>
+          <p>jobs displaced by AI within four years</p>
         </div>
         <div className="card">
-          <h3>Work</h3>
-          <p>told us <strong>what</strong> we were worth.</p>
+          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15,000</p>
+          <p>churches closing per year</p>
         </div>
         <div className="card">
-          <h3>Religion</h3>
-          <p>told us <strong>why</strong> we were here.</p>
+          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15%</p>
+          <p>decline in college enrollment since 2010</p>
         </div>
       </div>
       <p style={{ marginTop: '2rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.35rem' }}>Each new threshold leads us to the same question.</p>
@@ -288,20 +288,6 @@ const slides = [
       <h1>What if <span className="gold">being human IS the job?</span></h1>
       <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.55 }}>For centuries, the church held that role &mdash; funding creativity, community, and consciousness. As AI accelerates a displacement that leaves most people without a livelihood and without a place to go, it begs the question:</p>
       <h1 style={{ marginTop: '1.25rem' }}>Who&apos;s going to create a modern infrastructure for <span className="gold">human transition at scale?</span></h1>
-      <div className="three-col" style={{ marginTop: '1.25rem' }}>
-        <div className="card">
-          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">92M</p>
-          <p>jobs displaced by AI within four years</p>
-        </div>
-        <div className="card">
-          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15,000</p>
-          <p>churches closing per year</p>
-        </div>
-        <div className="card">
-          <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15%</p>
-          <p>decline in college enrollment since 2010</p>
-        </div>
-      </div>
       <p style={{ marginTop: '1.25rem', textAlign: 'center', maxWidth: '100%', fontSize: '1.5rem', fontWeight: 700 }} className="gold">But who&apos;s gonna pay for it?</p>
     </div>
   ),
