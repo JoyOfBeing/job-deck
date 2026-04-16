@@ -87,16 +87,13 @@ function JobReportSlide() {
 
   return (
     <div className="slide job-report-slide">
-      <h3>14 · JOB Report · Interactive</h3>
-      <h1>How the organism tracks value beyond capital.</h1>
+      <h3>14 · The moat</h3>
+      <h1>Our moat isn&apos;t technology. It&apos;s <span className="gold">memory.</span></h1>
       <p style={{ marginBottom: '0.6rem' }}>
-        Every contribution system asks people to price their own worth. We ask them to report evidence &mdash; and the AI does the attribution.
+        Every introduction, every idea, every line of code built at 2am, every relationship opened &mdash; the JOB Report tracks it all. Not as hours logged, but as living contribution that compounds over time.
       </p>
       <p style={{ marginBottom: '0.6rem' }}>
-        Money is one input. So is an introduction, an idea, code you built at 2am, a relationship you opened. JOB Report tracks all of it, assigns it to a bucket, and keeps value alive even when the ROI hasn&apos;t landed yet.
-      </p>
-      <p style={{ marginBottom: '0.6rem' }}>
-        The person who helps build the JOB Guide program today might redeem that contribution as a month&apos;s stay at a Costa Rica retreat center two years from now. <strong>The ledger remembers. The organism honors it.</strong>
+        The longer someone stays, the richer their record becomes &mdash; and the more impossible this is to replicate. No competitor can copy a network effect built on years of contribution data that only exists inside the organism.
       </p>
       <p style={{ marginBottom: '0.75rem' }}>
         <strong>Try it below</strong> &mdash; describe something you&apos;d contribute to J.O.B. and see how the system reads it.
