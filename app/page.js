@@ -325,7 +325,7 @@ const slides = [
     <div className="slide">
       <h3>04 · The gap</h3>
       <h1>Nobody&apos;s building the <span className="gold">infrastructure for being human.</span></h1>
-      <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.6, textAlign: 'center' }}>AI is automating what people <em>do</em> &mdash; and now we have no idea who we <em>are</em>.</p>
+      <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.6, textAlign: 'center' }}>AI is automating what people <em>do</em> &mdash; and now we have no idea who we <em>are</em>. Let alone how to integrate that into the world we live in.</p>
       <div style={{ display: 'grid', gridTemplateColumns: '140px 1fr', gap: '0', marginTop: '1.5rem', maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', border: '1px solid var(--border)', borderRadius: '10px', overflow: 'hidden' }}>
         {[
           ['Therapy', 'Holds your pain. Ignores your purpose.'],
