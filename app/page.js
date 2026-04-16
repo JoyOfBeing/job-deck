@@ -297,19 +297,23 @@ const slides = [
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', marginTop: '1.5rem' }}>
         <div className="card" style={{ padding: '1rem' }}>
           <p style={{ fontWeight: 700, marginBottom: '0.3rem' }} className="gold">The individual</p>
-          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Sovereign humans don&apos;t wait for a job description. They create theirs.</p>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.3rem' }}>From employee to sovereign.</p>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Most people have never been asked who they are outside a role. The future belongs to humans who know.</p>
         </div>
         <div className="card" style={{ padding: '1rem' }}>
           <p style={{ fontWeight: 700, marginBottom: '0.3rem' }} className="gold">The company</p>
-          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Command and control gives way to contribution and aliveness.</p>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.3rem' }}>From machine to organism.</p>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>The companies that survive won&apos;t be the most efficient &mdash; they&apos;ll be the most alive.</p>
         </div>
         <div className="card" style={{ padding: '1rem' }}>
           <p style={{ fontWeight: 700, marginBottom: '0.3rem' }} className="gold">The economy</p>
-          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>A new economy built on what only humans can do.</p>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.3rem' }}>From extraction to regeneration.</p>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>We built an economy that uses people up. The next one needs to grow them.</p>
         </div>
         <div className="card" style={{ padding: '1rem' }}>
           <p style={{ fontWeight: 700, marginBottom: '0.3rem' }} className="gold">The world</p>
-          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>The machines got faster. The humans got more human.</p>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.3rem' }}>From institutions to ecosystems.</p>
+          <p style={{ fontSize: '0.95rem', lineHeight: 1.5 }}>Work, church, school &mdash; they&apos;re not coming back. What replaces them has to hold everything they held, without the ceilings.</p>
         </div>
       </div>
       <p style={{ marginTop: '1.25rem', textAlign: 'center', fontStyle: 'italic', fontSize: '1.15rem' }}>We&apos;re building the new model that makes the existing model obsolete.</p>
