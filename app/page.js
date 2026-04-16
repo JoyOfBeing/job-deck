@@ -590,6 +590,7 @@ const slides = [
           </div>
         ))}
       </div>
+      <p style={{ marginTop: '1.25rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>Every experiment is a door <span className="gold">back to you.</span></p>
     </div>
   ),
 
