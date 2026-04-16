@@ -263,7 +263,7 @@ const slides = [
           <p>say college isn&apos;t worth it &mdash; including 54% who already have the degree. The path we were promised is broken.</p>
         </div>
       </div>
-      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>The three institutions who told us who to be are dissolving simultaneously.</p>
+      <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>The three institutions who told us who to be are dissolving simultaneously. What are we going to build in their place?</p>
     </div>
   ),
 
