@@ -642,35 +642,56 @@ const slides = [
   // 13 — JOB REPORT
   JobReportSlide,
 
-  // 15 — THE NEXT 12 MONTHS
+  // 15 — THE ASK
   () => (
     <div className="slide">
-      <h3>15 · The roadmap</h3>
-      <h1>What happens when you <span className="gold">feed the organism.</span></h1>
-      <p style={{ fontSize: '1.05rem', marginTop: '0.75rem', lineHeight: 1.6, textAlign: 'center' }}>Everything above was built before a single dollar of outside investment. Here&apos;s what capital unlocks.</p>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1.25rem', maxWidth: '620px', marginLeft: 'auto', marginRight: 'auto' }}>
+      <h3>15 · The ask</h3>
+      <h1><span className="gold">$3&ndash;4M.</span> Two layers. One organism.</h1>
+      <p style={{ fontSize: '1.05rem', marginTop: '0.5rem', lineHeight: 1.6, textAlign: 'center' }}>Everything above was built before a single dollar of outside investment. Here&apos;s what capital unlocks.</p>
+      <div className="two-col" style={{ marginTop: '0.75rem' }}>
+        <div className="card">
+          <h3 className="gold">Founding Circle &middot; $2.5&ndash;3M</h3>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>Angel + philanthropic capital that makes the organism real.</p>
+          <ul style={{ fontSize: '0.8rem' }}>
+            <li><strong>NHR program build</strong> &mdash; curriculum, facilitators, platform to support 2,000 layoffs</li>
+            <li><strong>JOB Report ledger</strong> &mdash; production OS for tracking and redeeming contribution</li>
+            <li><strong>All six experiments</strong> &mdash; working versions live and generating revenue</li>
+            <li><strong>Entity formation + founder runway</strong> &mdash; 18&ndash;24 months full-time</li>
+          </ul>
+        </div>
+        <div className="card">
+          <h3 className="gold">Community Round &middot; $500K&ndash;1M</h3>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>Wefunder. The people who believe in this own a piece of it.</p>
+          <ul style={{ fontSize: '0.8rem' }}>
+            <li><strong>Community ownership</strong> &mdash; members become investors, investors become members</li>
+            <li><strong>Working capital</strong> &mdash; fuel for the experiments as they come alive</li>
+            <li><strong>Signal</strong> &mdash; hundreds of people saying &ldquo;this matters&rdquo; with their wallets</li>
+          </ul>
+        </div>
+      </div>
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem', marginTop: '0.75rem', maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', justifyContent: 'center' }}>
         {[
-          ['Q3 2026', 'Entity formation complete \u2014 PPT, RCO, HoldCo, Church legally established'],
-          ['Q3 2026', 'Wefunder community round live \u2014 the people who believe in this own a piece of it'],
-          ['Q3 2026', 'First NHR enterprise pilot \u2014 prove the wedge with a real company and real humans'],
-          ['Q4 2026', 'First Magic Show at scale \u2014 immersive experience as a repeatable revenue event'],
-          ['Q4 2026', 'B3.0 first paid cohort \u2014 consulting IP becomes a live product'],
-          ['Q1 2027', 'JOB Board marketplace launch \u2014 20% fee on human services that don\u2019t exist yet'],
-          ['Q2 2027', 'First MagicShowLand location scouted \u2014 real estate arbitrage begins'],
+          ['Q3 2026', 'Entities formed'],
+          ['Q3 2026', 'NHR first enterprise pilot'],
+          ['Q3 2026', 'Wefunder live'],
+          ['Q4 2026', 'Magic Show at scale'],
+          ['Q4 2026', 'B3.0 first paid cohort'],
+          ['Q1 2027', 'JOB Board launch'],
+          ['Q2 2027', 'MagicShowLand scouted'],
         ].map(([when, what], i) => (
-          <div key={i} style={{ display: 'flex', gap: '1rem', padding: '0.55rem 0.85rem', border: '1px solid var(--border)', borderRadius: '8px', background: 'rgba(255,255,255,0.03)', alignItems: 'baseline' }}>
-            <span className="gold" style={{ fontWeight: 700, fontSize: '0.8rem', whiteSpace: 'nowrap', minWidth: '70px' }}>{when}</span>
-            <span style={{ fontSize: '0.85rem', lineHeight: 1.45 }}>{what}</span>
+          <div key={i} style={{ padding: '0.35rem 0.65rem', border: '1px solid var(--border)', borderRadius: '6px', background: 'rgba(255,255,255,0.03)', fontSize: '0.75rem' }}>
+            <span className="gold" style={{ fontWeight: 700 }}>{when}</span>{' '}<span>{what}</span>
           </div>
         ))}
       </div>
+      <p style={{ marginTop: '0.75rem', textAlign: 'center', fontSize: '1rem', fontStyle: 'italic' }}>You&apos;re not getting equity in one experiment. You&apos;re getting equity in the system that holds all of them. The ones we have now and the ones the organism builds.</p>
     </div>
   ),
 
   // 16 — TEAM
   () => (
     <div className="slide">
-      <h3>09 · Team</h3>
+      <h3>16 · Team</h3>
       <h1>Big idea and big implementation experts.</h1>
       <div className="two-col">
         <div className="card">
@@ -697,40 +718,7 @@ const slides = [
     </div>
   ),
 
-  // 16 — THE ASK
-  () => (
-    <div className="slide">
-      <h3>16 · The ask</h3>
-      <h1><span className="gold">$3&ndash;4M.</span> Two layers. One organism.</h1>
-      <p style={{ fontSize: '1.05rem', marginTop: '0.75rem', lineHeight: 1.6, textAlign: 'center' }}>The founding investors build the infrastructure. The community owns it with us.</p>
-      <div className="two-col" style={{ marginTop: '1rem' }}>
-        <div className="card">
-          <h3 className="gold">Founding Circle &middot; $2.5&ndash;3M</h3>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>Angel + philanthropic capital that makes the organism real.</p>
-          <ul style={{ fontSize: '0.85rem' }}>
-            <li><strong>NHR program build</strong> &mdash; curriculum, facilitators, delivery platform to support 2,000 layoffs</li>
-            <li><strong>JOB Report ledger</strong> &mdash; production OS for tracking and redeeming contribution</li>
-            <li><strong>All six experiments</strong> &mdash; working versions of NHR, B3.0, Magic Shows, JOB Board, JOB Church, MagicShowLand</li>
-            <li><strong>Entity formation</strong> &mdash; PPT, RCO, HoldCo, Church legally established</li>
-            <li><strong>Founder runway</strong> &mdash; Nicole + Pam full-time for 18&ndash;24 months</li>
-            <li><strong>Key hires</strong> &mdash; engineering, community, operations</li>
-          </ul>
-        </div>
-        <div className="card">
-          <h3 className="gold">Community Round &middot; $500K&ndash;1M</h3>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.5rem' }}>Wefunder. The people who believe in this own a piece of it.</p>
-          <ul style={{ fontSize: '0.85rem' }}>
-            <li><strong>Community ownership</strong> &mdash; members become investors, investors become members</li>
-            <li><strong>Working capital</strong> &mdash; fuel for the experiments as they come alive</li>
-            <li><strong>Signal</strong> &mdash; hundreds of people saying &ldquo;this matters&rdquo; with their wallets</li>
-          </ul>
-          <p style={{ fontSize: '0.85rem', marginTop: '0.5rem', fontStyle: 'italic' }}>You&apos;re not getting equity in one experiment. You&apos;re getting equity in the system that holds all of them. The ones we have now and the ones the organism builds.</p>
-        </div>
-      </div>
-    </div>
-  ),
-
-  // 22 — CLOSE (handled separately)
+  // 17 — CLOSE (handled separately)
   null,
 ];
 
