@@ -753,6 +753,7 @@ const slides = [
             ['Sara B. Stern', 'writing church docs'],
             ['Tracy Call', 'implementing B3.0'],
             ['Max Rigano', 'practicing being'],
+            ['Laura Gill', 'planning B3.0 UnConference'],
             ['Dogcultr', 'dogs helping humans be human'],
           ].map(([name, role], i) => (
             <span key={i} style={{ padding: '0.25rem 0.5rem', border: '1px solid var(--border)', borderRadius: '4px', fontSize: '0.7rem', background: 'rgba(255,255,255,0.03)' }}>
