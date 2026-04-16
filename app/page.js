@@ -692,7 +692,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>16 · Team</h3>
-      <h1>Two founders. One organism. <span className="gold">An army that hires itself.</span></h1>
+      <h1>Two Visionaries and <span className="gold">Humanity beside them</span></h1>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
           <h3 style={{ color: 'var(--text)', textTransform: 'none', letterSpacing: '-0.01em', fontSize: '1.3rem', WebkitTextFillColor: 'var(--text)', marginBottom: '0.15rem' }}>Nicole Ayres</h3>
