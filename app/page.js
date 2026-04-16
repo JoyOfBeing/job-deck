@@ -471,7 +471,7 @@ const slides = [
 
           {/* J.O.B. */}
           <div style={{ background: 'var(--iridescent)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.4rem', fontWeight: 800 }}>J.O.B.</div>
-          <div style={{ fontSize: '0.75rem', fontStyle: 'italic', color: 'var(--gold)', marginBottom: '0.2rem' }}>&ldquo;What happens when being human is the job?&rdquo;</div>
+          <div style={{ fontSize: '1.1rem', fontWeight: 700, fontStyle: 'italic', color: 'var(--gold)', marginBottom: '0.3rem' }}>&ldquo;What happens when being human is the job?&rdquo;</div>
 
           {/* LAYER 1: PPT */}
           <div style={connector('#c9a84c')} />
