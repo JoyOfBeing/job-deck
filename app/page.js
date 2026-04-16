@@ -445,9 +445,10 @@ const slides = [
       { id: 'profits', label: 'Returns to Investors', desc: 'Profits flow back to community investors.' },
     ];
     const rcoItems = [
-      { id: 'members', label: 'Members', desc: 'People join and contribute non-monetary investment \u2014 time, skills, network, ideas, care. Financial investment flows through the For-Profit side.' },
-      { id: 'jobreport', label: 'J.O.B. Report', desc: 'The technology layer. Tracks, attributes, and redeems value anywhere in the organism over time. Self-regulating. Informs the HoldCo and Church where to invest next \u2014 grow or compost.' },
-      { id: 'field', label: 'The Field', desc: 'People \u00d7 energy \u00d7 technology. The RCO is the living field where flow happens \u2014 contributions move, value compounds, and the organism senses where to go next.' },
+      { id: 'members', label: 'Members', desc: 'People join the organism and contribute non-monetary investment \u2014 time, skills, network, ideas, care. This is how the RCO grows: not through hiring, but through attraction. Financial investment flows through the For-Profit side.' },
+      { id: 'matching', label: 'Matching', desc: 'The organism routes humans to needs, projects, and each other \u2014 based on energy, fit, and what\u2019s alive right now. This is the internal intelligence that powers the J.O.B. Board and every other surface where humans meet work.' },
+      { id: 'jobreport', label: 'J.O.B. Report', desc: 'The technology layer that makes the RCO self-regulating. Tracks, attributes, and redeems value anywhere in the organism over time. Informs the HoldCo and Church where to invest next \u2014 grow or compost.' },
+      { id: 'field', label: 'The Field', desc: 'People \u00d7 energy \u00d7 technology. The RCO is the living field where flow happens \u2014 contributions move, value compounds, and the organism senses where to go next. Everything above feeds it. Everything below draws from it.' },
     ];
     const churchItems = [
       { id: 'doctrine', label: 'Doctrine + Sacrament', desc: 'Sunday Night Live, elder-guided tracks, the initiatory journey. Living doctrine, not dogma.' },
