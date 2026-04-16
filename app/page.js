@@ -432,17 +432,21 @@ const slides = [
     });
 
     const holdcoItems = [
-      { id: 'pool', label: 'Investment Pool', desc: 'Community-owned capital via Wefunder / Reg CF equity crowdfunding.' },
-      { id: 'ops', label: 'Operations + Incubator', desc: 'Day-to-day operations. Incubates new experiments. Graduates winners into SPVs.' },
-      { id: 'spvs', label: 'SPV Subsidiaries', desc: 'Each successful experiment becomes its own investable entity.', children: [
-        { id: 'nhr', label: 'New Human Resources', desc: 'B2B offboarding-as-benefit. The revenue wedge.' },
-        { id: 'b30', label: 'Business 3.0', desc: 'Consulting IP and organizational transformation.' },
-        { id: 'msl', label: 'MagicShowLand', desc: 'Physical immersive spaces \u2014 abandoned churches, castles, colleges.' },
-        { id: 'ms', label: 'Magic Shows', desc: 'Experiential events. Corporate retreats, initiatory experiences.' },
-        { id: 'board', label: 'J.O.B. Board', desc: 'A marketplace for things AI can\u2019t do.' },
-        { id: 'report', label: 'J.O.B. Report', desc: 'AI contribution tracking. Attributes value beyond money.' },
+      { id: 'pool', label: 'Investment Pool', desc: 'Community-owned capital via Wefunder / Reg CF equity crowdfunding. The people who believe in J.O.B. own a piece of it. Capital flows into experiments, and successful ones become their own investable entities.' },
+      { id: 'ops', label: 'Operations + Incubator', desc: 'The nervous system of the organism. Runs day-to-day operations and incubates new experiments. When something works, it graduates into its own SPV. When it doesn\u2019t, it gets composted \u2014 learnings and relationships recycled back into the system.' },
+      { id: 'spvs', label: 'SPV Subsidiaries', desc: 'Each successful experiment becomes its own investable entity. SPVs can raise independently while staying connected to the organism. This is how the HoldCo scales without centralizing.', children: [
+        { id: 'nhr', label: 'New Human Resources', desc: 'B2B offboarding-as-benefit. The revenue wedge. Companies pay to transition their people through J.O.B. instead of handing them a severance check and a LinkedIn link. The budget already exists \u2014 we\u2019re the first honest use of it.' },
+        { id: 'b30', label: 'Business 3.0', desc: 'Consulting IP and organizational transformation. Helps companies become organisms, not machines. Founder cohorts, certified Guides, and a framework built on nature\u2019s intelligence \u2014 not another management theory.' },
+        { id: 'msl', label: 'MagicShowLand', desc: 'Physical immersive spaces in abandoned churches, castles, and colleges \u2014 where humans go to remember what they are. The real-world training grounds for the organism.' },
+        { id: 'ms', label: 'Magic Shows', desc: 'Experiential events that crack people open. Corporate retreats, public gatherings, initiatory experiences. Psychedelic-adjacent journeys where human magic gets rediscovered in days, not years.' },
+        { id: 'board', label: 'J.O.B. Board', desc: 'A marketplace for things AI can\u2019t do. Humans post uniquely human offers \u2014 presence, care, craft, mentorship. Other humans pay for them. 20% platform fee. The Trojan Horse: it looks like a gig platform, but it\u2019s a doorway into the organism.' },
+        { id: 'report', label: 'J.O.B. Report', desc: 'The commercial product built on the RCO\u2019s contribution tracking technology. AI-powered value attribution that works beyond money \u2014 licensable to other RCOs and organizations.' },
       ]},
-      { id: 'profits', label: 'Returns to Investors', desc: 'Profits flow back to community investors.' },
+      { id: 'ext', label: 'External Investments', desc: 'The organism can invest in member projects and aligned ventures, expanding the mycelial network. Not acquisitions \u2014 resonance-based partnerships where the whole gets stronger.', children: [
+        { id: 'spirit', label: 'SpiritTech', desc: 'Technology that serves the human spirit, not the other way around. Investments in tools and platforms that honor human sovereignty.' },
+        { id: 'immersive', label: 'Immersive Centers', desc: 'Spaces designed for transformation beyond MagicShowLand \u2014 experiential environments where the work of becoming human has a physical home.' },
+      ]},
+      { id: 'profits', label: 'Returns to Investors', desc: 'The organism rewards the humans who fund it. Profits flow back to community investors \u2014 the people who believed before it was obvious. Not charity, not extraction \u2014 regenerative returns.' },
     ];
     const rcoItems = [
       { id: 'members', label: 'Members', desc: 'People join the organism and contribute non-monetary investment \u2014 time, skills, network, ideas, care. This is how the RCO grows: not through hiring, but through attraction. Financial investment flows through the For-Profit side.' },
@@ -451,10 +455,12 @@ const slides = [
       { id: 'field', label: 'The Field', desc: 'People \u00d7 energy \u00d7 technology. The RCO is the living field where flow happens \u2014 contributions move, value compounds, and the organism senses where to go next. Everything above feeds it. Everything below draws from it.' },
     ];
     const churchItems = [
-      { id: 'doctrine', label: 'Doctrine + Sacrament', desc: 'Sunday Night Live, elder-guided tracks, the initiatory journey. Living doctrine, not dogma.' },
-      { id: 'mutual', label: 'Mutual Aid', desc: 'The organism takes care of its own. Community support, resource sharing.' },
-      { id: 'ip', label: 'Church IP (licensed to HoldCo)', desc: 'Transformation methodology owned by the nonprofit, licensed to the HoldCo.' },
-      { id: 'land', label: 'Holds Land', desc: 'Sanctuaries, gathering spaces, future MagicShowLand locations.' },
+      { id: 'doctrine', label: 'Doctrine + Sacrament', desc: 'The sacred container. Sunday Night Live, elder-guided tracks, the initiatory journey. Living doctrine that evolves with the community, not dogma handed down. The deprogramming is the root \u2014 everything else is a surface for that transformation to show up.' },
+      { id: 'mutual', label: 'Mutual Aid', desc: 'The organism takes care of its own. Community support, resource sharing, mutual aid networks. When a member is in crisis, the Church responds \u2014 not with a form, but with presence. Humans helping humans, the original technology.' },
+      { id: 'grants', label: 'Grants + MicroGrants', desc: 'Small bets on sovereign humans. Funding for members who are building something from the inside out. The organism invests in the people it creates \u2014 before the market would.' },
+      { id: 'ip', label: 'Church IP (licensed to HoldCo)', desc: 'The transformation methodology, curriculum, and practices \u2014 owned by the nonprofit, licensed to the HoldCo. This is the bridge: mission-side IP fuels commercial-side revenue without the mission losing control. The Perpetual Purpose Trust ensures it stays that way.' },
+      { id: 'land', label: 'Holds Land', desc: 'Physical spaces owned by the nonprofit \u2014 sanctuaries, gathering spaces, future MagicShowLand locations. Land held in trust for the community, not for profit. These are the rooms the organism builds in.' },
+      { id: 'research', label: 'Research + Publication', desc: 'Studying what happens when humans deprogram. Publishing findings. Building the evidence base for a new way of being. The organism documents its own evolution so others can learn from it.' },
     ];
 
     const ChildRow = ({ item, color }) => (
