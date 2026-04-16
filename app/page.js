@@ -365,9 +365,10 @@ const slides = [
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: '0.6rem 1rem', marginTop: '1.5rem', maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', alignItems: 'center' }}>
         {[
           ['The name', 'sounds like employment', 'it\u2019s about being'],
-          ['The products', 'look like familiar categories', 'they\u2019re transformation disguised as commerce'],
           ['The company', 'looks like a startup', 'it\u2019s an organism that can\u2019t be extracted from'],
-          ['The pitch', 'sounds like a business opportunity', 'it\u2019s an invitation to build a new civilization'],
+          ['The products', 'look like familiar categories', 'they\u2019re transformation disguised as commerce'],
+          ['The membership', 'looks like a subscription', 'it\u2019s citizenship in a new economy'],
+          ['The fundraise', 'looks like a seed round', 'it\u2019s an invitation to co-own the transition'],
         ].map(([label, outside, inside], i) => (
           <div key={i} style={{ display: 'contents' }}>
             <div style={{ textAlign: 'right' }}>
