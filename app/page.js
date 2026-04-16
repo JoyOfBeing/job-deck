@@ -76,7 +76,7 @@ function JobReportSlide() {
 
   return (
     <div className="slide job-report-slide">
-      <h3>14 · The moat</h3>
+      <h3>13 · The moat</h3>
       <h1>Our moat isn&apos;t technology. It&apos;s <span className="gold">memory.</span></h1>
       <p style={{ marginBottom: '0.6rem' }}>
         Individuals and companies join the RCO as members. Every introduction, every idea, every line of code built at 2am, every transition center opened &mdash; the JOB Report tracks it all.
@@ -164,7 +164,7 @@ function RevenueChartSlide() {
   const maxValue = 200;
   return (
     <div className="slide">
-      <h3>20 · Revenue at scale</h3>
+      <h3>14 · Revenue at scale</h3>
       <h1>Where the money gets made.</h1>
       <p style={{ fontSize: '1.05rem', marginTop: '0.25rem' }}><strong>Six revenue lines. One organism.</strong> NHR is the wedge &mdash; biggest, fastest, already selling. The rest compound behind it as the network grows. Click any experiment for the math.</p>
       <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.25rem' }}>Numbers are early-stage models, not promises.</p>
@@ -641,7 +641,7 @@ const slides = [
     </div>
   ),
 
-  // 13 — JOB REPORT
+  // 13 — THE MOAT / JOB REPORT
   JobReportSlide,
 
   // 15 — THE ASK
