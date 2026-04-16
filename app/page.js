@@ -413,49 +413,63 @@ const slides = [
     </div>
   ),
 
-  // 7 — THE STRUCTURE
+  // 7 — THE STRUCTURE (four layers)
   () => {
     const [openId, setOpenId] = useState(null);
     const toggle = (id) => setOpenId(openId === id ? null : id);
-    const holdco = [
-      { id: 'pool', label: 'Investment Pool', desc: 'Community-owned capital via Wefunder / Reg CF equity crowdfunding. The people who believe in JOB own a piece of it.' },
-      { id: 'ops', label: 'Operations + Incubator', desc: 'The nervous system. Runs day-to-day operations and incubates new experiments. When something works, it graduates into its own SPV.' },
-      { id: 'spvs', label: 'SPV Subsidiaries', desc: 'Successful experiments become their own investable entities. Each SPV can raise independently while staying connected to the organism.', children: [
-        { id: 'nhr', label: 'New Human Resources SPV', desc: 'B2B offboarding-as-benefit. The revenue wedge.' },
-        { id: 'b30', label: 'Business 3.0 SPV', desc: 'Consulting IP and organizational transformation.' },
-        { id: 'msl', label: 'MagicShowLand SPV', desc: 'Physical immersive spaces \u2014 abandoned churches, castles, colleges.' },
-        { id: 'ms', label: 'Magic Shows SPV', desc: 'Experiential events. Corporate retreats, public gatherings, initiatory experiences.' },
-        { id: 'board', label: 'J.O.B. Board SPV', desc: 'A marketplace for things AI can\u2019t do.' },
-        { id: 'report', label: 'J.O.B. Report SPV', desc: 'AI contribution tracking engine. Attributes value beyond money across the organism.' },
+
+    const layerBox = (color, bg) => ({
+      width: '100%', padding: '0.55rem 0.75rem', border: `1px solid ${color}`, borderRadius: '8px',
+      background: bg, cursor: 'pointer', marginBottom: '0.15rem', transition: 'background 0.15s',
+    });
+    const layerLabel = { fontWeight: 700, fontSize: '0.95rem' };
+    const layerRole = (color) => ({ fontSize: '0.65rem', color, textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '0.1rem' });
+    const layerDesc = { fontSize: '0.78rem', color: 'var(--text-muted)', marginTop: '0.35rem', lineHeight: 1.45, opacity: 0, animation: 'fadeIn 0.3s ease forwards' };
+    const connector = (color) => ({ width: '2px', height: '14px', background: color, opacity: 0.5, margin: '0 auto' });
+    const childBox = (color) => ({
+      padding: '0.35rem 0.55rem', border: `1px solid ${color}`, borderRadius: '6px',
+      background: 'rgba(255,255,255,0.02)', cursor: 'pointer', fontSize: '0.78rem', fontWeight: 600,
+    });
+
+    const holdcoItems = [
+      { id: 'pool', label: 'Investment Pool', desc: 'Community-owned capital via Wefunder / Reg CF equity crowdfunding.' },
+      { id: 'ops', label: 'Operations + Incubator', desc: 'Day-to-day operations. Incubates new experiments. Graduates winners into SPVs.' },
+      { id: 'spvs', label: 'SPV Subsidiaries', desc: 'Each successful experiment becomes its own investable entity.', children: [
+        { id: 'nhr', label: 'New Human Resources', desc: 'B2B offboarding-as-benefit. The revenue wedge.' },
+        { id: 'b30', label: 'Business 3.0', desc: 'Consulting IP and organizational transformation.' },
+        { id: 'msl', label: 'MagicShowLand', desc: 'Physical immersive spaces \u2014 abandoned churches, castles, colleges.' },
+        { id: 'ms', label: 'Magic Shows', desc: 'Experiential events. Corporate retreats, initiatory experiences.' },
+        { id: 'board', label: 'J.O.B. Board', desc: 'A marketplace for things AI can\u2019t do.' },
+        { id: 'report', label: 'J.O.B. Report', desc: 'AI contribution tracking. Attributes value beyond money.' },
       ]},
-      { id: 'ext', label: 'External Investments', desc: 'The organism invests in member projects and aligned ventures, expanding the mycelial network.', children: [
-        { id: 'spirit', label: 'SpiritTech SPV', desc: 'Technology that serves the human spirit.' },
-        { id: 'immersive', label: 'Immersive Centers SPV', desc: 'Spaces designed for transformation.' },
-      ]},
-      { id: 'profits', label: 'Distributes Profits to Investors', desc: 'Profits flow back to community investors \u2014 the people who believed before it was obvious.' },
+      { id: 'profits', label: 'Returns to Investors', desc: 'Profits flow back to community investors.' },
     ];
-    const church = [
-      { id: 'doctrine', label: 'Doctrine & Sacrament', desc: 'Living doctrine. The Church, Sunday Night Live, elder-guided tracks, the initiatory journey.' },
-      { id: 'mutual', label: 'Public Benefit / Mutual Aid', desc: 'The organism takes care of its own. Community support, resource sharing, mutual aid networks.' },
-      { id: 'grants', label: 'Grants / MicroGrants', desc: 'Small bets on sovereign humans. The organism invests in the people it creates.' },
-      { id: 'ip', label: 'Church IP (licensed to HoldCo)', desc: 'Transformation methodology owned by the nonprofit, licensed to the HoldCo. Mission-side IP fuels commercial-side revenue.' },
-      { id: 'land', label: 'Holds Land', desc: 'Physical spaces owned by the nonprofit \u2014 sanctuaries, gathering spaces, future MagicShowLand locations.' },
-      { id: 'research', label: 'Research & Publication Arm', desc: 'Studying what happens when humans deprogram. Publishing findings. The organism documents its own evolution.' },
+    const rcoItems = [
+      { id: 'members', label: 'Members + Contributors', desc: 'People contribute money, time, skills, network, ideas, or care \u2014 the organism tracks and attributes all of it.' },
+      { id: 'routing', label: 'Routing + Matching', desc: 'Contributors get matched to experiments, SPVs, and projects based on energy and fit \u2014 not job descriptions.' },
+      { id: 'value', label: 'Value Creation', desc: 'Skills and ideas become revenue-generating output. The organism turns participation into commerce.' },
     ];
-    const Row = ({ item, color }) => (
+    const churchItems = [
+      { id: 'doctrine', label: 'Doctrine + Sacrament', desc: 'Sunday Night Live, elder-guided tracks, the initiatory journey. Living doctrine, not dogma.' },
+      { id: 'mutual', label: 'Mutual Aid', desc: 'The organism takes care of its own. Community support, resource sharing.' },
+      { id: 'ip', label: 'Church IP (licensed to HoldCo)', desc: 'Transformation methodology owned by the nonprofit, licensed to the HoldCo.' },
+      { id: 'land', label: 'Holds Land', desc: 'Sanctuaries, gathering spaces, future MagicShowLand locations.' },
+    ];
+
+    const ChildRow = ({ item, color }) => (
       <div>
-        <div onClick={() => toggle(item.id)} style={{ padding: '0.45rem 0.65rem', border: `1px solid ${color}`, borderRadius: '8px', background: 'rgba(255,255,255,0.03)', cursor: 'pointer', fontSize: '0.82rem', fontWeight: 600 }}>
+        <div onClick={(e) => { e.stopPropagation(); toggle(item.id); }} style={childBox(color)}>
           {item.label} {item.children ? '+' : ''}
         </div>
         {openId === item.id && (
-          <div style={{ padding: '0.35rem 0.65rem', fontSize: '0.78rem', color: 'var(--text-muted)', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+          <div style={{ padding: '0.25rem 0.55rem', fontSize: '0.75rem', color: 'var(--text-muted)', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
             {item.desc}
             {item.children && (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', marginTop: '0.35rem' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', marginTop: '0.3rem' }}>
                 {item.children.map(c => (
                   <div key={c.id}>
-                    <div onClick={(e) => { e.stopPropagation(); toggle(c.id); }} style={{ padding: '0.35rem 0.55rem', border: `1px solid ${color}`, borderRadius: '6px', background: 'rgba(255,255,255,0.02)', cursor: 'pointer', fontSize: '0.78rem', fontWeight: 600 }}>{c.label}</div>
-                    {openId === c.id && <div style={{ padding: '0.25rem 0.55rem', fontSize: '0.75rem', color: 'var(--text-muted)', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>{c.desc}</div>}
+                    <div onClick={(e) => { e.stopPropagation(); toggle(c.id); }} style={childBox(color)}>{c.label}</div>
+                    {openId === c.id && <div style={{ padding: '0.2rem 0.55rem', fontSize: '0.72rem', color: 'var(--text-muted)', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>{c.desc}</div>}
                   </div>
                 ))}
               </div>
@@ -464,48 +478,76 @@ const slides = [
         )}
       </div>
     );
+
     return (
       <div className="slide">
         <h3>07 · The structure</h3>
-        <h1>Two entities, <span className="gold">one organism.</span></h1>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <div style={{ background: 'var(--iridescent)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.5rem', fontWeight: 800 }}>J.O.B.</div>
-          <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>The Joy of Being</div>
-          <div style={{ fontSize: '0.8rem', fontStyle: 'italic', color: 'var(--gold)', marginBottom: '0.4rem' }}>&ldquo;What happens when being human is the job?&rdquo;</div>
-          <div style={{ display: 'flex', gap: '1rem', width: '100%' }}>
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ width: '2px', height: '20px', background: 'var(--purple)', opacity: 0.6 }} />
-              <div
-                onClick={() => toggle('holdco')}
-                style={{ width: '100%', padding: '0.6rem 0.75rem', border: '1px solid var(--purple)', borderRadius: '8px', background: 'rgba(139,92,246,0.08)', cursor: 'pointer', marginBottom: '0.4rem' }}
-              >
-                <div style={{ fontWeight: 700, fontSize: '1rem' }}>For-Profit HoldCo</div>
-                <div style={{ fontSize: '0.7rem', color: 'var(--purple)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '0.15rem' }}>Sustainability Engine</div>
-                {openId === 'holdco' && (
-                  <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginTop: '0.4rem', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>The commercial arm. Houses investable subsidiaries (SPVs), runs operations, and distributes profits to investors &mdash; without compromising the mission held by the nonprofit.</p>
-                )}
-              </div>
-              <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.3rem' }}>
-                {holdco.map(item => <Row key={item.id} item={item} color="rgba(139,92,246,0.25)" />)}
-              </div>
-            </div>
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <div style={{ width: '2px', height: '20px', background: 'var(--teal)', opacity: 0.6 }} />
-              <div
-                onClick={() => toggle('church')}
-                style={{ width: '100%', padding: '0.6rem 0.75rem', border: '1px solid var(--teal)', borderRadius: '8px', background: 'rgba(45,212,191,0.08)', cursor: 'pointer', marginBottom: '0.4rem' }}
-              >
-                <div style={{ fontWeight: 700, fontSize: '1rem' }}>Nonprofit 508(c)(1)(a)</div>
-                <div style={{ fontSize: '0.7rem', color: 'var(--teal)', textTransform: 'uppercase', letterSpacing: '0.05em', marginTop: '0.15rem' }}>Mission Guardian</div>
-                {openId === 'church' && (
-                  <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginTop: '0.4rem', lineHeight: 1.4, opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>The soul of the organism. A religious nonprofit that holds the mission, doctrine, and community functions. Protected by a purpose trust (Patagonia model) so the mission can never be sold or corrupted.</p>
-                )}
-              </div>
-              <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.3rem' }}>
-                {church.map(item => <Row key={item.id} item={item} color="rgba(45,212,191,0.25)" />)}
-              </div>
-            </div>
+        <h1>Four layers, <span className="gold">one organism.</span></h1>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+
+          {/* J.O.B. */}
+          <div style={{ background: 'var(--iridescent)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.4rem', fontWeight: 800 }}>J.O.B.</div>
+          <div style={{ fontSize: '0.75rem', fontStyle: 'italic', color: 'var(--gold)', marginBottom: '0.2rem' }}>&ldquo;What happens when being human is the job?&rdquo;</div>
+
+          {/* LAYER 1: PPT */}
+          <div style={connector('#c9a84c')} />
+          <div onClick={() => toggle('ppt')} style={layerBox('#c9a84c', 'rgba(201,168,76,0.08)')}>
+            <div style={layerLabel}>Perpetual Purpose Trust</div>
+            <div style={layerRole('#c9a84c')}>Protects the Purpose</div>
+            {openId === 'ppt' && (
+              <p style={layerDesc}>Owns the HoldCo. The trustee&apos;s legal obligation is to the guiding question &mdash; not to founders, not to shareholders. The mission can never be sold, acquired, or diluted. This is why investors can trust that their capital serves something permanent.</p>
+            )}
           </div>
+
+          {/* LAYER 2: HOLDCO */}
+          <div style={connector('var(--purple)')} />
+          <div onClick={() => toggle('holdco')} style={layerBox('var(--purple)', 'rgba(139,92,246,0.08)')}>
+            <div style={layerLabel}>For-Profit HoldCo</div>
+            <div style={layerRole('var(--purple)')}>Drives the Business</div>
+            {openId === 'holdco' && (
+              <p style={layerDesc}>The financial engine. Raises capital, funds experiments, graduates winners into SPVs, and returns profits to investors.</p>
+            )}
+          </div>
+          {openId === 'holdco' && (
+            <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+              {holdcoItems.map(item => <ChildRow key={item.id} item={item} color="rgba(139,92,246,0.25)" />)}
+            </div>
+          )}
+
+          {/* LAYER 3: RCO — spans between HoldCo and Church */}
+          <div style={connector('var(--pink)')} />
+          <div onClick={() => toggle('rco')} style={layerBox('var(--pink)', 'rgba(236,72,153,0.08)')}>
+            <div style={layerLabel}>RCO &mdash; Regenerative Community Organism</div>
+            <div style={layerRole('var(--pink)')}>Produces the Value</div>
+            {openId === 'rco' && (
+              <p style={layerDesc}>The coordination layer where people actually participate. Contributors bring money, time, skills, network, ideas, or care &mdash; the RCO routes them into real work and turns participation into revenue-generating output.</p>
+            )}
+          </div>
+          {openId === 'rco' && (
+            <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+              {rcoItems.map(item => <ChildRow key={item.id} item={item} color="rgba(236,72,153,0.25)" />)}
+            </div>
+          )}
+
+          {/* LAYER 4: CHURCH */}
+          <div style={connector('var(--teal)')} />
+          <div onClick={() => toggle('church')} style={layerBox('var(--teal)', 'rgba(45,212,191,0.08)')}>
+            <div style={layerLabel}>Nonprofit 508(c)(1)(a) &mdash; The Church</div>
+            <div style={layerRole('var(--teal)')}>Sustains the Soul</div>
+            {openId === 'church' && (
+              <p style={layerDesc}>The meaning layer. Develops people, holds the values, and ensures the system stays human and aligned. Owns the transformation IP and licenses it to the HoldCo.</p>
+            )}
+          </div>
+          {openId === 'church' && (
+            <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+              {churchItems.map(item => <ChildRow key={item.id} item={item} color="rgba(45,212,191,0.25)" />)}
+            </div>
+          )}
+
+          {/* Summary line */}
+          <p style={{ marginTop: '0.6rem', fontSize: '0.8rem', color: 'var(--text-muted)', textAlign: 'center', lineHeight: 1.5 }}>
+            The <span style={{ color: '#c9a84c' }}>Trust</span> protects the purpose. The <span style={{ color: 'var(--purple)' }}>HoldCo</span> drives the business. The <span style={{ color: 'var(--pink)' }}>RCO</span> produces the value. The <span style={{ color: 'var(--teal)' }}>Church</span> sustains the soul.
+          </p>
         </div>
       </div>
     );
