@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "J.O.B. — The Joy of Being Company",
-  description: "Being human is the job.",
+  title: "Being human is the job.",
+  description: "J.O.B. — The Joy of Being Company",
 };
 
 export default function RootLayout({ children }) {
