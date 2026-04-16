@@ -717,16 +717,16 @@ const slides = [
         <p className="gold" style={{ fontWeight: 700, fontSize: '0.85rem', marginBottom: '0.4rem' }}>The organism is already building itself.</p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
           {[
-            ['Jumpsuit', 'building MVPs'],
-            ['Leigh Siegfried', 'implementing B3.0'],
-            ['Nicole BZ', 'church treasurer'],
-            ['Denise Hontiveros', 'holding space at Magic Shows'],
-            ['Nils von Heijne', 'visionary of the RCO'],
-            ['Dogcultr', 'dogs helping humans be human'],
-            ['Diane Wilde Olcott', 'designing NHR offering'],
             ['Amit Paul', 'leading European enterprise company through B3.0'],
-            ['Bennet Zelner', 'regenerative economist'],
             ['John Noonan', 'VC supporting fundraise'],
+            ['Bennet Zelner', 'regenerative economist'],
+            ['Diane Wilde Olcott', 'designing NHR offering'],
+            ['Leigh Siegfried', 'implementing B3.0'],
+            ['Jumpsuit', 'building MVPs'],
+            ['Nils von Heijne', 'visionary of the RCO'],
+            ['Denise Hontiveros', 'holding space at Magic Shows'],
+            ['Nicole BZ', 'church treasurer'],
+            ['Dogcultr', 'dogs helping humans be human'],
           ].map(([name, role], i) => (
             <span key={i} style={{ padding: '0.25rem 0.5rem', border: '1px solid var(--border)', borderRadius: '4px', fontSize: '0.7rem', background: 'rgba(255,255,255,0.03)' }}>
               <strong>{name}</strong> <span style={{ color: 'var(--text-muted)' }}>{role}</span>
@@ -736,7 +736,7 @@ const slides = [
         <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.4rem', fontStyle: 'italic' }}>Nobody asked them to. They just showed up.</p>
       </div>
       <div style={{ marginTop: '0.5rem', padding: '0.5rem 0.85rem', border: '1px solid var(--border)', borderRadius: '8px', background: 'rgba(255,255,255,0.02)' }}>
-        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: '0.35rem' }}><span className="gold" style={{ fontWeight: 700 }}>90+ more</span> already on the RCO waitlist:</p>
+        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: '0.35rem' }}><span className="gold" style={{ fontWeight: 700 }}>Hundreds more</span> already on the RCO waitlist:</p>
         <p style={{ fontSize: '0.65rem', lineHeight: 1.7, color: 'var(--text-muted)' }}>
           Larissa &middot; Joseph &middot; Lucy &middot; Emily &middot; Louise &middot; Jess &middot; Jason &middot; Bart &middot; Chelsea &middot; Kamber &middot; Emma &middot; Steve &middot; Jenifer &middot; Danny &middot; Johann &middot; Chuck &middot; Kait &middot; Ryan &middot; Kristiana &middot; Vicki &middot; Paula &middot; Gertie &middot; Geoff &middot; Christoffer &middot; Noah &middot; Tracie &middot; Olivia &middot; Tyler &middot; Laurie &middot; Kristin &middot; Marcos &middot; Meqa &middot; Djuka &middot; Narriman &middot; Carisa &middot; Tanya &middot; David &middot; Dennis &middot; Marian &middot; Sameer &middot; Thomas &middot; Adrienne &middot; Sharan &middot; Charlotte &middot; Khuyen &middot; Marianne &middot; Alexandra &middot; Nicole &middot; Sam &middot; Gia &middot; Azure &middot; Kyle &middot; Crystal &middot; Katie &middot; Maria &middot; Megan &middot; Carrie &middot; Chris &middot; Nicolai &middot; Aimee &middot; Lauren &middot; Sarah &middot; Alexa &middot; Jessica &middot; Colleen &middot; Charl &middot; Paul &middot; Esa&uacute; &middot; Lirie &middot; Dave &middot; Melissa &middot; Tanya &middot; Denise &middot; David &middot; Alfonso &middot; Stephen &middot; Rosy &middot; Kaitlyn &middot; Angela &middot; LaToya &middot; Ellen &middot; Unyong &middot; Kate &middot; Megan &middot; Sara &middot; Nathan &middot; Alicia &middot; Rachael &middot; Jasmine &middot; Ien &middot; Becca &middot; Maria
         </p>
