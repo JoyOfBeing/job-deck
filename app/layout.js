@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "JOB — The New Human Resources",
-  description: "Work trained humans to be workers. We're building the company that trains them to be human.",
+  title: "J.O.B. — The Joy of Being Company",
+  description: "Being human is the job.",
 };
 
 export default function RootLayout({ children }) {
