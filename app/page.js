@@ -364,7 +364,7 @@ const slides = [
       <p style={{ fontSize: '1.15rem', marginTop: '1rem', lineHeight: 1.6, textAlign: 'center' }}>JOB speaks the language of the old world to smuggle people into the new one.</p>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', gap: '0.6rem 1rem', marginTop: '1.5rem', maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', alignItems: 'center' }}>
         {[
-          ['The name', 'sounds like employment', 'it\u2019s about being'],
+          ['The name', 'sounds like doing work', 'it\u2019s about being human'],
           ['The company', 'looks like a startup', 'it\u2019s an organism that can\u2019t be extracted from'],
           ['The products', 'look like familiar categories', 'they\u2019re transformation disguised as commerce'],
           ['The membership', 'looks like a subscription', 'it\u2019s citizenship in a new economy'],
