@@ -651,7 +651,10 @@ const slides = [
     </div>
   ),
 
-  // 13 — THE FIRST PORTAL
+  // 13 — JOB REPORT
+  JobReportSlide,
+
+  // 14 — THE FIRST PORTAL
   () => (
     <div className="slide">
       <h3>08 · The first portal</h3>
