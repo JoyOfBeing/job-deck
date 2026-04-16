@@ -380,7 +380,7 @@ const slides = [
           </div>
         ))}
       </div>
-      <p style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>Legibility is the delivery mechanism. <span className="gold">Transformation is the payload.</span></p>
+      <p style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>If you want to change the game, <span className="gold">learn to speak its language first.</span></p>
     </div>
   ),
 
