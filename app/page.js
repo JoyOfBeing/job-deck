@@ -622,8 +622,10 @@ const slides = [
 
   // 11 — BUT WHO'S GONNA PAY FOR IT?
   () => (
-    <div className="slide" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <h1 style={{ fontSize: '2.8rem', textAlign: 'center', background: 'linear-gradient(90deg, var(--text) 0%, var(--text) 40%, var(--gold) 50%, var(--text) 60%, var(--text) 100%)', backgroundSize: '200% auto', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', animation: 'shimmer 2s ease-in-out infinite' }}>But who&apos;s gonna pay for it?</h1>
+    <div className="slide">
+      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <h1 style={{ fontSize: '2.8rem', textAlign: 'center' }} className="gold">But who&apos;s gonna pay for it?</h1>
+      </div>
     </div>
   ),
 
