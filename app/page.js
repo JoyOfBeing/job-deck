@@ -692,15 +692,14 @@ const slides = [
   () => (
     <div className="slide">
       <h3>16 · Team</h3>
-      <h1>Big idea and big implementation experts.</h1>
-      <div className="two-col">
+      <h1>Two founders. One organism. <span className="gold">An army that hires itself.</span></h1>
+      <div className="two-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
           <h3 style={{ color: 'var(--text)', textTransform: 'none', letterSpacing: '-0.01em', fontSize: '1.3rem', WebkitTextFillColor: 'var(--text)', marginBottom: '0.15rem' }}>Nicole Ayres</h3>
           <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--gold)', fontWeight: 700, marginBottom: '0.5rem' }}>The Visionary Architect</p>
           <ul>
-            <li>Bootstrapped Jumpsuit to $4M/yr with 0 funding, 0 paid ads, and 0 employees</li>
-            <li>Future of Work AI platform acquired in 2024 by Chief Outsiders</li>
-            <li>Co-visionary: Business 3.0 + the RCO</li>
+            <li>Bootstrapped Jumpsuit to $4M/yr &mdash; 0 funding, 0 ads, 0 employees</li>
+            <li>Future of Work AI platform acquired 2024</li>
             <li>Building J.O.B. in real time with AI</li>
           </ul>
         </div>
@@ -709,11 +708,32 @@ const slides = [
           <p style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--gold)', fontWeight: 700, marginBottom: '0.5rem' }}>The Visionary Scaler</p>
           <ul>
             <li>Former CRO, EOS Worldwide &mdash; $145M revenue, 800+ implementers</li>
-            <li>Unified 700+ independent brands globally</li>
             <li>Invented McDonald&apos;s breakfast dollar menu</li>
             <li>6× world champion, Team USA</li>
           </ul>
         </div>
+      </div>
+      <div style={{ marginTop: '0.75rem', padding: '0.65rem 0.85rem', border: '1px solid var(--gold)', borderRadius: '8px', background: 'rgba(201,168,76,0.05)' }}>
+        <p className="gold" style={{ fontWeight: 700, fontSize: '0.85rem', marginBottom: '0.4rem' }}>The organism is already building itself.</p>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
+          {[
+            ['Jumpsuit', 'building MVPs'],
+            ['Leigh Siegfried', 'implementing B3.0'],
+            ['Nicole BZ', 'church treasurer'],
+            ['Denise Hontiveros', 'holding space at Magic Shows'],
+            ['Nils von Heijne', 'visionary of the RCO'],
+            ['Dogcultr', 'dogs helping humans be human'],
+            ['Diane Wilde Olcott', 'designing NHR offering'],
+            ['Amit Paul', 'leading Volvo Europe through B3.0'],
+            ['Bennet Zelner', 'regenerative economist'],
+            ['John Noonan', 'VC supporting fundraise'],
+          ].map(([name, role], i) => (
+            <span key={i} style={{ padding: '0.25rem 0.5rem', border: '1px solid var(--border)', borderRadius: '4px', fontSize: '0.7rem', background: 'rgba(255,255,255,0.03)' }}>
+              <strong>{name}</strong> <span style={{ color: 'var(--text-muted)' }}>{role}</span>
+            </span>
+          ))}
+        </div>
+        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '0.4rem', fontStyle: 'italic' }}>Nobody asked them to. They just showed up.</p>
       </div>
     </div>
   ),
