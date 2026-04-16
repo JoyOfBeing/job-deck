@@ -79,10 +79,10 @@ function JobReportSlide() {
       <h3>14 · The moat</h3>
       <h1>Our moat isn&apos;t technology. It&apos;s <span className="gold">memory.</span></h1>
       <p style={{ marginBottom: '0.6rem' }}>
-        Every introduction, every idea, every line of code built at 2am, every relationship opened &mdash; the JOB Report tracks it all. Not as hours logged, but as living contribution that compounds over time.
+        Every introduction, every idea, every line of code built at 2am, every transition center opened &mdash; the JOB Report tracks it all. Not as hours logged, but as living contribution that compounds over time.
       </p>
       <p style={{ marginBottom: '0.6rem' }}>
-        The longer someone stays, the richer their record becomes &mdash; and the more impossible this is to replicate. No competitor can copy a network effect built on years of contribution data that only exists inside the organism.
+        Diane&apos;s introduction today becomes redeemable credit across the organism tomorrow &mdash; a month at a Costa Rica retreat center, a seat in a B3.0 cohort, priority access to a MagicShowLand residency. The contribution compounds. The organism remembers. And no competitor can copy what only exists inside.
       </p>
       <p style={{ marginBottom: '0.75rem' }}>
         <strong>Try it below</strong> &mdash; describe something you&apos;d contribute to J.O.B. and see how the system reads it.
