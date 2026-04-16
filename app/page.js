@@ -634,7 +634,7 @@ const slides = [
     <div className="slide">
       <h3>12 · The answer</h3>
       <h1><span className="gold">Everybody.</span> We&apos;re already paying for it.</h1>
-      <p style={{ fontSize: '1.05rem', marginTop: '0.75rem', lineHeight: 1.6, textAlign: 'center' }}>$1.5 trillion flows into fragments every year. The money isn&apos;t missing &mdash; it&apos;s misallocated. When the infrastructure finally exists to hold the whole human, the funding comes from everywhere at once.</p>
+      <p style={{ fontSize: '1.05rem', marginTop: '0.75rem', lineHeight: 1.6, textAlign: 'center' }}>The question isn&apos;t who pays. It&apos;s who doesn&apos;t. $1.5 trillion flows into fragments every year. The money isn&apos;t missing &mdash; it&apos;s misallocated. When the infrastructure finally exists to hold the whole human, the funding comes from everywhere at once.</p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '1.25rem', maxWidth: '620px', marginLeft: 'auto', marginRight: 'auto' }}>
         {[
           ['Companies', 'Because they\u2019re already spending billions on the problem \u2014 they just need somewhere real to send their people'],
@@ -649,7 +649,7 @@ const slides = [
           </div>
         ))}
       </div>
-      <p style={{ marginTop: '1.25rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>The question isn&apos;t who pays. It&apos;s <span className="gold">who doesn&apos;t.</span></p>
+      <p style={{ marginTop: '1.25rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>But how do you track what <span className="gold">money can&apos;t measure?</span></p>
     </div>
   ),
 
