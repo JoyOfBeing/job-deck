@@ -340,8 +340,7 @@ const slides = [
         ))}
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: '140px 1fr', maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', marginTop: '0.5rem', border: '2px solid var(--gold)', borderRadius: '10px', overflow: 'hidden', background: 'rgba(201,168,76,0.08)' }}>
-        <div style={{ padding: '0.75rem 1rem', fontWeight: 700 }} className="gold">?</div>
-        <div style={{ padding: '0.75rem 1rem', fontWeight: 700, borderLeft: '2px solid var(--gold)' }} className="gold">Holds the whole human.</div>
+        <div style={{ padding: '0.75rem 1rem', fontWeight: 700, gridColumn: '1 / -1' }} className="gold">Who is finally going to hold the whole human?</div>
       </div>
       <p style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '1.3rem', fontWeight: 700 }}>A fragmented human problem demands a <span className="gold">whole new kind of infrastructure.</span></p>
     </div>
