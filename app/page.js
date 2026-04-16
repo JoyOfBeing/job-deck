@@ -336,8 +336,9 @@ const slides = [
   () => (
     <div className="slide">
       <h3>05 · The solution</h3>
-      <h1>J.O.B. = <span className="gold">Joy of Being.</span></h1>
-      <p style={{ fontSize: '1.2rem', marginTop: '1.25rem', lineHeight: 1.6 }}>The world&apos;s first infrastructure for <em>being</em> human. We hold people through this transition, help them discover who they really are, and then pay each other to do that.</p>
+      <h1>Being human <span className="gold">IS the job.</span></h1>
+      <p style={{ fontSize: '1.1rem', marginTop: '1.25rem', lineHeight: 1.6 }}>That&apos;s why J.O.B. stands for the <strong>Joy of Being.</strong></p>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem', lineHeight: 1.6 }}>J.O.B. is the world&apos;s first infrastructure for <em>being</em> human. We hold people through this transition, help them discover who they really are, and then pay each other to do that.</p>
       <p style={{ fontSize: '1.3rem', marginTop: '1.25rem', lineHeight: 1.5, fontWeight: 700 }} className="gold">It&apos;s like if AA, Meow Wolf, and Indeed teamed up to create the future Human Economy.</p>
     </div>
   ),
