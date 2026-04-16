@@ -499,28 +499,13 @@ const slides = [
             )}
           </div>
 
-          {/* LAYER 2: HOLDCO */}
-          <div style={connector('var(--purple)')} />
-          <div onClick={() => toggle('holdco')} style={layerBox('var(--purple)', 'rgba(139,92,246,0.08)')}>
-            <div style={layerLabel}>For-Profit HoldCo</div>
-            <div style={layerRole('var(--purple)')}>Drives the Business</div>
-            {openId === 'holdco' && (
-              <p style={layerDesc}>The financial engine. Raises capital, funds experiments, graduates winners into SPVs, and returns profits to investors.</p>
-            )}
-          </div>
-          {openId === 'holdco' && (
-            <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
-              {holdcoItems.map(item => <ChildRow key={item.id} item={item} color="rgba(139,92,246,0.25)" />)}
-            </div>
-          )}
-
-          {/* LAYER 3: RCO — spans between HoldCo and Church */}
+          {/* LAYER 2: RCO */}
           <div style={connector('var(--pink)')} />
           <div onClick={() => toggle('rco')} style={layerBox('var(--pink)', 'rgba(236,72,153,0.08)')}>
             <div style={layerLabel}>RCO &mdash; Regenerative Community Organism</div>
             <div style={layerRole('var(--pink)')}>Produces the Value</div>
             {openId === 'rco' && (
-              <p style={layerDesc}>The coordination layer where people actually participate. Contributors bring money, time, skills, network, ideas, or care &mdash; the RCO routes them into real work and turns participation into revenue-generating output.</p>
+              <p style={layerDesc}>The coordination layer where people actually participate. Contributors bring money, time, skills, network, ideas, or care &mdash; the RCO routes them into real work and turns participation into revenue-generating output. It feeds both the business engine and the meaning layer.</p>
             )}
           </div>
           {openId === 'rco' && (
@@ -529,24 +514,46 @@ const slides = [
             </div>
           )}
 
-          {/* LAYER 4: CHURCH */}
-          <div style={connector('var(--teal)')} />
-          <div onClick={() => toggle('church')} style={layerBox('var(--teal)', 'rgba(45,212,191,0.08)')}>
-            <div style={layerLabel}>Nonprofit 508(c)(1)(a) &mdash; The Church</div>
-            <div style={layerRole('var(--teal)')}>Sustains the Soul</div>
-            {openId === 'church' && (
-              <p style={layerDesc}>The meaning layer. Develops people, holds the values, and ensures the system stays human and aligned. Owns the transformation IP and licenses it to the HoldCo.</p>
-            )}
-          </div>
-          {openId === 'church' && (
-            <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
-              {churchItems.map(item => <ChildRow key={item.id} item={item} color="rgba(45,212,191,0.25)" />)}
+          {/* LAYER 3: HOLDCO + CHURCH side by side */}
+          <div style={{ display: 'flex', gap: '0.5rem', width: '100%', alignItems: 'flex-start' }}>
+            {/* HoldCo column */}
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div style={connector('var(--purple)')} />
+              <div onClick={() => toggle('holdco')} style={layerBox('var(--purple)', 'rgba(139,92,246,0.08)')}>
+                <div style={layerLabel}>For-Profit HoldCo</div>
+                <div style={layerRole('var(--purple)')}>Drives the Business</div>
+                {openId === 'holdco' && (
+                  <p style={layerDesc}>The financial engine. Raises capital, funds experiments, graduates winners into SPVs, and returns profits to investors.</p>
+                )}
+              </div>
+              {openId === 'holdco' && (
+                <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+                  {holdcoItems.map(item => <ChildRow key={item.id} item={item} color="rgba(139,92,246,0.25)" />)}
+                </div>
+              )}
             </div>
-          )}
+
+            {/* Church column */}
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div style={connector('var(--teal)')} />
+              <div onClick={() => toggle('church')} style={layerBox('var(--teal)', 'rgba(45,212,191,0.08)')}>
+                <div style={layerLabel}>The Church</div>
+                <div style={layerRole('var(--teal)')}>Sustains the Soul</div>
+                {openId === 'church' && (
+                  <p style={layerDesc}>The meaning layer. Develops people, holds the values, and ensures the system stays human and aligned. Owns the transformation IP and licenses it to the HoldCo.</p>
+                )}
+              </div>
+              {openId === 'church' && (
+                <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.25rem', marginBottom: '0.15rem', opacity: 0, animation: 'fadeIn 0.3s ease forwards' }}>
+                  {churchItems.map(item => <ChildRow key={item.id} item={item} color="rgba(45,212,191,0.25)" />)}
+                </div>
+              )}
+            </div>
+          </div>
 
           {/* Summary line */}
           <p style={{ marginTop: '0.6rem', fontSize: '0.8rem', color: 'var(--text-muted)', textAlign: 'center', lineHeight: 1.5 }}>
-            The <span style={{ color: '#c9a84c' }}>Trust</span> protects the purpose. The <span style={{ color: 'var(--purple)' }}>HoldCo</span> drives the business. The <span style={{ color: 'var(--pink)' }}>RCO</span> produces the value. The <span style={{ color: 'var(--teal)' }}>Church</span> sustains the soul.
+            The <span style={{ color: '#c9a84c' }}>Trust</span> protects the purpose. The <span style={{ color: 'var(--pink)' }}>RCO</span> produces the value. The <span style={{ color: 'var(--purple)' }}>HoldCo</span> drives the business. The <span style={{ color: 'var(--teal)' }}>Church</span> sustains the soul.
           </p>
         </div>
       </div>
