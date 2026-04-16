@@ -255,12 +255,12 @@ const slides = [
         <div className="card">
           <p style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '0.5rem' }} className="gold">Religion</p>
           <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">15,000</p>
-          <p>churches closed last year &mdash; the most in American history</p>
+          <p>churches closed last year. Where do people go when the place that held meaning disappears?</p>
         </div>
         <div className="card">
           <p style={{ fontSize: '1.4rem', fontWeight: 700, marginBottom: '0.5rem' }} className="gold">Education</p>
           <p style={{ fontSize: '2rem', fontWeight: 700 }} className="gold">63%</p>
-          <p>say college isn&apos;t worth it &mdash; including 54% of people who actually have the degree</p>
+          <p>say college isn&apos;t worth it &mdash; including 54% who already have the degree. The path we were promised is broken.</p>
         </div>
       </div>
       <p style={{ marginTop: '1rem', textAlign: 'center', maxWidth: '100%', fontStyle: 'italic', fontSize: '1.15rem' }}>The three institutions who told us who to be are dissolving simultaneously.</p>
