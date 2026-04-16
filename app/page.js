@@ -590,7 +590,7 @@ const slides = [
           </div>
         ))}
       </div>
-      <p style={{ marginTop: '1.25rem', textAlign: 'center', fontSize: '1.2rem', fontWeight: 700 }}>But who&apos;s gonna <span className="gold">pay for it?</span></p>
+      <p style={{ marginTop: '1.5rem', textAlign: 'center', fontSize: '2rem', fontWeight: 700, animation: 'fadeInUp 0.8s ease forwards', opacity: 0, animationDelay: '0.3s' }}>But who&apos;s gonna <span className="gold">pay for it?</span></p>
     </div>
   ),
 
