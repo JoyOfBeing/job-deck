@@ -241,10 +241,24 @@ const slides = [
     );
   },
 
-  // 1 — THE FLIP (opening reframe)
+  // 1 — THE MANIFESTO
   () => (
     <div className="slide">
-      <h3>01 · The trick</h3>
+      <div style={{ maxWidth: '680px', marginLeft: 'auto', marginRight: 'auto', fontSize: '1.15rem', lineHeight: 1.8 }}>
+        <p>J.O.B. is the world&apos;s first infrastructure for being human.</p>
+        <p style={{ marginTop: '1rem' }}>The three systems that told us who to be &mdash; work, church, and school &mdash; are all collapsing. They disconnected us. Disembodied us. And no one knows who they are.</p>
+        <p style={{ marginTop: '1rem' }}>So when AI takes every job that isn&apos;t human &mdash; and it will &mdash; what&apos;s left is the most important work there is. Because on the other side of this is a New Human Economy. One led by the most integrated, healed, alive versions of us.</p>
+        <p style={{ marginTop: '1rem' }}>But in order to build something new, we must first become it.</p>
+        <p style={{ marginTop: '1rem' }}>We&apos;re raising a $3&ndash;5M seed. We&apos;re not betting on capitalism. <span className="gold" style={{ fontWeight: 700 }}>We&apos;re betting on a species.</span></p>
+        <p style={{ marginTop: '1rem' }}>Being human is the job now. We&apos;re the first ones paying people to do it.</p>
+      </div>
+    </div>
+  ),
+
+  // 2 — THE FLIP (opening reframe)
+  () => (
+    <div className="slide">
+      <h3>02 · The trick</h3>
       <h1>What if the systems collapse is actually the largest <span className="gold">involuntary liberation</span> in human history?</h1>
       <div className="three-col" style={{ marginTop: '1.5rem' }}>
         <div className="card">
@@ -648,7 +662,7 @@ const slides = [
   () => (
     <div className="slide">
       <h3>15 · The ask</h3>
-      <h1><span className="gold">$3&ndash;4M.</span> Not a bet on a company. A bet on a species.</h1>
+      <h1><span className="gold">$3&ndash;5M seed.</span> Not a bet on a company. A bet on a species.</h1>
       <p style={{ fontSize: '1.05rem', marginTop: '0.5rem', lineHeight: 1.6, textAlign: 'center' }}>Everything above was built before a single dollar of outside investment. Here&apos;s what capital unlocks.</p>
       <div className="two-col" style={{ marginTop: '0.75rem' }}>
         <div className="card">
