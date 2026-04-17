@@ -143,6 +143,14 @@ export default function Admin() {
     );
   }
 
+  async function deleteEntry(table, id) {
+    if (!confirm('Delete this entry?')) return;
+    const { error } = await supabase.from(table).delete().eq('id', id);
+    if (error) { console.error(error); return; }
+    if (table === 'deck_waitlist') setEntries(e => e.filter(x => x.id !== id));
+    else setTickets(t => t.filter(x => x.id !== id));
+  }
+
   const tabStyle = (active) => ({
     padding: '0.5rem 1.5rem',
     background: active ? '#1a1a1a' : 'transparent',
@@ -183,7 +191,7 @@ export default function Admin() {
                 <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                   <thead>
                     <tr>
-                      {['Name', 'Email', 'Phone', 'Investment Level', 'Date'].map(h => (
+                      {['Name', 'Email', 'Phone', 'Investment Level', 'Date', ''].map(h => (
                         <th key={h} style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid #2a2a2a', fontSize: '0.8rem', fontWeight: 700, color: '#8b5cf6', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                           {h}
                         </th>
@@ -206,6 +214,9 @@ export default function Admin() {
                         <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #1a1a1a', color: '#666', fontSize: '0.85rem' }}>
                           {new Date(entry.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' })}
                         </td>
+                        <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #1a1a1a' }}>
+                          <button onClick={() => deleteEntry('deck_waitlist', entry.id)} style={{ background: 'none', border: 'none', color: '#666', cursor: 'pointer', fontSize: '1rem' }}>&times;</button>
+                        </td>
                       </tr>
                     ))}
                   </tbody>
@@ -223,7 +234,7 @@ export default function Admin() {
                 <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                   <thead>
                     <tr>
-                      {['Name', 'Email', 'Why', 'Date'].map(h => (
+                      {['Name', 'Email', 'Why', 'Date', ''].map(h => (
                         <th key={h} style={{ textAlign: 'left', padding: '0.75rem 1rem', borderBottom: '1px solid #2a2a2a', fontSize: '0.8rem', fontWeight: 700, color: '#c9a84c', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                           {h}
                         </th>
@@ -242,6 +253,9 @@ export default function Admin() {
                         </td>
                         <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #1a1a1a', color: '#666', fontSize: '0.85rem' }}>
                           {new Date(ticket.created_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' })}
+                        </td>
+                        <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #1a1a1a' }}>
+                          <button onClick={() => deleteEntry('golden_tickets', ticket.id)} style={{ background: 'none', border: 'none', color: '#666', cursor: 'pointer', fontSize: '1rem' }}>&times;</button>
                         </td>
                       </tr>
                     ))}
