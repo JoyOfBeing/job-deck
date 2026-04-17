@@ -856,8 +856,8 @@ function WaitlistModal({ onClose, initialMode }) {
       <div className="modal-overlay" onClick={onClose}>
         <div className="modal" onClick={e => e.stopPropagation()}>
           <button className="modal-close" onClick={onClose}>&times;</button>
-          <h2 style={{ color: 'var(--gold)' }}>Request a Golden Ticket</h2>
-          <p>Some things can&apos;t be explained in a deck.</p>
+          <h2 style={{ color: 'var(--gold)' }}>Experience the Magic Show</h2>
+          <p>IYKYK</p>
           <form onSubmit={handleTicketSubmit}>
             <div className="form-field">
               <label>Name *</label>
