@@ -761,10 +761,11 @@ const slides = [
 function CloseSlide({ onJoin, onTicket }) {
   return (
     <div className="slide close-slide">
-      <h1 style={{ fontSize: '1.8rem', lineHeight: 1.5 }}>Some things can&apos;t be explained in a deck. <span className="gold">They must be experienced.</span></h1>
+      <h1 style={{ fontSize: '1.8rem', lineHeight: 1.5 }}>Some things can&apos;t be explained in a deck.</h1>
+      <h1 style={{ fontSize: '1.8rem', lineHeight: 1.5, marginTop: '0.25rem' }}><span className="gold">They must be experienced.</span></h1>
       <div className="cta-row" style={{ marginTop: '2rem', flexDirection: 'column', gap: '0.75rem' }}>
         <button className="waitlist-trigger gold-btn" onClick={onTicket}>Request a Golden Ticket to the Magic Show</button>
-        <button className="waitlist-trigger" onClick={onJoin}>Feed the Organism</button>
+        <button className="waitlist-trigger" onClick={onJoin}>Invest in JOB</button>
       </div>
     </div>
   );
