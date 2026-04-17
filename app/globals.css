@@ -587,7 +587,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .form-field input,
-.form-field select {
+.form-field select,
+.form-field textarea {
   width: 100%;
   padding: 0.7rem 1rem;
   background: var(--bg);
@@ -601,7 +602,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .form-field input:focus,
-.form-field select:focus {
+.form-field select:focus,
+.form-field textarea:focus {
   border-color: var(--accent-solid);
 }
 

@@ -870,7 +870,7 @@ function WaitlistModal({ onClose, initialMode }) {
               <label>Why do you want in?</label>
               <textarea rows={3} value={form.why} onChange={e => setForm(f => ({ ...f, why: e.target.value }))} style={{ resize: 'vertical' }} />
             </div>
-            <button type="submit" className="waitlist-btn" disabled={status === 'submitting'} style={{ background: 'transparent', border: '1px solid var(--gold)', color: 'var(--gold)' }}>
+            <button type="submit" className="waitlist-btn" disabled={status === 'submitting'} style={{ background: 'var(--gold)', border: 'none', color: '#0a0a0a' }}>
               {status === 'submitting' ? 'Requesting...' : status === 'error' ? 'Try again' : 'Request a Golden Ticket'}
             </button>
           </form>
