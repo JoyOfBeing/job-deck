@@ -765,7 +765,7 @@ function CloseSlide({ onJoin, onTicket }) {
       <h1 style={{ fontSize: '1.8rem', lineHeight: 1.5, marginTop: '0.25rem' }}><span className="gold">They must be experienced.</span></h1>
       <div className="cta-row" style={{ marginTop: '2rem', flexDirection: 'column', gap: '0.75rem' }}>
         <button className="waitlist-trigger gold-btn" onClick={onTicket}>Request a Golden Ticket to the Magic Show</button>
-        <button className="waitlist-trigger" onClick={onJoin}>Invest in JOB</button>
+        <button className="waitlist-trigger" onClick={onJoin}>Invest in Our Species</button>
       </div>
     </div>
   );
@@ -886,8 +886,8 @@ function WaitlistModal({ onClose, initialMode }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal" onClick={e => e.stopPropagation()}>
         <button className="modal-close" onClick={onClose}>&times;</button>
-        <h2>Invest in Our Species</h2>
-        <p>Be the first to invest in the new human economy.</p>
+        <h2>Who&apos;s gonna pay for it?</h2>
+        <p>We all are.</p>
         <form onSubmit={handleInvestSubmit}>
           <div className="form-field">
             <label>Name *</label>
@@ -914,7 +914,7 @@ function WaitlistModal({ onClose, initialMode }) {
             </select>
           </div>
           <button type="submit" className="waitlist-btn" disabled={status === 'submitting'}>
-            {status === 'submitting' ? 'Joining...' : status === 'error' ? 'Try again' : 'Invest in Our Species'}
+            {status === 'submitting' ? 'Joining...' : status === 'error' ? 'Try again' : 'Feed the Organism'}
           </button>
         </form>
         <button onClick={() => { setMode(null); setStatus('idle'); }} style={{ marginTop: '0.75rem', background: 'none', border: 'none', color: 'var(--text-muted)', cursor: 'pointer', fontSize: '0.8rem' }}>&larr; Back</button>
